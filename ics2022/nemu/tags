@@ -1,0 +1,2342 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.DEFAULT_GOAL	scripts/build.mk	/^.DEFAULT_GOAL = app$/;"	m
+.DEFAULT_GOAL	tools/spike-diff/Makefile	/^.DEFAULT_GOAL = all$/;"	m
+ACS_DARROW	tools/kconfig/lxdialog/dialog.h	74;"	d
+ACS_HLINE	tools/kconfig/lxdialog/dialog.h	59;"	d
+ACS_LLCORNER	tools/kconfig/lxdialog/dialog.h	50;"	d
+ACS_LRCORNER	tools/kconfig/lxdialog/dialog.h	56;"	d
+ACS_LTEE	tools/kconfig/lxdialog/dialog.h	65;"	d
+ACS_RTEE	tools/kconfig/lxdialog/dialog.h	68;"	d
+ACS_UARROW	tools/kconfig/lxdialog/dialog.h	71;"	d
+ACS_ULCORNER	tools/kconfig/lxdialog/dialog.h	47;"	d
+ACS_URCORNER	tools/kconfig/lxdialog/dialog.h	53;"	d
+ACS_VLINE	tools/kconfig/lxdialog/dialog.h	62;"	d
+ANSI_BG_BLACK	include/utils.h	47;"	d
+ANSI_BG_BLUE	include/utils.h	51;"	d
+ANSI_BG_CYAN	include/utils.h	53;"	d
+ANSI_BG_GREEN	include/utils.h	49;"	d
+ANSI_BG_MAGENTA	include/utils.h	52;"	d
+ANSI_BG_RED	include/utils.h	48;"	d
+ANSI_BG_WHITE	include/utils.h	54;"	d
+ANSI_BG_YELLOW	include/utils.h	50;"	d
+ANSI_FG_BLACK	include/utils.h	39;"	d
+ANSI_FG_BLUE	include/utils.h	43;"	d
+ANSI_FG_CYAN	include/utils.h	45;"	d
+ANSI_FG_GREEN	include/utils.h	41;"	d
+ANSI_FG_MAGENTA	include/utils.h	44;"	d
+ANSI_FG_RED	include/utils.h	40;"	d
+ANSI_FG_WHITE	include/utils.h	46;"	d
+ANSI_FG_YELLOW	include/utils.h	42;"	d
+ANSI_FMT	include/utils.h	57;"	d
+ANSI_NONE	include/utils.h	55;"	d
+ARGS_DIFF	tools/difftest.mk	/^ARGS_DIFF = --diff=$(DIFF_REF_SO)$/;"	m
+ARRAY_SIZE	tools/kconfig/preprocess.c	15;"	d	file:
+ARRLEN	include/macro.h	29;"	d
+ASSIGN_VAL	tools/kconfig/build/lexer.lex.c	2518;"	d	file:
+Assert	include/debug.h	27;"	d
+BEGIN	tools/kconfig/build/lexer.lex.c	118;"	d	file:
+BINARY	scripts/build.mk	/^BINARY   = $(BUILD_DIR)\/$(NAME)$(SO)$/;"	m
+BINARY	tools/spike-diff/Makefile	/^BINARY = $(BUILD_DIR)\/$(NAME)$/;"	m
+BITMASK	include/macro.h	86;"	d
+BITS	include/macro.h	87;"	d
+BLOCK_LEN	src/device/sdcard.c	24;"	d	file:
+BUF_SIZE	tools/kconfig/lxdialog/dialog.h	42;"	d
+BUILD_DIR	scripts/build.mk	/^BUILD_DIR = $(WORK_DIR)\/build$/;"	m
+BUILD_DIR	tools/spike-diff/Makefile	/^BUILD_DIR = .\/build$/;"	m
+CC	Makefile	/^CC = $(call remove_quote,$(CONFIG_CC))$/;"	m
+CC	tools/kconfig/Makefile	/^CC = gcc$/;"	m
+CCC_APP_SPEC	src/device/mmc.h	210;"	d
+CCC_BASIC	src/device/mmc.h	193;"	d
+CCC_BLOCK_READ	src/device/mmc.h	198;"	d
+CCC_BLOCK_WRITE	src/device/mmc.h	202;"	d
+CCC_ERASE	src/device/mmc.h	204;"	d
+CCC_IO_MODE	src/device/mmc.h	212;"	d
+CCC_LOCK_CARD	src/device/mmc.h	208;"	d
+CCC_STREAM_READ	src/device/mmc.h	196;"	d
+CCC_STREAM_WRITE	src/device/mmc.h	200;"	d
+CCC_SWITCH	src/device/mmc.h	214;"	d
+CCC_WRITE_PROT	src/device/mmc.h	206;"	d
+CFLAGS	scripts/build.mk	/^CFLAGS  := -O2 -MMD -Wall -Werror $(INCLUDES) $(CFLAGS)$/;"	m
+CHECKLIST_HEIGTH_MIN	tools/kconfig/lxdialog/dialog.h	185;"	d
+CHECKLIST_WIDTH_MIN	tools/kconfig/lxdialog/dialog.h	186;"	d
+CHOOSE2nd	include/macro.h	40;"	d
+CH_OFFSET	src/device/serial.c	22;"	d	file:
+COLOR_END	scripts/config.mk	/^COLOR_END := $(shell echo "\\033[0m")$/;"	m
+COLOR_RED	scripts/config.mk	/^COLOR_RED := $(shell echo "\\033[1;31m")$/;"	m
+CONF	scripts/config.mk	/^CONF   := $(KCONFIG_PATH)\/build\/conf$/;"	m
+CONFIG_	tools/kconfig/lkc.h	24;"	d
+CONFIG_	tools/kconfig/lkc.h	30;"	d
+CONFIG_	tools/kconfig/lkc.h	31;"	d
+CONFIG_CC	include/generated/autoconf.h	24;"	d
+CONFIG_CC_DEBUG	include/generated/autoconf.h	26;"	d
+CONFIG_CC_GCC	include/generated/autoconf.h	28;"	d
+CONFIG_CC_O2	include/generated/autoconf.h	12;"	d
+CONFIG_CC_OPT	include/generated/autoconf.h	21;"	d
+CONFIG_DIFFTEST_REF_NAME	include/generated/autoconf.h	7;"	d
+CONFIG_DIFFTEST_REF_PATH	include/generated/autoconf.h	25;"	d
+CONFIG_ENGINE	include/generated/autoconf.h	8;"	d
+CONFIG_ENGINE_INTERPRETER	include/generated/autoconf.h	20;"	d
+CONFIG_ISA	include/generated/autoconf.h	30;"	d
+CONFIG_ISA_riscv32	include/generated/autoconf.h	16;"	d
+CONFIG_ITRACE	include/generated/autoconf.h	15;"	d
+CONFIG_ITRACE_COND	include/generated/autoconf.h	23;"	d
+CONFIG_MBASE	include/generated/autoconf.h	18;"	d
+CONFIG_MEM_RANDOM	include/generated/autoconf.h	14;"	d
+CONFIG_MODE_SYSTEM	include/generated/autoconf.h	13;"	d
+CONFIG_MSIZE	include/generated/autoconf.h	11;"	d
+CONFIG_PC_RESET_OFFSET	include/generated/autoconf.h	9;"	d
+CONFIG_PMEM_GARRAY	include/generated/autoconf.h	31;"	d
+CONFIG_RT_CHECK	include/generated/autoconf.h	22;"	d
+CONFIG_TARGET_NATIVE_ELF	include/generated/autoconf.h	10;"	d
+CONFIG_TIMER_GETTIMEOFDAY	include/generated/autoconf.h	19;"	d
+CONFIG_TRACE	include/generated/autoconf.h	29;"	d
+CONFIG_TRACE_END	include/generated/autoconf.h	17;"	d
+CONFIG_TRACE_START	include/generated/autoconf.h	27;"	d
+CONFIG_prefix	tools/kconfig/lkc.h	/^static inline const char *CONFIG_prefix(void)$/;"	f
+CPU_state	include/isa.h	/^typedef concat(__GUEST_ISA__, _CPU_state) CPU_state;$/;"	t
+CR0_PE	tools/kvm-diff/src/kvm.c	28;"	d	file:
+CR0_PG	tools/kvm-diff/src/kvm.c	29;"	d	file:
+CSD_SPEC_VER_0	src/device/mmc.h	228;"	d
+CSD_SPEC_VER_1	src/device/mmc.h	229;"	d
+CSD_SPEC_VER_2	src/device/mmc.h	230;"	d
+CSD_SPEC_VER_3	src/device/mmc.h	231;"	d
+CSD_SPEC_VER_4	src/device/mmc.h	232;"	d
+CSD_STRUCT_EXT_CSD	src/device/mmc.h	226;"	d
+CSD_STRUCT_VER_1_0	src/device/mmc.h	223;"	d
+CSD_STRUCT_VER_1_1	src/device/mmc.h	224;"	d
+CSD_STRUCT_VER_1_2	src/device/mmc.h	225;"	d
+CURS_MACROS	tools/kconfig/lxdialog/dialog.h	17;"	d
+CXX	scripts/build.mk	/^CXX := clang++$/;"	m
+CXX	scripts/build.mk	/^CXX := g++$/;"	m
+CXXSRC	src/utils/filelist.mk	/^CXXSRC = src\/utils\/disasm.cc$/;"	m
+C_SIZE	src/device/sdcard.c	28;"	d	file:
+C_SIZE_MULT	src/device/sdcard.c	26;"	d	file:
+DEBUG_EXPR	tools/kconfig/expr.c	14;"	d	file:
+DEBUG_PARSE	tools/kconfig/build/parser.tab.c	85;"	d	file:
+DEFAULT_ISA	tools/spike-diff/difftest.cc	21;"	d	file:
+DEFAULT_ISA	tools/spike-diff/difftest.cc	22;"	d	file:
+DIFFTEST_REG_SIZE	include/difftest-def.h	25;"	d
+DIFFTEST_REG_SIZE	include/difftest-def.h	27;"	d
+DIFFTEST_REG_SIZE	include/difftest-def.h	29;"	d
+DIFFTEST_REG_SIZE	include/difftest-def.h	31;"	d
+DIFFTEST_TO_DUT	include/difftest-def.h	/^enum { DIFFTEST_TO_DUT, DIFFTEST_TO_REF };$/;"	e	enum:__anon5
+DIFFTEST_TO_REF	include/difftest-def.h	/^enum { DIFFTEST_TO_DUT, DIFFTEST_TO_REF };$/;"	e	enum:__anon5
+DIFF_REF_PATH	tools/difftest.mk	/^DIFF_REF_PATH = $(NEMU_HOME)\/$(call remove_quote,$(CONFIG_DIFFTEST_REF_PATH))$/;"	m
+DIFF_REF_SO	tools/difftest.mk	/^DIFF_REF_SO = $(DIFF_REF_PATH)\/build\/$(GUEST_ISA)-$(call remove_quote,$(CONFIG_DIFFTEST_REF_NAME))-so$/;"	m
+DLG_COLOR	tools/kconfig/lxdialog/util.c	51;"	d	file:
+Decode	include/cpu/decode.h	/^typedef struct Decode {$/;"	s
+Decode	include/cpu/decode.h	/^} Decode;$/;"	t	typeref:struct:Decode
+ECHO	tools/kconfig/build/lexer.lex.c	2615;"	d	file:
+ENGINE	Makefile	/^ENGINE ?= $(call remove_quote,$(CONFIG_ENGINE))$/;"	m
+EOB_ACT_CONTINUE_SCAN	tools/kconfig/build/lexer.lex.c	162;"	d	file:
+EOB_ACT_END_OF_FILE	tools/kconfig/build/lexer.lex.c	163;"	d	file:
+EOB_ACT_LAST_MATCH	tools/kconfig/build/lexer.lex.c	164;"	d	file:
+ERRDISPLAYTOOSMALL	tools/kconfig/lxdialog/dialog.h	78;"	d
+EXIT_SUCCESS	tools/kconfig/build/parser.tab.c	446;"	d	file:
+EXIT_SUCCESS	tools/kconfig/build/parser.tab.c	474;"	d	file:
+EXPR_AND	tools/kconfig/expr.h	48;"	d
+EXPR_H	tools/kconfig/expr.h	7;"	d
+EXPR_NOT	tools/kconfig/expr.h	49;"	d
+EXPR_OR	tools/kconfig/expr.h	47;"	d
+EXT_CSD_AUTO_BKOPS_MASK	src/device/mmc.h	408;"	d
+EXT_CSD_BKOPS_EN	src/device/mmc.h	253;"	d
+EXT_CSD_BKOPS_LEVEL_2	src/device/mmc.h	402;"	d
+EXT_CSD_BKOPS_START	src/device/mmc.h	254;"	d
+EXT_CSD_BKOPS_STATUS	src/device/mmc.h	292;"	d
+EXT_CSD_BKOPS_SUPPORT	src/device/mmc.h	308;"	d
+EXT_CSD_BOOT_MULT	src/device/mmc.h	283;"	d
+EXT_CSD_BOOT_WP	src/device/mmc.h	259;"	d
+EXT_CSD_BOOT_WP_B_PERM_WP_DIS	src/device/mmc.h	318;"	d
+EXT_CSD_BOOT_WP_B_PERM_WP_EN	src/device/mmc.h	319;"	d
+EXT_CSD_BOOT_WP_B_PWR_WP_DIS	src/device/mmc.h	317;"	d
+EXT_CSD_BOOT_WP_B_PWR_WP_EN	src/device/mmc.h	320;"	d
+EXT_CSD_BUS_WIDTH	src/device/mmc.h	263;"	d
+EXT_CSD_BUS_WIDTH_1	src/device/mmc.h	355;"	d
+EXT_CSD_BUS_WIDTH_4	src/device/mmc.h	356;"	d
+EXT_CSD_BUS_WIDTH_8	src/device/mmc.h	357;"	d
+EXT_CSD_BUS_WIDTH_STROBE	src/device/mmc.h	360;"	d
+EXT_CSD_CACHE_CTRL	src/device/mmc.h	240;"	d
+EXT_CSD_CACHE_SIZE	src/device/mmc.h	295;"	d
+EXT_CSD_CARD_TYPE	src/device/mmc.h	269;"	d
+EXT_CSD_CARD_TYPE_DDR_1_2V	src/device/mmc.h	340;"	d
+EXT_CSD_CARD_TYPE_DDR_1_8V	src/device/mmc.h	338;"	d
+EXT_CSD_CARD_TYPE_DDR_52	src/device/mmc.h	342;"	d
+EXT_CSD_CARD_TYPE_HS	src/device/mmc.h	336;"	d
+EXT_CSD_CARD_TYPE_HS200	src/device/mmc.h	347;"	d
+EXT_CSD_CARD_TYPE_HS200_1_2V	src/device/mmc.h	345;"	d
+EXT_CSD_CARD_TYPE_HS200_1_8V	src/device/mmc.h	344;"	d
+EXT_CSD_CARD_TYPE_HS400	src/device/mmc.h	351;"	d
+EXT_CSD_CARD_TYPE_HS400ES	src/device/mmc.h	353;"	d
+EXT_CSD_CARD_TYPE_HS400_1_2V	src/device/mmc.h	350;"	d
+EXT_CSD_CARD_TYPE_HS400_1_8V	src/device/mmc.h	349;"	d
+EXT_CSD_CARD_TYPE_HS_26	src/device/mmc.h	334;"	d
+EXT_CSD_CARD_TYPE_HS_52	src/device/mmc.h	335;"	d
+EXT_CSD_CMDQ_DEPTH	src/device/mmc.h	301;"	d
+EXT_CSD_CMDQ_DEPTH_MASK	src/device/mmc.h	414;"	d
+EXT_CSD_CMDQ_MODE_EN	src/device/mmc.h	238;"	d
+EXT_CSD_CMDQ_MODE_ENABLED	src/device/mmc.h	413;"	d
+EXT_CSD_CMDQ_SUPPORT	src/device/mmc.h	302;"	d
+EXT_CSD_CMDQ_SUPPORTED	src/device/mmc.h	415;"	d
+EXT_CSD_CMD_SET_CPSECURE	src/device/mmc.h	332;"	d
+EXT_CSD_CMD_SET_NORMAL	src/device/mmc.h	330;"	d
+EXT_CSD_CMD_SET_SECURE	src/device/mmc.h	331;"	d
+EXT_CSD_DATA_SECTOR_SIZE	src/device/mmc.h	246;"	d
+EXT_CSD_DATA_TAG_SUPPORT	src/device/mmc.h	305;"	d
+EXT_CSD_DDR_BUS_WIDTH_4	src/device/mmc.h	358;"	d
+EXT_CSD_DDR_BUS_WIDTH_8	src/device/mmc.h	359;"	d
+EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A	src/device/mmc.h	299;"	d
+EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B	src/device/mmc.h	300;"	d
+EXT_CSD_DRIVER_STRENGTH	src/device/mmc.h	270;"	d
+EXT_CSD_DRV_STR_SHIFT	src/device/mmc.h	366;"	d
+EXT_CSD_DYNCAP_NEEDED	src/device/mmc.h	392;"	d
+EXT_CSD_ERASED_MEM_CONT	src/device/mmc.h	262;"	d
+EXT_CSD_ERASE_GROUP_DEF	src/device/mmc.h	260;"	d
+EXT_CSD_ERASE_TIMEOUT_MULT	src/device/mmc.h	281;"	d
+EXT_CSD_EXP_EVENTS_CTRL	src/device/mmc.h	245;"	d
+EXT_CSD_EXP_EVENTS_STATUS	src/device/mmc.h	244;"	d
+EXT_CSD_FIRMWARE_VERSION	src/device/mmc.h	297;"	d
+EXT_CSD_FLUSH_CACHE	src/device/mmc.h	239;"	d
+EXT_CSD_FW_CONFIG	src/device/mmc.h	258;"	d
+EXT_CSD_GENERIC_CMD6_TIME	src/device/mmc.h	294;"	d
+EXT_CSD_GP_SIZE_MULT	src/device/mmc.h	247;"	d
+EXT_CSD_HC_ERASE_GRP_SIZE	src/device/mmc.h	282;"	d
+EXT_CSD_HC_WP_GRP_SIZE	src/device/mmc.h	280;"	d
+EXT_CSD_HPI_FEATURES	src/device/mmc.h	309;"	d
+EXT_CSD_HPI_MGMT	src/device/mmc.h	251;"	d
+EXT_CSD_HS_TIMING	src/device/mmc.h	265;"	d
+EXT_CSD_MANUAL_BKOPS_MASK	src/device/mmc.h	407;"	d
+EXT_CSD_MAX_PACKED_READS	src/device/mmc.h	307;"	d
+EXT_CSD_MAX_PACKED_WRITES	src/device/mmc.h	306;"	d
+EXT_CSD_NO_POWER_NOTIFICATION	src/device/mmc.h	376;"	d
+EXT_CSD_OUT_OF_INTERRUPT_TIME	src/device/mmc.h	271;"	d
+EXT_CSD_PACKED_CMD_STATUS	src/device/mmc.h	243;"	d
+EXT_CSD_PACKED_EVENT_EN	src/device/mmc.h	386;"	d
+EXT_CSD_PACKED_FAILURE	src/device/mmc.h	394;"	d
+EXT_CSD_PACKED_FAILURE_INDEX	src/device/mmc.h	242;"	d
+EXT_CSD_PACKED_GENERIC_ERROR	src/device/mmc.h	396;"	d
+EXT_CSD_PACKED_INDEXED_ERROR	src/device/mmc.h	397;"	d
+EXT_CSD_PARTITION_ATTRIBUTE	src/device/mmc.h	249;"	d
+EXT_CSD_PARTITION_SETTING_COMPLETED	src/device/mmc.h	248;"	d
+EXT_CSD_PARTITION_SUPPORT	src/device/mmc.h	250;"	d
+EXT_CSD_PART_CONFIG	src/device/mmc.h	261;"	d
+EXT_CSD_PART_CONFIG_ACC_BOOT0	src/device/mmc.h	323;"	d
+EXT_CSD_PART_CONFIG_ACC_GP0	src/device/mmc.h	325;"	d
+EXT_CSD_PART_CONFIG_ACC_MASK	src/device/mmc.h	322;"	d
+EXT_CSD_PART_CONFIG_ACC_RPMB	src/device/mmc.h	324;"	d
+EXT_CSD_PART_SETTING_COMPLETED	src/device/mmc.h	327;"	d
+EXT_CSD_PART_SUPPORT_PART_EN	src/device/mmc.h	328;"	d
+EXT_CSD_PART_SWITCH_TIME	src/device/mmc.h	272;"	d
+EXT_CSD_POWER_CLASS	src/device/mmc.h	266;"	d
+EXT_CSD_POWER_OFF_LONG	src/device/mmc.h	379;"	d
+EXT_CSD_POWER_OFF_LONG_TIME	src/device/mmc.h	293;"	d
+EXT_CSD_POWER_OFF_NOTIFICATION	src/device/mmc.h	241;"	d
+EXT_CSD_POWER_OFF_SHORT	src/device/mmc.h	378;"	d
+EXT_CSD_POWER_ON	src/device/mmc.h	377;"	d
+EXT_CSD_PRE_EOL_INFO	src/device/mmc.h	298;"	d
+EXT_CSD_PWR_CL_200_195	src/device/mmc.h	288;"	d
+EXT_CSD_PWR_CL_200_360	src/device/mmc.h	289;"	d
+EXT_CSD_PWR_CL_26_195	src/device/mmc.h	274;"	d
+EXT_CSD_PWR_CL_26_360	src/device/mmc.h	276;"	d
+EXT_CSD_PWR_CL_4BIT_MASK	src/device/mmc.h	382;"	d
+EXT_CSD_PWR_CL_4BIT_SHIFT	src/device/mmc.h	384;"	d
+EXT_CSD_PWR_CL_52_195	src/device/mmc.h	273;"	d
+EXT_CSD_PWR_CL_52_360	src/device/mmc.h	275;"	d
+EXT_CSD_PWR_CL_8BIT_MASK	src/device/mmc.h	381;"	d
+EXT_CSD_PWR_CL_8BIT_SHIFT	src/device/mmc.h	383;"	d
+EXT_CSD_PWR_CL_DDR_200_360	src/device/mmc.h	296;"	d
+EXT_CSD_PWR_CL_DDR_52_195	src/device/mmc.h	290;"	d
+EXT_CSD_PWR_CL_DDR_52_360	src/device/mmc.h	291;"	d
+EXT_CSD_REL_WR_SEC_C	src/device/mmc.h	279;"	d
+EXT_CSD_REV	src/device/mmc.h	267;"	d
+EXT_CSD_RPMB_MULT	src/device/mmc.h	257;"	d
+EXT_CSD_RST_N_ENABLED	src/device/mmc.h	374;"	d
+EXT_CSD_RST_N_EN_MASK	src/device/mmc.h	373;"	d
+EXT_CSD_RST_N_FUNCTION	src/device/mmc.h	252;"	d
+EXT_CSD_SANITIZE_START	src/device/mmc.h	255;"	d
+EXT_CSD_SEC_BD_BLK_EN	src/device/mmc.h	369;"	d
+EXT_CSD_SEC_CNT	src/device/mmc.h	277;"	d
+EXT_CSD_SEC_ERASE_MULT	src/device/mmc.h	285;"	d
+EXT_CSD_SEC_ER_EN	src/device/mmc.h	368;"	d
+EXT_CSD_SEC_FEATURE_SUPPORT	src/device/mmc.h	286;"	d
+EXT_CSD_SEC_GB_CL_EN	src/device/mmc.h	370;"	d
+EXT_CSD_SEC_SANITIZE	src/device/mmc.h	371;"	d
+EXT_CSD_SEC_TRIM_MULT	src/device/mmc.h	284;"	d
+EXT_CSD_STROBE_SUPPORT	src/device/mmc.h	264;"	d
+EXT_CSD_STRUCTURE	src/device/mmc.h	268;"	d
+EXT_CSD_SUPPORTED_MODE	src/device/mmc.h	303;"	d
+EXT_CSD_SYSPOOL_EXHAUSTED	src/device/mmc.h	393;"	d
+EXT_CSD_S_A_TIMEOUT	src/device/mmc.h	278;"	d
+EXT_CSD_TAG_UNIT_SIZE	src/device/mmc.h	304;"	d
+EXT_CSD_TIMING_BC	src/device/mmc.h	362;"	d
+EXT_CSD_TIMING_HS	src/device/mmc.h	363;"	d
+EXT_CSD_TIMING_HS200	src/device/mmc.h	364;"	d
+EXT_CSD_TIMING_HS400	src/device/mmc.h	365;"	d
+EXT_CSD_TRIM_MULT	src/device/mmc.h	287;"	d
+EXT_CSD_URGENT_BKOPS	src/device/mmc.h	391;"	d
+EXT_CSD_WR_REL_PARAM	src/device/mmc.h	256;"	d
+EXT_CSD_WR_REL_PARAM_EN	src/device/mmc.h	315;"	d
+E_AND	tools/kconfig/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT,$/;"	e	enum:expr_type
+E_EQUAL	tools/kconfig/expr.h	/^	E_EQUAL, E_UNEQUAL, E_LTH, E_LEQ, E_GTH, E_GEQ,$/;"	e	enum:expr_type
+E_GEQ	tools/kconfig/expr.h	/^	E_EQUAL, E_UNEQUAL, E_LTH, E_LEQ, E_GTH, E_GEQ,$/;"	e	enum:expr_type
+E_GTH	tools/kconfig/expr.h	/^	E_EQUAL, E_UNEQUAL, E_LTH, E_LEQ, E_GTH, E_GEQ,$/;"	e	enum:expr_type
+E_LEQ	tools/kconfig/expr.h	/^	E_EQUAL, E_UNEQUAL, E_LTH, E_LEQ, E_GTH, E_GEQ,$/;"	e	enum:expr_type
+E_LIST	tools/kconfig/expr.h	/^	E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_LTH	tools/kconfig/expr.h	/^	E_EQUAL, E_UNEQUAL, E_LTH, E_LEQ, E_GTH, E_GEQ,$/;"	e	enum:expr_type
+E_NONE	tools/kconfig/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT,$/;"	e	enum:expr_type
+E_NOT	tools/kconfig/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT,$/;"	e	enum:expr_type
+E_OR	tools/kconfig/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT,$/;"	e	enum:expr_type
+E_RANGE	tools/kconfig/expr.h	/^	E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_SYMBOL	tools/kconfig/expr.h	/^	E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_UNEQUAL	tools/kconfig/expr.h	/^	E_EQUAL, E_UNEQUAL, E_LTH, E_LEQ, E_GTH, E_GEQ,$/;"	e	enum:expr_type
+FIFO_READ_THRESHOLD	resource/sdcard/nemu.c	72;"	d	file:
+FIFO_WRITE_THRESHOLD	resource/sdcard/nemu.c	73;"	d	file:
+FILELIST_MK	Makefile	/^FILELIST_MK = $(shell find .\/src -name "filelist.mk")$/;"	m
+FIXDEP	scripts/config.mk	/^FIXDEP := $(FIXDEP_PATH)\/build\/fixdep$/;"	m
+FIXDEP_PATH	scripts/config.mk	/^FIXDEP_PATH  := $(NEMU_HOME)\/tools\/fixdep$/;"	m
+FLEXINT_H	tools/kconfig/build/lexer.lex.c	30;"	d	file:
+FLEX_BETA	tools/kconfig/build/lexer.lex.c	14;"	d	file:
+FLEX_SCANNER	tools/kconfig/build/lexer.lex.c	9;"	d	file:
+FMT_PADDR	include/common.h	44;"	d
+FMT_WORD	include/common.h	40;"	d
+FUNCTION_MAX_ARGS	tools/kconfig/preprocess.c	200;"	d	file:
+GUEST_ISA	Makefile	/^GUEST_ISA ?= $(call remove_quote,$(CONFIG_ISA))$/;"	m
+GUEST_ISA	tools/kvm-diff/Makefile	/^GUEST_ISA = x86$/;"	m
+HASHSZ	tools/fixdep/fixdep.c	166;"	d	file:
+HELP	tools/kconfig/build/lexer.lex.c	2519;"	d	file:
+IFDEF	include/macro.h	71;"	d
+IFNDEF	include/macro.h	73;"	d
+IFONE	include/macro.h	75;"	d
+IFZERO	include/macro.h	77;"	d
+IMG	scripts/native.mk	/^IMG ?=$/;"	m
+INCLUDES	scripts/build.mk	/^INCLUDES = $(addprefix -I, $(INC_PATH))$/;"	m
+INC_LIBS	tools/spike-diff/Makefile	/^INC_LIBS  = $(addprefix $(REPO_PATH)\/build\/, $(lib_dependencies))$/;"	m
+INC_PATH	scripts/build.mk	/^INC_PATH := $(WORK_DIR)\/include $(INC_PATH)$/;"	m
+INC_PATH	tools/spike-diff/Makefile	/^INC_PATH  = -I$(REPO_PATH) $(addprefix -I$(REPO_PATH)\/, $(inc_dependencies))$/;"	m
+INITIAL	tools/kconfig/build/lexer.lex.c	2517;"	d	file:
+INPUTBOX_HEIGTH_MIN	tools/kconfig/lxdialog/dialog.h	187;"	d
+INPUTBOX_WIDTH_MIN	tools/kconfig/lxdialog/dialog.h	188;"	d
+INSTPAT	include/cpu/decode.h	90;"	d
+INSTPAT_END	include/cpu/decode.h	100;"	d
+INSTPAT_INST	src/isa/riscv32/inst.c	54;"	d	file:
+INSTPAT_INST	src/isa/riscv64/inst.c	54;"	d	file:
+INSTPAT_MATCH	src/isa/riscv32/inst.c	55;"	d	file:
+INSTPAT_MATCH	src/isa/riscv64/inst.c	55;"	d	file:
+INSTPAT_START	include/cpu/decode.h	99;"	d
+INT16_MAX	tools/kconfig/build/lexer.lex.c	72;"	d	file:
+INT16_MIN	tools/kconfig/build/lexer.lex.c	63;"	d	file:
+INT32_MAX	tools/kconfig/build/lexer.lex.c	75;"	d	file:
+INT32_MIN	tools/kconfig/build/lexer.lex.c	66;"	d	file:
+INT8_MAX	tools/kconfig/build/lexer.lex.c	69;"	d	file:
+INT8_MIN	tools/kconfig/build/lexer.lex.c	60;"	d	file:
+INTR_EMPTY	include/isa.h	51;"	d
+INV	include/cpu/cpu.h	27;"	d
+IOMap	include/device/map.h	/^} IOMap;$/;"	t	typeref:struct:__anon4
+IO_SPACE_MAX	src/device/io/map.c	21;"	d	file:
+ISADecodeInfo	include/isa.h	/^typedef concat(__GUEST_ISA__, _ISADecodeInfo) ISADecodeInfo;$/;"	t
+ISA_QEMU_ARGS	tools/qemu-diff/include/isa.h	21;"	d
+ISA_QEMU_ARGS	tools/qemu-diff/include/isa.h	25;"	d
+ISA_QEMU_ARGS	tools/qemu-diff/include/isa.h	28;"	d
+ISA_QEMU_ARGS	tools/qemu-diff/include/isa.h	31;"	d
+ISA_QEMU_BIN	tools/qemu-diff/include/isa.h	20;"	d
+ISA_QEMU_BIN	tools/qemu-diff/include/isa.h	24;"	d
+ISA_QEMU_BIN	tools/qemu-diff/include/isa.h	27;"	d
+ISA_QEMU_BIN	tools/qemu-diff/include/isa.h	30;"	d
+ISDEF	include/macro.h	55;"	d
+ISNDEF	include/macro.h	57;"	d
+ISONE	include/macro.h	59;"	d
+ISZERO	include/macro.h	61;"	d
+JUMP_NB	tools/kconfig/expr.h	284;"	d
+KCONFIG_PATH	scripts/config.mk	/^KCONFIG_PATH := $(NEMU_HOME)\/tools\/kconfig$/;"	m
+KEYDOWN_MASK	src/device/keyboard.c	19;"	d	file:
+KEY_ESC	tools/kconfig/lxdialog/dialog.h	39;"	d
+KEY_QUEUE_LEN	src/device/keyboard.c	48;"	d	file:
+Kconfig	scripts/config.mk	/^Kconfig      := $(NEMU_HOME)\/Kconfig$/;"	m
+LD	scripts/build.mk	/^LD := $(CXX)$/;"	m
+LDFLAGS	scripts/build.mk	/^LDFLAGS := -O2 $(LDFLAGS)$/;"	m
+LINE_GROWTH	tools/kconfig/confdata.c	295;"	d	file:
+LINUX_MMC_MMC_H	src/device/mmc.h	25;"	d
+LIST_H	tools/kconfig/list.h	3;"	d
+LIST_HEAD	tools/kconfig/list.h	31;"	d
+LIST_HEAD_INIT	tools/kconfig/list.h	29;"	d
+LIST_POISON1	tools/kconfig/list.h	118;"	d
+LIST_POISON2	tools/kconfig/list.h	119;"	d
+LKC_H	tools/kconfig/lkc.h	7;"	d
+Log	include/debug.h	23;"	d
+MAP	include/macro.h	84;"	d
+MAP	src/device/keyboard.c	/^  MAP(_KEYS, _KEY_NAME)$/;"	e	enum:__anon18	file:
+MAX	tools/kconfig/lxdialog/dialog.h	44;"	d
+MAXITEMSTR	tools/kconfig/lxdialog/dialog.h	152;"	d
+MAX_HANDLER	src/device/alarm.c	21;"	d	file:
+MAX_INST_TO_PRINT	src/cpu/cpu-exec.c	26;"	d	file:
+MAX_LEN	tools/kconfig/lxdialog/dialog.h	41;"	d
+MCONF	scripts/config.mk	/^MCONF  := $(KCONFIG_PATH)\/build\/mconf$/;"	m
+MEMORY_SIZE	src/device/sdcard.c	22;"	d	file:
+MEM_RET_CROSS_PAGE	include/isa.h	/^enum { MEM_RET_OK, MEM_RET_FAIL, MEM_RET_CROSS_PAGE };$/;"	e	enum:__anon3
+MEM_RET_FAIL	include/isa.h	/^enum { MEM_RET_OK, MEM_RET_FAIL, MEM_RET_CROSS_PAGE };$/;"	e	enum:__anon3
+MEM_RET_OK	include/isa.h	/^enum { MEM_RET_OK, MEM_RET_FAIL, MEM_RET_CROSS_PAGE };$/;"	e	enum:__anon3
+MEM_TYPE_IFETCH	include/isa.h	/^enum { MEM_TYPE_IFETCH, MEM_TYPE_READ, MEM_TYPE_WRITE };$/;"	e	enum:__anon2
+MEM_TYPE_READ	include/isa.h	/^enum { MEM_TYPE_IFETCH, MEM_TYPE_READ, MEM_TYPE_WRITE };$/;"	e	enum:__anon2
+MEM_TYPE_WRITE	include/isa.h	/^enum { MEM_TYPE_IFETCH, MEM_TYPE_READ, MEM_TYPE_WRITE };$/;"	e	enum:__anon2
+MENUBOX_HEIGTH_MIN	tools/kconfig/lxdialog/dialog.h	189;"	d
+MENUBOX_WIDTH_MIN	tools/kconfig/lxdialog/dialog.h	190;"	d
+MENU_CHANGED	tools/kconfig/expr.h	273;"	d
+MENU_ROOT	tools/kconfig/expr.h	275;"	d
+MIN	tools/kconfig/lxdialog/dialog.h	43;"	d
+MKFLAGS	tools/difftest.mk	/^MKFLAGS = GUEST_ISA=$(GUEST_ISA) SHARE=1 ENGINE=interpreter$/;"	m
+MMC_ALL_SEND_CID	src/device/mmc.h	31;"	d
+MMC_APP_CMD	src/device/mmc.h	84;"	d
+MMC_BUS_TEST_R	src/device/mmc.h	43;"	d
+MMC_BUS_TEST_W	src/device/mmc.h	45;"	d
+MMC_CARD_BUSY	src/device/mmc.h	188;"	d
+MMC_CLR_WRITE_PROT	src/device/mmc.h	68;"	d
+MMC_CMDQ_TASK_MGMT	src/device/mmc.h	92;"	d
+MMC_DISCARD_ARG	src/device/mmc.h	431;"	d
+MMC_ERASE	src/device/mmc.h	74;"	d
+MMC_ERASE_ARG	src/device/mmc.h	428;"	d
+MMC_ERASE_GROUP_END	src/device/mmc.h	73;"	d
+MMC_ERASE_GROUP_START	src/device/mmc.h	72;"	d
+MMC_EXECUTE_READ_TASK	src/device/mmc.h	90;"	d
+MMC_EXECUTE_WRITE_TASK	src/device/mmc.h	91;"	d
+MMC_FAST_IO	src/device/mmc.h	77;"	d
+MMC_GEN_CMD	src/device/mmc.h	85;"	d
+MMC_GO_IDLE_STATE	src/device/mmc.h	29;"	d
+MMC_GO_INACTIVE_STATE	src/device/mmc.h	44;"	d
+MMC_GO_IRQ_STATE	src/device/mmc.h	78;"	d
+MMC_LOCK_UNLOCK	src/device/mmc.h	81;"	d
+MMC_PROGRAM_CID	src/device/mmc.h	63;"	d
+MMC_PROGRAM_CSD	src/device/mmc.h	64;"	d
+MMC_QUE_TASK_ADDR	src/device/mmc.h	89;"	d
+MMC_QUE_TASK_PARAMS	src/device/mmc.h	88;"	d
+MMC_READ_DAT_UNTIL_STOP	src/device/mmc.h	40;"	d
+MMC_READ_MULTIPLE_BLOCK	src/device/mmc.h	52;"	d
+MMC_READ_SINGLE_BLOCK	src/device/mmc.h	51;"	d
+MMC_SECURE_ARGS	src/device/mmc.h	434;"	d
+MMC_SECURE_ERASE_ARG	src/device/mmc.h	429;"	d
+MMC_SECURE_TRIM1_ARG	src/device/mmc.h	432;"	d
+MMC_SECURE_TRIM2_ARG	src/device/mmc.h	433;"	d
+MMC_SELECT_CARD	src/device/mmc.h	36;"	d
+MMC_SEND_CID	src/device/mmc.h	39;"	d
+MMC_SEND_CSD	src/device/mmc.h	38;"	d
+MMC_SEND_EXT_CSD	src/device/mmc.h	37;"	d
+MMC_SEND_OP_COND	src/device/mmc.h	30;"	d
+MMC_SEND_STATUS	src/device/mmc.h	42;"	d
+MMC_SEND_TUNING_BLOCK	src/device/mmc.h	53;"	d
+MMC_SEND_TUNING_BLOCK_HS200	src/device/mmc.h	54;"	d
+MMC_SEND_WRITE_PROT	src/device/mmc.h	69;"	d
+MMC_SET_BLOCKLEN	src/device/mmc.h	50;"	d
+MMC_SET_BLOCK_COUNT	src/device/mmc.h	60;"	d
+MMC_SET_DSR	src/device/mmc.h	33;"	d
+MMC_SET_RELATIVE_ADDR	src/device/mmc.h	32;"	d
+MMC_SET_WRITE_PROT	src/device/mmc.h	67;"	d
+MMC_SLEEP_AWAKE	src/device/mmc.h	34;"	d
+MMC_SPI_CRC_ON_OFF	src/device/mmc.h	47;"	d
+MMC_SPI_READ_OCR	src/device/mmc.h	46;"	d
+MMC_STOP_TRANSMISSION	src/device/mmc.h	41;"	d
+MMC_SWITCH	src/device/mmc.h	35;"	d
+MMC_SWITCH_MODE_CLEAR_BITS	src/device/mmc.h	422;"	d
+MMC_SWITCH_MODE_CMD_SET	src/device/mmc.h	420;"	d
+MMC_SWITCH_MODE_SET_BITS	src/device/mmc.h	421;"	d
+MMC_SWITCH_MODE_WRITE_BYTE	src/device/mmc.h	423;"	d
+MMC_TRIM_ARG	src/device/mmc.h	430;"	d
+MMC_TRIM_ARGS	src/device/mmc.h	435;"	d
+MMC_WRITE_BLOCK	src/device/mmc.h	61;"	d
+MMC_WRITE_DAT_UNTIL_STOP	src/device/mmc.h	57;"	d
+MMC_WRITE_MULTIPLE_BLOCK	src/device/mmc.h	62;"	d
+MMU_DIRECT	include/isa.h	/^enum { MMU_DIRECT, MMU_TRANSLATE, MMU_FAIL };$/;"	e	enum:__anon1
+MMU_FAIL	include/isa.h	/^enum { MMU_DIRECT, MMU_TRANSLATE, MMU_FAIL };$/;"	e	enum:__anon1
+MMU_TRANSLATE	include/isa.h	/^enum { MMU_DIRECT, MMU_TRANSLATE, MMU_FAIL };$/;"	e	enum:__anon1
+MULT	src/device/sdcard.c	27;"	d	file:
+MUXDEF	include/macro.h	49;"	d
+MUXNDEF	include/macro.h	50;"	d
+MUXONE	include/macro.h	51;"	d
+MUXZERO	include/macro.h	52;"	d
+MUX_MACRO_PROPERTY	include/macro.h	42;"	d
+MUX_WITH_COMMA	include/macro.h	41;"	d
+M_EVENT	tools/kconfig/lxdialog/dialog.h	238;"	d
+Mr	src/isa/riscv32/inst.c	22;"	d	file:
+Mr	src/isa/riscv64/inst.c	22;"	d	file:
+Mw	src/isa/riscv32/inst.c	23;"	d	file:
+Mw	src/isa/riscv64/inst.c	23;"	d	file:
+NAME	Makefile	/^NAME    = $(GUEST_ISA)-nemu-$(ENGINE)$/;"	m
+NAME	tools/fixdep/Makefile	/^NAME = fixdep$/;"	m
+NAME	tools/gen-expr/Makefile	/^NAME = gen-expr$/;"	m
+NAME	tools/kconfig/Makefile	/^NAME = conf$/;"	m
+NAME	tools/kvm-diff/Makefile	/^NAME  = x86-kvm$/;"	m
+NAME	tools/qemu-diff/Makefile	/^NAME  = $(GUEST_ISA)-qemu$/;"	m
+NAME	tools/spike-diff/Makefile	/^NAME = $(GUEST_ISA)-spike-so$/;"	m
+NEMUState	include/utils.h	/^} NEMUState;$/;"	t	typeref:struct:__anon7
+NEMUTRAP	include/cpu/cpu.h	26;"	d
+NEMU_ABORT	include/utils.h	/^enum { NEMU_RUNNING, NEMU_STOP, NEMU_END, NEMU_ABORT, NEMU_QUIT };$/;"	e	enum:__anon6
+NEMU_END	include/utils.h	/^enum { NEMU_RUNNING, NEMU_STOP, NEMU_END, NEMU_ABORT, NEMU_QUIT };$/;"	e	enum:__anon6
+NEMU_EXEC	scripts/native.mk	/^NEMU_EXEC := $(BINARY) $(ARGS) $(IMG)$/;"	m
+NEMU_QUIT	include/utils.h	/^enum { NEMU_RUNNING, NEMU_STOP, NEMU_END, NEMU_ABORT, NEMU_QUIT };$/;"	e	enum:__anon6
+NEMU_RUNNING	include/utils.h	/^enum { NEMU_RUNNING, NEMU_STOP, NEMU_END, NEMU_ABORT, NEMU_QUIT };$/;"	e	enum:__anon6
+NEMU_STOP	include/utils.h	/^enum { NEMU_RUNNING, NEMU_STOP, NEMU_END, NEMU_ABORT, NEMU_QUIT };$/;"	e	enum:__anon6
+NO	src/monitor/sdb/watchpoint.c	/^  int NO;$/;"	m	struct:watchpoint	file:
+NR_BLOCK	src/device/sdcard.c	25;"	d	file:
+NR_CMD	src/monitor/sdb/sdb.c	89;"	d	file:
+NR_MAP	src/device/io/mmio.c	19;"	d	file:
+NR_MAP	src/device/io/port-io.c	20;"	d	file:
+NR_REGEX	src/monitor/sdb/expr.c	53;"	d	file:
+NR_WP	src/monitor/sdb/watchpoint.c	18;"	d	file:
+NUMBERIC_FMT	src/cpu/cpu-exec.c	83;"	d	file:
+OBJS	scripts/build.mk	/^OBJS = $(SRCS:%.c=$(OBJ_DIR)\/%.o) $(CXXSRC:%.cc=$(OBJ_DIR)\/%.o)$/;"	m
+OBJ_DIR	scripts/build.mk	/^OBJ_DIR  = $(BUILD_DIR)\/obj-$(NAME)$(SO)$/;"	m
+OLD_NCURSES	tools/kconfig/lxdialog/dialog.h	30;"	d
+OLD_NCURSES	tools/kconfig/lxdialog/dialog.h	34;"	d
+PACKAGE	tools/kconfig/lkc.h	20;"	d
+PAGE_MASK	include/memory/vaddr.h	27;"	d
+PAGE_SHIFT	include/memory/vaddr.h	25;"	d
+PAGE_SIZE	include/memory/vaddr.h	26;"	d
+PG_ALIGN	include/macro.h	93;"	d
+PG_ALIGN	src/memory/paddr.c	/^static uint8_t pmem[CONFIG_MSIZE] PG_ALIGN = {};$/;"	v	file:
+PIO_THRESHOLD	resource/sdcard/nemu.c	76;"	d	file:
+PMEM64	include/common.h	35;"	d
+PMEM_LEFT	include/memory/paddr.h	21;"	d
+PMEM_RIGHT	include/memory/paddr.h	22;"	d
+PORT_IO_SPACE_MAX	src/device/io/port-io.c	18;"	d	file:
+PRINTD	tools/kconfig/build/parser.tab.c	84;"	d	file:
+P_CHOICE	tools/kconfig/expr.h	/^	P_CHOICE,   \/* choice value *\/$/;"	e	enum:prop_type
+P_COMMENT	tools/kconfig/expr.h	/^	P_COMMENT,  \/* text associated with a comment *\/$/;"	e	enum:prop_type
+P_DEFAULT	tools/kconfig/expr.h	/^	P_DEFAULT,  \/* default y *\/$/;"	e	enum:prop_type
+P_IMPLY	tools/kconfig/expr.h	/^	P_IMPLY,    \/* imply BAR *\/$/;"	e	enum:prop_type
+P_MENU	tools/kconfig/expr.h	/^	P_MENU,     \/* prompt associated with a menu or menuconfig symbol *\/$/;"	e	enum:prop_type
+P_PROMPT	tools/kconfig/expr.h	/^	P_PROMPT,   \/* prompt "foo prompt" or "BAZ Value" *\/$/;"	e	enum:prop_type
+P_RANGE	tools/kconfig/expr.h	/^	P_RANGE,    \/* range 7..100 (for a symbol) *\/$/;"	e	enum:prop_type
+P_SELECT	tools/kconfig/expr.h	/^	P_SELECT,   \/* select BAR *\/$/;"	e	enum:prop_type
+P_SYMBOL	tools/kconfig/expr.h	/^	P_SYMBOL,   \/* where a symbol is defined *\/$/;"	e	enum:prop_type
+P_UNKNOWN	tools/kconfig/expr.h	/^	P_UNKNOWN,$/;"	e	enum:prop_type
+Q	scripts/config.mk	/^Q            := @$/;"	m
+R	src/isa/riscv32/inst.c	21;"	d	file:
+R	src/isa/riscv64/inst.c	21;"	d	file:
+R1_ADDRESS_ERROR	src/device/mmc.h	127;"	d
+R1_APP_CMD	src/device/mmc.h	150;"	d
+R1_BLOCK_LEN_ERROR	src/device/mmc.h	128;"	d
+R1_CARD_ECC_DISABLED	src/device/mmc.h	143;"	d
+R1_CARD_ECC_FAILED	src/device/mmc.h	136;"	d
+R1_CARD_IS_LOCKED	src/device/mmc.h	132;"	d
+R1_CC_ERROR	src/device/mmc.h	137;"	d
+R1_CID_CSD_OVERWRITE	src/device/mmc.h	141;"	d
+R1_COM_CRC_ERROR	src/device/mmc.h	134;"	d
+R1_CURRENT_STATE	src/device/mmc.h	146;"	d
+R1_ERASE_PARAM	src/device/mmc.h	130;"	d
+R1_ERASE_RESET	src/device/mmc.h	144;"	d
+R1_ERASE_SEQ_ERROR	src/device/mmc.h	129;"	d
+R1_ERROR	src/device/mmc.h	138;"	d
+R1_EXCEPTION_EVENT	src/device/mmc.h	149;"	d
+R1_ILLEGAL_COMMAND	src/device/mmc.h	135;"	d
+R1_LOCK_UNLOCK_FAILED	src/device/mmc.h	133;"	d
+R1_OUT_OF_RANGE	src/device/mmc.h	126;"	d
+R1_OVERRUN	src/device/mmc.h	140;"	d
+R1_READY_FOR_DATA	src/device/mmc.h	147;"	d
+R1_SPI_ADDRESS	src/device/mmc.h	171;"	d
+R1_SPI_COM_CRC	src/device/mmc.h	169;"	d
+R1_SPI_ERASE_RESET	src/device/mmc.h	167;"	d
+R1_SPI_ERASE_SEQ	src/device/mmc.h	170;"	d
+R1_SPI_IDLE	src/device/mmc.h	166;"	d
+R1_SPI_ILLEGAL_COMMAND	src/device/mmc.h	168;"	d
+R1_SPI_PARAMETER	src/device/mmc.h	172;"	d
+R1_STATE_DATA	src/device/mmc.h	157;"	d
+R1_STATE_DIS	src/device/mmc.h	160;"	d
+R1_STATE_IDENT	src/device/mmc.h	154;"	d
+R1_STATE_IDLE	src/device/mmc.h	152;"	d
+R1_STATE_PRG	src/device/mmc.h	159;"	d
+R1_STATE_RCV	src/device/mmc.h	158;"	d
+R1_STATE_READY	src/device/mmc.h	153;"	d
+R1_STATE_STBY	src/device/mmc.h	155;"	d
+R1_STATE_TRAN	src/device/mmc.h	156;"	d
+R1_STATUS	src/device/mmc.h	145;"	d
+R1_SWITCH_ERROR	src/device/mmc.h	148;"	d
+R1_UNDERRUN	src/device/mmc.h	139;"	d
+R1_WP_ERASE_SKIP	src/device/mmc.h	142;"	d
+R1_WP_VIOLATION	src/device/mmc.h	131;"	d
+R2_SPI_CARD_ECC_ERROR	src/device/mmc.h	179;"	d
+R2_SPI_CARD_LOCKED	src/device/mmc.h	174;"	d
+R2_SPI_CC_ERROR	src/device/mmc.h	178;"	d
+R2_SPI_CSD_OVERWRITE	src/device/mmc.h	183;"	d
+R2_SPI_ERASE_PARAM	src/device/mmc.h	181;"	d
+R2_SPI_ERROR	src/device/mmc.h	177;"	d
+R2_SPI_LOCK_UNLOCK_FAIL	src/device/mmc.h	176;"	d
+R2_SPI_OUT_OF_RANGE	src/device/mmc.h	182;"	d
+R2_SPI_WP_ERASE_SKIP	src/device/mmc.h	175;"	d
+R2_SPI_WP_VIOLATION	src/device/mmc.h	180;"	d
+READ_BL_LEN	src/device/sdcard.c	23;"	d	file:
+REJECT	tools/kconfig/build/lexer.lex.c	2428;"	d	file:
+REPO_BUILD_PATH	tools/spike-diff/Makefile	/^REPO_BUILD_PATH = $(REPO_PATH)\/build$/;"	m
+REPO_MAKEFILE	tools/spike-diff/Makefile	/^REPO_MAKEFILE = $(REPO_BUILD_PATH)\/Makefile$/;"	m
+REPO_PATH	tools/spike-diff/Makefile	/^REPO_PATH = repo$/;"	m
+RESET_VECTOR	include/memory/paddr.h	23;"	d
+RFLAGS_AC	tools/kvm-diff/src/kvm.c	32;"	d	file:
+RFLAGS_AF	tools/kvm-diff/src/kvm.c	35;"	d	file:
+RFLAGS_FIX_MASK	tools/kvm-diff/src/kvm.c	36;"	d	file:
+RFLAGS_ID	tools/kvm-diff/src/kvm.c	31;"	d	file:
+RFLAGS_RF	tools/kvm-diff/src/kvm.c	33;"	d	file:
+RFLAGS_TF	tools/kvm-diff/src/kvm.c	34;"	d	file:
+RGS	scripts/native.mk	/^override ARGS ?= --log=$(BUILD_DIR)\/nemu-log.txt$/;"	m
+ROUNDDOWN	include/macro.h	91;"	d
+ROUNDUP	include/macro.h	90;"	d
+SCREEN_H	src/device/vga.c	20;"	d	file:
+SCREEN_W	src/device/vga.c	19;"	d	file:
+SDARG	resource/sdcard/nemu.c	44;"	d	file:
+SDARG	src/device/sdcard.c	/^  SDCMD, SDARG, SDTOUT, SDCDIV,$/;"	e	enum:__anon16	file:
+SDCDIV	resource/sdcard/nemu.c	46;"	d	file:
+SDCDIV	src/device/sdcard.c	/^  SDCMD, SDARG, SDTOUT, SDCDIV,$/;"	e	enum:__anon16	file:
+SDCDIV_MAX_CDIV	resource/sdcard/nemu.c	68;"	d	file:
+SDCMD	resource/sdcard/nemu.c	43;"	d	file:
+SDCMD	src/device/sdcard.c	/^  SDCMD, SDARG, SDTOUT, SDCDIV,$/;"	e	enum:__anon16	file:
+SDCMD_BUSYWAIT	resource/sdcard/nemu.c	61;"	d	file:
+SDCMD_CMD_MASK	resource/sdcard/nemu.c	66;"	d	file:
+SDCMD_FAIL_FLAG	resource/sdcard/nemu.c	60;"	d	file:
+SDCMD_LONG_RESPONSE	resource/sdcard/nemu.c	63;"	d	file:
+SDCMD_NEW_FLAG	resource/sdcard/nemu.c	59;"	d	file:
+SDCMD_NO_RESPONSE	resource/sdcard/nemu.c	62;"	d	file:
+SDCMD_READ_CMD	resource/sdcard/nemu.c	65;"	d	file:
+SDCMD_WRITE_CMD	resource/sdcard/nemu.c	64;"	d	file:
+SDDATA	resource/sdcard/nemu.c	56;"	d	file:
+SDDATA	src/device/sdcard.c	/^  SDDATA, __PAD10, __PAD11, __PAD12,$/;"	e	enum:__anon16	file:
+SDDATA_FIFO_PIO_BURST	resource/sdcard/nemu.c	74;"	d	file:
+SDDATA_FIFO_WORDS	resource/sdcard/nemu.c	70;"	d	file:
+SDEDM	resource/sdcard/nemu.c	53;"	d	file:
+SDEDM	src/device/sdcard.c	/^  SDVDD, SDEDM, SDHCFG, SDHBCT,$/;"	e	enum:__anon16	file:
+SDHBCT	resource/sdcard/nemu.c	55;"	d	file:
+SDHBCT	src/device/sdcard.c	/^  SDVDD, SDEDM, SDHCFG, SDHBCT,$/;"	e	enum:__anon16	file:
+SDHBLC	resource/sdcard/nemu.c	57;"	d	file:
+SDHBLC	src/device/sdcard.c	/^  SDHBLC$/;"	e	enum:__anon16	file:
+SDHCFG	resource/sdcard/nemu.c	54;"	d	file:
+SDHCFG	src/device/sdcard.c	/^  SDVDD, SDEDM, SDHCFG, SDHBCT,$/;"	e	enum:__anon16	file:
+SDHSTS	resource/sdcard/nemu.c	51;"	d	file:
+SDHSTS	src/device/sdcard.c	/^  SDHSTS, __PAD0, __PAD1, __PAD2,$/;"	e	enum:__anon16	file:
+SDL_KEYMAP	src/device/keyboard.c	41;"	d	file:
+SDRSP0	resource/sdcard/nemu.c	47;"	d	file:
+SDRSP0	src/device/sdcard.c	/^  SDRSP0, SDRSP1, SDRSP2, SDRSP3,$/;"	e	enum:__anon16	file:
+SDRSP1	resource/sdcard/nemu.c	48;"	d	file:
+SDRSP1	src/device/sdcard.c	/^  SDRSP0, SDRSP1, SDRSP2, SDRSP3,$/;"	e	enum:__anon16	file:
+SDRSP2	resource/sdcard/nemu.c	49;"	d	file:
+SDRSP2	src/device/sdcard.c	/^  SDRSP0, SDRSP1, SDRSP2, SDRSP3,$/;"	e	enum:__anon16	file:
+SDRSP3	resource/sdcard/nemu.c	50;"	d	file:
+SDRSP3	src/device/sdcard.c	/^  SDRSP0, SDRSP1, SDRSP2, SDRSP3,$/;"	e	enum:__anon16	file:
+SDTOUT	resource/sdcard/nemu.c	45;"	d	file:
+SDTOUT	src/device/sdcard.c	/^  SDCMD, SDARG, SDTOUT, SDCDIV,$/;"	e	enum:__anon16	file:
+SDVDD	resource/sdcard/nemu.c	52;"	d	file:
+SDVDD	src/device/sdcard.c	/^  SDVDD, SDEDM, SDHCFG, SDHBCT,$/;"	e	enum:__anon16	file:
+SEXT	include/macro.h	88;"	d
+SHARE	src/filelist.mk	/^SHARE = $(if $(CONFIG_TARGET_SHARE),1,0)$/;"	m
+SHARE	tools/kvm-diff/Makefile	/^SHARE = 1$/;"	m
+SHARE	tools/qemu-diff/Makefile	/^SHARE = 1$/;"	m
+SIZE_MAX	tools/kconfig/build/lexer.lex.c	88;"	d	file:
+SO	scripts/build.mk	/^SO = -so$/;"	m
+SPIKE	tools/spike-diff/Makefile	/^SPIKE = $(REPO_BUILD_PATH)\/spike$/;"	m
+SRCS	Makefile	/^SRCS = $(filter-out $(SRCS-BLACKLIST-y),$(SRCS-y))$/;"	m
+SRCS	tools/fixdep/Makefile	/^SRCS = fixdep.c$/;"	m
+SRCS	tools/gen-expr/Makefile	/^SRCS = gen-expr.c$/;"	m
+SRCS	tools/kvm-diff/Makefile	/^SRCS  = $(shell find src\/ -name "*.c")$/;"	m
+SRCS	tools/qemu-diff/Makefile	/^SRCS  = $(shell find src\/ -name "*.c")$/;"	m
+SRCS	tools/spike-diff/Makefile	/^SRCS = difftest.cc$/;"	m
+SRCTREE	tools/kconfig/lkc.h	17;"	d
+START_STRSIZE	tools/kconfig/build/lexer.lex.c	2453;"	d	file:
+STATE_IDLE	tools/kvm-diff/src/kvm.c	/^  STATE_IDLE,      \/\/ if encounter an int instruction, then set watchpoint$/;"	e	enum:__anon23	file:
+STATE_INT_INST	tools/kvm-diff/src/kvm.c	/^  STATE_INT_INST, \/\/ if hit the watchpoint, then delete the watchpoint$/;"	e	enum:__anon23	file:
+STATE_IRET_INST	tools/kvm-diff/src/kvm.c	/^  STATE_IRET_INST,\/\/ if hit the watchpoint, then delete the watchpoint$/;"	e	enum:__anon23	file:
+STRING	tools/kconfig/build/lexer.lex.c	2520;"	d	file:
+STRLEN	include/macro.h	26;"	d
+SYMBOL_ALLNOCONFIG_Y	tools/kconfig/expr.h	160;"	d
+SYMBOL_CHANGED	tools/kconfig/expr.h	143;"	d
+SYMBOL_CHECK	tools/kconfig/expr.h	137;"	d
+SYMBOL_CHECKED	tools/kconfig/expr.h	146;"	d
+SYMBOL_CHOICE	tools/kconfig/expr.h	138;"	d
+SYMBOL_CHOICEVAL	tools/kconfig/expr.h	139;"	d
+SYMBOL_CONST	tools/kconfig/expr.h	136;"	d
+SYMBOL_DEF	tools/kconfig/expr.h	150;"	d
+SYMBOL_DEF3	tools/kconfig/expr.h	153;"	d
+SYMBOL_DEF4	tools/kconfig/expr.h	154;"	d
+SYMBOL_DEF_AUTO	tools/kconfig/expr.h	152;"	d
+SYMBOL_DEF_USER	tools/kconfig/expr.h	151;"	d
+SYMBOL_HASHSIZE	tools/kconfig/expr.h	163;"	d
+SYMBOL_MAXLENGTH	tools/kconfig/expr.h	162;"	d
+SYMBOL_NEED_SET_CHOICE_VALUES	tools/kconfig/expr.h	157;"	d
+SYMBOL_NO_WRITE	tools/kconfig/expr.h	145;"	d
+SYMBOL_OPTIONAL	tools/kconfig/expr.h	141;"	d
+SYMBOL_VALID	tools/kconfig/expr.h	140;"	d
+SYMBOL_WARNED	tools/kconfig/expr.h	147;"	d
+SYMBOL_WRITE	tools/kconfig/expr.h	142;"	d
+SYMBOL_WRITTEN	tools/kconfig/expr.h	144;"	d
+S_BOOLEAN	tools/kconfig/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING$/;"	e	enum:symbol_type
+S_DEF_AUTO	tools/kconfig/expr.h	/^	S_DEF_AUTO,		\/* values read from auto.conf *\/$/;"	e	enum:__anon24
+S_DEF_COUNT	tools/kconfig/expr.h	/^	S_DEF_COUNT$/;"	e	enum:__anon24
+S_DEF_DEF3	tools/kconfig/expr.h	/^	S_DEF_DEF3,		\/* Reserved for UI usage *\/$/;"	e	enum:__anon24
+S_DEF_DEF4	tools/kconfig/expr.h	/^	S_DEF_DEF4,		\/* Reserved for UI usage *\/$/;"	e	enum:__anon24
+S_DEF_USER	tools/kconfig/expr.h	/^	S_DEF_USER,		\/* main user value *\/$/;"	e	enum:__anon24
+S_HEX	tools/kconfig/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING$/;"	e	enum:symbol_type
+S_INT	tools/kconfig/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING$/;"	e	enum:symbol_type
+S_STRING	tools/kconfig/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING$/;"	e	enum:symbol_type
+S_TRISTATE	tools/kconfig/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING$/;"	e	enum:symbol_type
+S_UNKNOWN	tools/kconfig/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING$/;"	e	enum:symbol_type
+TAB	tools/kconfig/lxdialog/dialog.h	40;"	d
+TEXTBOX_HEIGTH_MIN	tools/kconfig/lxdialog/dialog.h	191;"	d
+TEXTBOX_WIDTH_MIN	tools/kconfig/lxdialog/dialog.h	192;"	d
+TIMER_HZ	include/device/alarm.h	19;"	d
+TK_EQ	src/monitor/sdb/expr.c	/^  TK_NOTYPE = 256, TK_EQ,TK_NUM$/;"	e	enum:__anon20	file:
+TK_NOTYPE	src/monitor/sdb/expr.c	/^  TK_NOTYPE = 256, TK_EQ,TK_NUM$/;"	e	enum:__anon20	file:
+TK_NUM	src/monitor/sdb/expr.c	/^  TK_NOTYPE = 256, TK_EQ,TK_NUM$/;"	e	enum:__anon20	file:
+TODO	include/debug.h	41;"	d
+TR	tools/kconfig/lxdialog/dialog.h	37;"	d
+TYPE_I	src/isa/riscv32/inst.c	/^  TYPE_I, TYPE_U, TYPE_S,$/;"	e	enum:__anon12	file:
+TYPE_I	src/isa/riscv64/inst.c	/^  TYPE_I, TYPE_U, TYPE_S,$/;"	e	enum:__anon8	file:
+TYPE_N	src/isa/riscv32/inst.c	/^  TYPE_N, \/\/ none$/;"	e	enum:__anon12	file:
+TYPE_N	src/isa/riscv64/inst.c	/^  TYPE_N, \/\/ none$/;"	e	enum:__anon8	file:
+TYPE_S	src/isa/riscv32/inst.c	/^  TYPE_I, TYPE_U, TYPE_S,$/;"	e	enum:__anon12	file:
+TYPE_S	src/isa/riscv64/inst.c	/^  TYPE_I, TYPE_U, TYPE_S,$/;"	e	enum:__anon8	file:
+TYPE_U	src/isa/riscv32/inst.c	/^  TYPE_I, TYPE_U, TYPE_S,$/;"	e	enum:__anon12	file:
+TYPE_U	src/isa/riscv64/inst.c	/^  TYPE_I, TYPE_U, TYPE_S,$/;"	e	enum:__anon8	file:
+T_ALLNOCONFIG_Y	tools/kconfig/build/parser.tab.h	/^    T_ALLNOCONFIG_Y = 261,         \/* T_ALLNOCONFIG_Y  *\/$/;"	e	enum:yytokentype
+T_AND	tools/kconfig/build/parser.tab.h	/^    T_AND = 300,                   \/* T_AND  *\/$/;"	e	enum:yytokentype
+T_ASSIGN_VAL	tools/kconfig/build/parser.tab.h	/^    T_ASSIGN_VAL = 298,            \/* T_ASSIGN_VAL  *\/$/;"	e	enum:yytokentype
+T_BOOL	tools/kconfig/build/parser.tab.h	/^    T_BOOL = 262,                  \/* T_BOOL  *\/$/;"	e	enum:yytokentype
+T_CHOICE	tools/kconfig/build/parser.tab.h	/^    T_CHOICE = 263,                \/* T_CHOICE  *\/$/;"	e	enum:yytokentype
+T_CLOSE_PAREN	tools/kconfig/build/parser.tab.h	/^    T_CLOSE_PAREN = 264,           \/* T_CLOSE_PAREN  *\/$/;"	e	enum:yytokentype
+T_COLON_EQUAL	tools/kconfig/build/parser.tab.h	/^    T_COLON_EQUAL = 265,           \/* T_COLON_EQUAL  *\/$/;"	e	enum:yytokentype
+T_COMMENT	tools/kconfig/build/parser.tab.h	/^    T_COMMENT = 266,               \/* T_COMMENT  *\/$/;"	e	enum:yytokentype
+T_CONFIG	tools/kconfig/build/parser.tab.h	/^    T_CONFIG = 267,                \/* T_CONFIG  *\/$/;"	e	enum:yytokentype
+T_DEFAULT	tools/kconfig/build/parser.tab.h	/^    T_DEFAULT = 268,               \/* T_DEFAULT  *\/$/;"	e	enum:yytokentype
+T_DEFCONFIG_LIST	tools/kconfig/build/parser.tab.h	/^    T_DEFCONFIG_LIST = 269,        \/* T_DEFCONFIG_LIST  *\/$/;"	e	enum:yytokentype
+T_DEF_BOOL	tools/kconfig/build/parser.tab.h	/^    T_DEF_BOOL = 270,              \/* T_DEF_BOOL  *\/$/;"	e	enum:yytokentype
+T_DEF_TRISTATE	tools/kconfig/build/parser.tab.h	/^    T_DEF_TRISTATE = 271,          \/* T_DEF_TRISTATE  *\/$/;"	e	enum:yytokentype
+T_DEPENDS	tools/kconfig/build/parser.tab.h	/^    T_DEPENDS = 272,               \/* T_DEPENDS  *\/$/;"	e	enum:yytokentype
+T_ENDCHOICE	tools/kconfig/build/parser.tab.h	/^    T_ENDCHOICE = 273,             \/* T_ENDCHOICE  *\/$/;"	e	enum:yytokentype
+T_ENDIF	tools/kconfig/build/parser.tab.h	/^    T_ENDIF = 274,                 \/* T_ENDIF  *\/$/;"	e	enum:yytokentype
+T_ENDMENU	tools/kconfig/build/parser.tab.h	/^    T_ENDMENU = 275,               \/* T_ENDMENU  *\/$/;"	e	enum:yytokentype
+T_EOL	tools/kconfig/build/parser.tab.h	/^    T_EOL = 297,                   \/* T_EOL  *\/$/;"	e	enum:yytokentype
+T_EQUAL	tools/kconfig/build/parser.tab.h	/^    T_EQUAL = 301,                 \/* T_EQUAL  *\/$/;"	e	enum:yytokentype
+T_GREATER	tools/kconfig/build/parser.tab.h	/^    T_GREATER = 305,               \/* T_GREATER  *\/$/;"	e	enum:yytokentype
+T_GREATER_EQUAL	tools/kconfig/build/parser.tab.h	/^    T_GREATER_EQUAL = 306,         \/* T_GREATER_EQUAL  *\/$/;"	e	enum:yytokentype
+T_HELP	tools/kconfig/build/parser.tab.h	/^    T_HELP = 276,                  \/* T_HELP  *\/$/;"	e	enum:yytokentype
+T_HELPTEXT	tools/kconfig/build/parser.tab.h	/^    T_HELPTEXT = 258,              \/* T_HELPTEXT  *\/$/;"	e	enum:yytokentype
+T_HEX	tools/kconfig/build/parser.tab.h	/^    T_HEX = 277,                   \/* T_HEX  *\/$/;"	e	enum:yytokentype
+T_IF	tools/kconfig/build/parser.tab.h	/^    T_IF = 278,                    \/* T_IF  *\/$/;"	e	enum:yytokentype
+T_IMPLY	tools/kconfig/build/parser.tab.h	/^    T_IMPLY = 279,                 \/* T_IMPLY  *\/$/;"	e	enum:yytokentype
+T_INT	tools/kconfig/build/parser.tab.h	/^    T_INT = 280,                   \/* T_INT  *\/$/;"	e	enum:yytokentype
+T_LESS	tools/kconfig/build/parser.tab.h	/^    T_LESS = 303,                  \/* T_LESS  *\/$/;"	e	enum:yytokentype
+T_LESS_EQUAL	tools/kconfig/build/parser.tab.h	/^    T_LESS_EQUAL = 304,            \/* T_LESS_EQUAL  *\/$/;"	e	enum:yytokentype
+T_MAINMENU	tools/kconfig/build/parser.tab.h	/^    T_MAINMENU = 281,              \/* T_MAINMENU  *\/$/;"	e	enum:yytokentype
+T_MENU	tools/kconfig/build/parser.tab.h	/^    T_MENU = 282,                  \/* T_MENU  *\/$/;"	e	enum:yytokentype
+T_MENUCONFIG	tools/kconfig/build/parser.tab.h	/^    T_MENUCONFIG = 283,            \/* T_MENUCONFIG  *\/$/;"	e	enum:yytokentype
+T_MODULES	tools/kconfig/build/parser.tab.h	/^    T_MODULES = 284,               \/* T_MODULES  *\/$/;"	e	enum:yytokentype
+T_NOT	tools/kconfig/build/parser.tab.h	/^    T_NOT = 307                    \/* T_NOT  *\/$/;"	e	enum:yytokentype
+T_ON	tools/kconfig/build/parser.tab.h	/^    T_ON = 285,                    \/* T_ON  *\/$/;"	e	enum:yytokentype
+T_OPEN_PAREN	tools/kconfig/build/parser.tab.h	/^    T_OPEN_PAREN = 286,            \/* T_OPEN_PAREN  *\/$/;"	e	enum:yytokentype
+T_OPTION	tools/kconfig/build/parser.tab.h	/^    T_OPTION = 287,                \/* T_OPTION  *\/$/;"	e	enum:yytokentype
+T_OPTIONAL	tools/kconfig/build/parser.tab.h	/^    T_OPTIONAL = 288,              \/* T_OPTIONAL  *\/$/;"	e	enum:yytokentype
+T_OR	tools/kconfig/build/parser.tab.h	/^    T_OR = 299,                    \/* T_OR  *\/$/;"	e	enum:yytokentype
+T_PLUS_EQUAL	tools/kconfig/build/parser.tab.h	/^    T_PLUS_EQUAL = 289,            \/* T_PLUS_EQUAL  *\/$/;"	e	enum:yytokentype
+T_PROMPT	tools/kconfig/build/parser.tab.h	/^    T_PROMPT = 290,                \/* T_PROMPT  *\/$/;"	e	enum:yytokentype
+T_RANGE	tools/kconfig/build/parser.tab.h	/^    T_RANGE = 291,                 \/* T_RANGE  *\/$/;"	e	enum:yytokentype
+T_SELECT	tools/kconfig/build/parser.tab.h	/^    T_SELECT = 292,                \/* T_SELECT  *\/$/;"	e	enum:yytokentype
+T_SOURCE	tools/kconfig/build/parser.tab.h	/^    T_SOURCE = 293,                \/* T_SOURCE  *\/$/;"	e	enum:yytokentype
+T_STRING	tools/kconfig/build/parser.tab.h	/^    T_STRING = 294,                \/* T_STRING  *\/$/;"	e	enum:yytokentype
+T_TRISTATE	tools/kconfig/build/parser.tab.h	/^    T_TRISTATE = 295,              \/* T_TRISTATE  *\/$/;"	e	enum:yytokentype
+T_UNEQUAL	tools/kconfig/build/parser.tab.h	/^    T_UNEQUAL = 302,               \/* T_UNEQUAL  *\/$/;"	e	enum:yytokentype
+T_VISIBLE	tools/kconfig/build/parser.tab.h	/^    T_VISIBLE = 296,               \/* T_VISIBLE  *\/$/;"	e	enum:yytokentype
+T_WORD	tools/kconfig/build/parser.tab.h	/^    T_WORD = 259,                  \/* T_WORD  *\/$/;"	e	enum:yytokentype
+T_WORD_QUOTE	tools/kconfig/build/parser.tab.h	/^    T_WORD_QUOTE = 260,            \/* T_WORD_QUOTE  *\/$/;"	e	enum:yytokentype
+Token	src/monitor/sdb/expr.c	/^} Token;$/;"	t	typeref:struct:token	file:
+UINT16_MAX	tools/kconfig/build/lexer.lex.c	81;"	d	file:
+UINT32_MAX	tools/kconfig/build/lexer.lex.c	84;"	d	file:
+UINT8_MAX	tools/kconfig/build/lexer.lex.c	78;"	d	file:
+UINT_LEAST16_MAX	tools/kconfig/build/parser.tab.c	278;"	d	file:
+UINT_LEAST16_MAX	tools/kconfig/build/parser.tab.c	280;"	d	file:
+UINT_LEAST8_MAX	tools/kconfig/build/parser.tab.c	277;"	d	file:
+UINT_LEAST8_MAX	tools/kconfig/build/parser.tab.c	279;"	d	file:
+VAR_APPEND	tools/kconfig/lkc_proto.h	/^	VAR_APPEND,$/;"	e	enum:variable_flavor
+VAR_RECURSIVE	tools/kconfig/lkc_proto.h	/^	VAR_RECURSIVE,$/;"	e	enum:variable_flavor
+VAR_SIMPLE	tools/kconfig/lkc_proto.h	/^	VAR_SIMPLE,$/;"	e	enum:variable_flavor
+WINDOW_HEIGTH_MIN	tools/kconfig/lxdialog/dialog.h	195;"	d
+WINDOW_WIDTH_MIN	tools/kconfig/lxdialog/dialog.h	196;"	d
+WORK_DIR	scripts/build.mk	/^WORK_DIR  = $(shell pwd)$/;"	m
+WP	src/monitor/sdb/watchpoint.c	/^} WP;$/;"	t	typeref:struct:watchpoint	file:
+YESNO_HEIGTH_MIN	tools/kconfig/lxdialog/dialog.h	193;"	d
+YESNO_WIDTH_MIN	tools/kconfig/lxdialog/dialog.h	194;"	d
+YYABORT	tools/kconfig/build/parser.tab.c	870;"	d	file:
+YYACCEPT	tools/kconfig/build/parser.tab.c	869;"	d	file:
+YYBACKUP	tools/kconfig/build/parser.tab.c	877;"	d	file:
+YYBISON	tools/kconfig/build/parser.tab.c	49;"	d	file:
+YYBISON_VERSION	tools/kconfig/build/parser.tab.c	52;"	d	file:
+YYCOPY	tools/kconfig/build/parser.tab.c	537;"	d	file:
+YYCOPY	tools/kconfig/build/parser.tab.c	540;"	d	file:
+YYCOPY_NEEDED	tools/kconfig/build/parser.tab.c	512;"	d	file:
+YYDEBUG	tools/kconfig/build/parser.tab.h	42;"	d
+YYDPRINTF	tools/kconfig/build/parser.tab.c	1019;"	d	file:
+YYDPRINTF	tools/kconfig/build/parser.tab.c	907;"	d	file:
+YYEMPTY	tools/kconfig/build/parser.tab.h	/^    YYEMPTY = -2,$/;"	e	enum:yytokentype
+YYENOMEM	tools/kconfig/build/parser.tab.c	/^enum { YYENOMEM = -2 };$/;"	e	enum:__anon26	file:
+YYEOF	tools/kconfig/build/parser.tab.h	/^    YYEOF = 0,                     \/* "end of file"  *\/$/;"	e	enum:yytokentype
+YYERRCODE	tools/kconfig/build/parser.tab.c	896;"	d	file:
+YYERROR	tools/kconfig/build/parser.tab.c	871;"	d	file:
+YYFINAL	tools/kconfig/build/parser.tab.c	553;"	d	file:
+YYFPRINTF	tools/kconfig/build/parser.tab.c	904;"	d	file:
+YYFREE	tools/kconfig/build/parser.tab.c	484;"	d	file:
+YYINITDEPTH	tools/kconfig/build/parser.tab.c	1028;"	d	file:
+YYLAST	tools/kconfig/build/parser.tab.c	555;"	d	file:
+YYMALLOC	tools/kconfig/build/parser.tab.c	478;"	d	file:
+YYMAXDEPTH	tools/kconfig/build/parser.tab.c	1039;"	d	file:
+YYMAXUTOK	tools/kconfig/build/parser.tab.c	567;"	d	file:
+YYNNTS	tools/kconfig/build/parser.tab.c	560;"	d	file:
+YYNOMEM	tools/kconfig/build/parser.tab.c	872;"	d	file:
+YYNRULES	tools/kconfig/build/parser.tab.c	562;"	d	file:
+YYNSTATES	tools/kconfig/build/parser.tab.c	564;"	d	file:
+YYNTOKENS	tools/kconfig/build/parser.tab.c	558;"	d	file:
+YYPACT_NINF	tools/kconfig/build/parser.tab.c	674;"	d	file:
+YYPOPSTACK	tools/kconfig/build/parser.tab.c	1152;"	d	file:
+YYPTRDIFF_MAXIMUM	tools/kconfig/build/parser.tab.c	308;"	d	file:
+YYPTRDIFF_MAXIMUM	tools/kconfig/build/parser.tab.c	314;"	d	file:
+YYPTRDIFF_MAXIMUM	tools/kconfig/build/parser.tab.c	317;"	d	file:
+YYPTRDIFF_T	tools/kconfig/build/parser.tab.c	307;"	d	file:
+YYPTRDIFF_T	tools/kconfig/build/parser.tab.c	313;"	d	file:
+YYPTRDIFF_T	tools/kconfig/build/parser.tab.c	316;"	d	file:
+YYPULL	tools/kconfig/build/parser.tab.c	64;"	d	file:
+YYPURE	tools/kconfig/build/parser.tab.c	58;"	d	file:
+YYPUSH	tools/kconfig/build/parser.tab.c	61;"	d	file:
+YYRECOVERING	tools/kconfig/build/parser.tab.c	875;"	d	file:
+YYSIZEOF	tools/kconfig/build/parser.tab.c	340;"	d	file:
+YYSIZE_MAXIMUM	tools/kconfig/build/parser.tab.c	334;"	d	file:
+YYSIZE_T	tools/kconfig/build/parser.tab.c	323;"	d	file:
+YYSIZE_T	tools/kconfig/build/parser.tab.c	325;"	d	file:
+YYSIZE_T	tools/kconfig/build/parser.tab.c	328;"	d	file:
+YYSIZE_T	tools/kconfig/build/parser.tab.c	330;"	d	file:
+YYSKELETON_NAME	tools/kconfig/build/parser.tab.c	55;"	d	file:
+YYSTACK_ALLOC	tools/kconfig/build/parser.tab.c	432;"	d	file:
+YYSTACK_ALLOC	tools/kconfig/build/parser.tab.c	436;"	d	file:
+YYSTACK_ALLOC	tools/kconfig/build/parser.tab.c	441;"	d	file:
+YYSTACK_ALLOC	tools/kconfig/build/parser.tab.c	464;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	tools/kconfig/build/parser.tab.c	461;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	tools/kconfig/build/parser.tab.c	467;"	d	file:
+YYSTACK_BYTES	tools/kconfig/build/parser.tab.c	508;"	d	file:
+YYSTACK_FREE	tools/kconfig/build/parser.tab.c	455;"	d	file:
+YYSTACK_FREE	tools/kconfig/build/parser.tab.c	465;"	d	file:
+YYSTACK_GAP_MAXIMUM	tools/kconfig/build/parser.tab.c	504;"	d	file:
+YYSTACK_RELOCATE	tools/kconfig/build/parser.tab.c	519;"	d	file:
+YYSTATE	tools/kconfig/build/lexer.lex.c	124;"	d	file:
+YYSTYPE	tools/kconfig/build/parser.tab.h	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE	tools/kconfig/build/parser.tab.h	/^union YYSTYPE$/;"	u
+YYSTYPE_IS_DECLARED	tools/kconfig/build/parser.tab.h	129;"	d
+YYSTYPE_IS_TRIVIAL	tools/kconfig/build/parser.tab.h	128;"	d
+YYSYMBOL_T_ALLNOCONFIG_Y	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_ALLNOCONFIG_Y = 6,            \/* T_ALLNOCONFIG_Y  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_AND	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_AND = 45,                     \/* T_AND  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_ASSIGN_VAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_ASSIGN_VAL = 43,              \/* T_ASSIGN_VAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_BOOL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_BOOL = 7,                     \/* T_BOOL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_CHOICE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_CHOICE = 8,                   \/* T_CHOICE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_CLOSE_PAREN	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_CLOSE_PAREN = 9,              \/* T_CLOSE_PAREN  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_COLON_EQUAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_COLON_EQUAL = 10,             \/* T_COLON_EQUAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_COMMENT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_COMMENT = 11,                 \/* T_COMMENT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_CONFIG	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_CONFIG = 12,                  \/* T_CONFIG  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_DEFAULT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_DEFAULT = 13,                 \/* T_DEFAULT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_DEFCONFIG_LIST	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_DEFCONFIG_LIST = 14,          \/* T_DEFCONFIG_LIST  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_DEF_BOOL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_DEF_BOOL = 15,                \/* T_DEF_BOOL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_DEF_TRISTATE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_DEF_TRISTATE = 16,            \/* T_DEF_TRISTATE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_DEPENDS	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_DEPENDS = 17,                 \/* T_DEPENDS  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_ENDCHOICE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_ENDCHOICE = 18,               \/* T_ENDCHOICE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_ENDIF	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_ENDIF = 19,                   \/* T_ENDIF  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_ENDMENU	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_ENDMENU = 20,                 \/* T_ENDMENU  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_EOL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_EOL = 42,                     \/* T_EOL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_EQUAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_EQUAL = 46,                   \/* T_EQUAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_GREATER	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_GREATER = 50,                 \/* T_GREATER  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_GREATER_EQUAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_GREATER_EQUAL = 51,           \/* T_GREATER_EQUAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_HELP	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_HELP = 21,                    \/* T_HELP  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_HELPTEXT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_HELPTEXT = 3,                 \/* T_HELPTEXT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_HEX	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_HEX = 22,                     \/* T_HEX  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_IF	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_IF = 23,                      \/* T_IF  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_IMPLY	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_IMPLY = 24,                   \/* T_IMPLY  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_INT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_INT = 25,                     \/* T_INT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_LESS	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_LESS = 48,                    \/* T_LESS  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_LESS_EQUAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_LESS_EQUAL = 49,              \/* T_LESS_EQUAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_MAINMENU	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_MAINMENU = 26,                \/* T_MAINMENU  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_MENU	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_MENU = 27,                    \/* T_MENU  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_MENUCONFIG	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_MENUCONFIG = 28,              \/* T_MENUCONFIG  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_MODULES	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_MODULES = 29,                 \/* T_MODULES  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_NOT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_NOT = 52,                     \/* T_NOT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_ON	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_ON = 30,                      \/* T_ON  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_OPEN_PAREN	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_OPEN_PAREN = 31,              \/* T_OPEN_PAREN  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_OPTION	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_OPTION = 32,                  \/* T_OPTION  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_OPTIONAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_OPTIONAL = 33,                \/* T_OPTIONAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_OR	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_OR = 44,                      \/* T_OR  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_PLUS_EQUAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_PLUS_EQUAL = 34,              \/* T_PLUS_EQUAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_PROMPT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_PROMPT = 35,                  \/* T_PROMPT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_RANGE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_RANGE = 36,                   \/* T_RANGE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_SELECT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_SELECT = 37,                  \/* T_SELECT  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_SOURCE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_SOURCE = 38,                  \/* T_SOURCE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_STRING	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_STRING = 39,                  \/* T_STRING  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_TRISTATE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_TRISTATE = 40,                \/* T_TRISTATE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_UNEQUAL	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_UNEQUAL = 47,                 \/* T_UNEQUAL  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_VISIBLE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_VISIBLE = 41,                 \/* T_VISIBLE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_WORD	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_WORD = 4,                     \/* T_WORD  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_T_WORD_QUOTE	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_T_WORD_QUOTE = 5,               \/* T_WORD_QUOTE  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_YYACCEPT	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_YYACCEPT = 53,                  \/* $accept  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_YYEMPTY	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_YYEMPTY = -2,$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_YYEOF	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_YYEOF = 0,                      \/* "end of file"  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_YYUNDEF	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_YYUNDEF = 2,                    \/* "invalid token"  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_YYerror	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_YYerror = 1,                    \/* error  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_assign_op	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_assign_op = 98,                 \/* assign_op  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_assign_val	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_assign_val = 99                 \/* assign_val  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_assignment_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_assignment_stmt = 97,           \/* assignment_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_choice	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_choice = 64,                    \/* choice  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_choice_end	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_choice_end = 66,                \/* choice_end  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_choice_entry	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_choice_entry = 65,              \/* choice_entry  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_choice_option	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_choice_option = 69,             \/* choice_option  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_choice_option_list	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_choice_option_list = 68,        \/* choice_option_list  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_choice_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_choice_stmt = 67,               \/* choice_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_comment	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_comment = 83,                   \/* comment  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_comment_option_list	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_comment_option_list = 85,       \/* comment_option_list  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_comment_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_comment_stmt = 84,              \/* comment_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_config_entry_start	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_config_entry_start = 58,        \/* config_entry_start  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_config_option	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_config_option = 63,             \/* config_option  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_config_option_list	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_config_option_list = 62,        \/* config_option_list  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_config_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_config_stmt = 59,               \/* config_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_default	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_default = 72,                   \/* default  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_depends	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_depends = 88,                   \/* depends  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_end	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_end = 91,                       \/* end  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_expr	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_expr = 93,                      \/* expr  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_help	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_help = 87,                      \/* help  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_help_start	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_help_start = 86,                \/* help_start  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_if_end	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_if_end = 74,                    \/* if_end  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_if_entry	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_if_entry = 73,                  \/* if_entry  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_if_expr	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_if_expr = 92,                   \/* if_expr  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_if_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_if_stmt = 75,                   \/* if_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_if_stmt_in_choice	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_if_stmt_in_choice = 76,         \/* if_stmt_in_choice  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_input	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_input = 54,                     \/* input  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_logic_type	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_logic_type = 71,                \/* logic_type  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_mainmenu_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_mainmenu_stmt = 55,             \/* mainmenu_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menu	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menu = 77,                      \/* menu  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menu_end	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menu_end = 79,                  \/* menu_end  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menu_entry	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menu_entry = 78,                \/* menu_entry  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menu_option_list	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menu_option_list = 81,          \/* menu_option_list  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menu_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menu_stmt = 80,                 \/* menu_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menuconfig_entry_start	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menuconfig_entry_start = 60,    \/* menuconfig_entry_start  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_menuconfig_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_menuconfig_stmt = 61,           \/* menuconfig_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_nonconst_symbol	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_nonconst_symbol = 94,           \/* nonconst_symbol  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_prompt_stmt_opt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_prompt_stmt_opt = 90,           \/* prompt_stmt_opt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_source_stmt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_source_stmt = 82,               \/* source_stmt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_stmt_list	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_stmt_list = 56,                 \/* stmt_list  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_stmt_list_in_choice	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_stmt_list_in_choice = 57,       \/* stmt_list_in_choice  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_symbol	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_symbol = 95,                    \/* symbol  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_type	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_type = 70,                      \/* type  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_visible	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_visible = 89,                   \/* visible  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYSYMBOL_word_opt	tools/kconfig/build/parser.tab.c	/^  YYSYMBOL_word_opt = 96,                  \/* word_opt  *\/$/;"	e	enum:yysymbol_kind_t	file:
+YYTABLES_NAME	tools/kconfig/build/lexer.lex.c	4204;"	d	file:
+YYTABLE_NINF	tools/kconfig/build/parser.tab.c	679;"	d	file:
+YYTOKENTYPE	tools/kconfig/build/parser.tab.h	50;"	d
+YYTRANSLATE	tools/kconfig/build/parser.tab.c	572;"	d	file:
+YYUNDEF	tools/kconfig/build/parser.tab.h	/^    YYUNDEF = 257,                 \/* "invalid token"  *\/$/;"	e	enum:yytokentype
+YY_	tools/kconfig/build/parser.tab.c	353;"	d	file:
+YY_	tools/kconfig/build/parser.tab.c	357;"	d	file:
+YY_ACCESSING_SYMBOL	tools/kconfig/build/parser.tab.c	633;"	d	file:
+YY_ASSERT	tools/kconfig/build/parser.tab.c	423;"	d	file:
+YY_ATTRIBUTE_PURE	tools/kconfig/build/parser.tab.c	364;"	d	file:
+YY_ATTRIBUTE_PURE	tools/kconfig/build/parser.tab.c	366;"	d	file:
+YY_ATTRIBUTE_UNUSED	tools/kconfig/build/parser.tab.c	372;"	d	file:
+YY_ATTRIBUTE_UNUSED	tools/kconfig/build/parser.tab.c	374;"	d	file:
+YY_AT_BOL	tools/kconfig/build/lexer.lex.c	342;"	d	file:
+YY_BREAK	tools/kconfig/build/lexer.lex.c	2678;"	d	file:
+YY_BUFFER_EOF_PENDING	tools/kconfig/build/lexer.lex.c	263;"	d	file:
+YY_BUFFER_NEW	tools/kconfig/build/lexer.lex.c	251;"	d	file:
+YY_BUFFER_NORMAL	tools/kconfig/build/lexer.lex.c	252;"	d	file:
+YY_BUFFER_STATE	tools/kconfig/build/lexer.lex.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	tools/kconfig/build/lexer.lex.c	138;"	d	file:
+YY_BUF_SIZE	tools/kconfig/build/lexer.lex.c	140;"	d	file:
+YY_CAST	tools/kconfig/build/parser.tab.c	104;"	d	file:
+YY_CAST	tools/kconfig/build/parser.tab.c	107;"	d	file:
+YY_CHAR	tools/kconfig/build/lexer.lex.c	/^typedef flex_uint8_t YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	tools/kconfig/build/lexer.lex.c	279;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	tools/kconfig/build/lexer.lex.c	285;"	d	file:
+YY_DECL	tools/kconfig/build/lexer.lex.c	2451;"	d	file:
+YY_DECL	tools/kconfig/build/lexer.lex.c	2666;"	d	file:
+YY_DECL_IS_OURS	tools/kconfig/build/lexer.lex.c	2662;"	d	file:
+YY_DO_BEFORE_ACTION	tools/kconfig/build/lexer.lex.c	2338;"	d	file:
+YY_END_OF_BUFFER	tools/kconfig/build/lexer.lex.c	2345;"	d	file:
+YY_END_OF_BUFFER_CHAR	tools/kconfig/build/lexer.lex.c	129;"	d	file:
+YY_EXIT_FAILURE	tools/kconfig/build/lexer.lex.c	3997;"	d	file:
+YY_EXTRA_TYPE	tools/kconfig/build/lexer.lex.c	2531;"	d	file:
+YY_FATAL_ERROR	tools/kconfig/build/lexer.lex.c	2653;"	d	file:
+YY_FLEX_MAJOR_VERSION	tools/kconfig/build/lexer.lex.c	10;"	d	file:
+YY_FLEX_MINOR_VERSION	tools/kconfig/build/lexer.lex.c	11;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	tools/kconfig/build/lexer.lex.c	12;"	d	file:
+YY_FLUSH_BUFFER	tools/kconfig/build/lexer.lex.c	313;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	tools/kconfig/build/parser.tab.c	388;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	tools/kconfig/build/parser.tab.c	392;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	tools/kconfig/build/parser.tab.c	403;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	tools/kconfig/build/parser.tab.c	397;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	tools/kconfig/build/parser.tab.c	404;"	d	file:
+YY_IGNORE_USELESS_CAST_BEGIN	tools/kconfig/build/parser.tab.c	411;"	d	file:
+YY_IGNORE_USELESS_CAST_BEGIN	tools/kconfig/build/parser.tab.c	418;"	d	file:
+YY_IGNORE_USELESS_CAST_END	tools/kconfig/build/parser.tab.c	414;"	d	file:
+YY_IGNORE_USELESS_CAST_END	tools/kconfig/build/parser.tab.c	419;"	d	file:
+YY_INITIAL_VALUE	tools/kconfig/build/parser.tab.c	400;"	d	file:
+YY_INITIAL_VALUE	tools/kconfig/build/parser.tab.c	407;"	d	file:
+YY_INPUT	tools/kconfig/build/lexer.lex.c	2622;"	d	file:
+YY_INT_ALIGNED	tools/kconfig/build/lexer.lex.c	5;"	d	file:
+YY_LESS_LINENO	tools/kconfig/build/lexer.lex.c	173;"	d	file:
+YY_LINENO_REWIND_TO	tools/kconfig/build/lexer.lex.c	180;"	d	file:
+YY_MORE_ADJ	tools/kconfig/build/lexer.lex.c	2430;"	d	file:
+YY_NEW_FILE	tools/kconfig/build/lexer.lex.c	128;"	d	file:
+YY_NULL	tools/kconfig/build/lexer.lex.c	107;"	d	file:
+YY_NULLPTR	tools/kconfig/build/parser.tab.c	114;"	d	file:
+YY_NULLPTR	tools/kconfig/build/parser.tab.c	116;"	d	file:
+YY_NULLPTR	tools/kconfig/build/parser.tab.c	119;"	d	file:
+YY_NUM_RULES	tools/kconfig/build/lexer.lex.c	2344;"	d	file:
+YY_READ_BUF_SIZE	tools/kconfig/build/lexer.lex.c	2604;"	d	file:
+YY_READ_BUF_SIZE	tools/kconfig/build/lexer.lex.c	2606;"	d	file:
+YY_REDUCE_PRINT	tools/kconfig/build/parser.tab.c	1009;"	d	file:
+YY_REDUCE_PRINT	tools/kconfig/build/parser.tab.c	1022;"	d	file:
+YY_REINTERPRET_CAST	tools/kconfig/build/parser.tab.c	105;"	d	file:
+YY_REINTERPRET_CAST	tools/kconfig/build/parser.tab.c	108;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	tools/kconfig/build/lexer.lex.c	2431;"	d	file:
+YY_RULE_SETUP	tools/kconfig/build/lexer.lex.c	2681;"	d	file:
+YY_SC_TO_UI	tools/kconfig/build/lexer.lex.c	112;"	d	file:
+YY_SKIP_YYWRAP	tools/kconfig/build/lexer.lex.c	347;"	d	file:
+YY_STACK_PRINT	tools/kconfig/build/parser.tab.c	1021;"	d	file:
+YY_STACK_PRINT	tools/kconfig/build/parser.tab.c	978;"	d	file:
+YY_START	tools/kconfig/build/lexer.lex.c	123;"	d	file:
+YY_START_STACK_INCR	tools/kconfig/build/lexer.lex.c	2648;"	d	file:
+YY_STATE_BUF_SIZE	tools/kconfig/build/lexer.lex.c	146;"	d	file:
+YY_STATE_EOF	tools/kconfig/build/lexer.lex.c	126;"	d	file:
+YY_STDINT_H	tools/kconfig/build/parser.tab.c	246;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	tools/kconfig/build/lexer.lex.c	204;"	d	file:
+YY_SYMBOL_PRINT	tools/kconfig/build/parser.tab.c	1020;"	d	file:
+YY_SYMBOL_PRINT	tools/kconfig/build/parser.tab.c	916;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	tools/kconfig/build/lexer.lex.c	149;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	tools/kconfig/build/lexer.lex.c	154;"	d	file:
+YY_USE	tools/kconfig/build/parser.tab.c	380;"	d	file:
+YY_USE	tools/kconfig/build/parser.tab.c	382;"	d	file:
+YY_USER_ACTION	tools/kconfig/build/lexer.lex.c	2673;"	d	file:
+YY_YY_BUILD_PARSER_TAB_H_INCLUDED	tools/kconfig/build/parser.tab.h	39;"	d
+YYerror	tools/kconfig/build/parser.tab.h	/^    YYerror = 256,                 \/* error  *\/$/;"	e	enum:yytokentype
+_KEYS	src/device/keyboard.c	25;"	d	file:
+_KEY_NAME	src/device/keyboard.c	34;"	d	file:
+_KEY_NONE	src/device/keyboard.c	/^  _KEY_NONE = 0,$/;"	e	enum:__anon18	file:
+_KEY_NONE	src/device/keyboard.c	74;"	d	file:
+_Log	include/utils.h	70;"	d
+__COMMON_H__	include/common.h	17;"	d
+__COMMON_H__	tools/qemu-diff/include/common.h	17;"	d
+__CPU_CPU_H__	include/cpu/cpu.h	17;"	d
+__CPU_DECODE_H__	include/cpu/decode.h	17;"	d
+__CPU_DIFFTEST_H__	include/cpu/difftest.h	17;"	d
+__DEBUG_H__	include/debug.h	17;"	d
+__DEVICE_ALARM_H__	include/device/alarm.h	17;"	d
+__DEVICE_MAP_H__	include/device/map.h	17;"	d
+__DEVICE_MMIO_H__	include/device/mmio.h	17;"	d
+__DIFFTEST_DEF_H__	include/difftest-def.h	17;"	d
+__IGNORE	include/macro.h	68;"	d
+__ISA_H__	include/isa.h	17;"	d
+__ISA_H__	tools/qemu-diff/include/isa.h	17;"	d
+__ISA_RISCV32_H__	src/isa/riscv32/include/isa-def.h	17;"	d
+__ISA_RISCV64_H__	src/isa/riscv64/include/isa-def.h	17;"	d
+__KEEP	include/macro.h	69;"	d
+__MACRO_H__	include/macro.h	17;"	d
+__MEMORY_HOST_H__	include/memory/host.h	17;"	d
+__MEMORY_PADDR_H__	include/memory/paddr.h	17;"	d
+__MEMORY_VADDR_H__	include/memory/vaddr.h	17;"	d
+__PAD0	src/device/sdcard.c	/^  SDHSTS, __PAD0, __PAD1, __PAD2,$/;"	e	enum:__anon16	file:
+__PAD1	src/device/sdcard.c	/^  SDHSTS, __PAD0, __PAD1, __PAD2,$/;"	e	enum:__anon16	file:
+__PAD10	src/device/sdcard.c	/^  SDDATA, __PAD10, __PAD11, __PAD12,$/;"	e	enum:__anon16	file:
+__PAD11	src/device/sdcard.c	/^  SDDATA, __PAD10, __PAD11, __PAD12,$/;"	e	enum:__anon16	file:
+__PAD12	src/device/sdcard.c	/^  SDDATA, __PAD10, __PAD11, __PAD12,$/;"	e	enum:__anon16	file:
+__PAD2	src/device/sdcard.c	/^  SDHSTS, __PAD0, __PAD1, __PAD2,$/;"	e	enum:__anon16	file:
+__P_DEF_0	include/macro.h	44;"	d
+__P_DEF_1	include/macro.h	45;"	d
+__P_ONE_1	include/macro.h	46;"	d
+__P_ZERO_0	include/macro.h	47;"	d
+__RISCV32_REG_H__	src/isa/riscv32/local-include/reg.h	17;"	d
+__RISCV64_REG_H__	src/isa/riscv64/local-include/reg.h	17;"	d
+__SDB_H__	src/monitor/sdb/sdb.h	17;"	d
+__STDC_LIMIT_MACROS	tools/kconfig/build/lexer.lex.c	40;"	d	file:
+__UTILS_H__	include/utils.h	17;"	d
+__expand_string	tools/kconfig/preprocess.c	/^static char *__expand_string(const char **str, bool (*is_end)(char c),$/;"	f	file:
+__expr_eliminate_eq	tools/kconfig/expr.c	/^static void __expr_eliminate_eq(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+__list_add	tools/kconfig/list.h	/^static inline void __list_add(struct list_head *_new,$/;"	f
+__list_del	tools/kconfig/list.h	/^static inline void __list_del(struct list_head *prev, struct list_head *next)$/;"	f
+_menu_init	tools/kconfig/menu.c	/^void _menu_init(void)$/;"	f
+ack	tools/qemu-diff/src/protocol.c	/^  bool ack;$/;"	m	struct:gdb_conn	file:
+add_alarm_handle	src/device/alarm.c	/^void add_alarm_handle(alarm_handler_t h) {$/;"	f
+add_byte	tools/kconfig/confdata.c	/^static int add_byte(int c, char **lineptr, size_t slen, size_t *n)$/;"	f	file:
+add_mmio_map	src/device/io/mmio.c	/^void add_mmio_map(const char *name, paddr_t addr, void *space, uint32_t len, io_callback_t callback) {$/;"	f
+add_pio_map	src/device/io/port-io.c	/^void add_pio_map(const char *name, ioaddr_t addr, void *space, uint32_t len, io_callback_t callback) {$/;"	f
+addr	src/device/sdcard.c	/^static uint32_t addr = 0;$/;"	v	file:
+alarm_handler_t	include/device/alarm.h	/^typedef void (*alarm_handler_t) ();$/;"	t
+alarm_sig_handler	src/device/alarm.c	/^static void alarm_sig_handler(int signum) {$/;"	f	file:
+alldefconfig	tools/kconfig/conf.c	/^	alldefconfig,$/;"	e	enum:input_mode	file:
+allmodconfig	tools/kconfig/conf.c	/^	allmodconfig,$/;"	e	enum:input_mode	file:
+allnoconfig	tools/kconfig/conf.c	/^	allnoconfig,$/;"	e	enum:input_mode	file:
+alloc_string	tools/kconfig/build/lexer.lex.c	/^static void alloc_string(const char *str, int size)$/;"	f	file:
+alloca	tools/kconfig/build/parser.tab.c	439;"	d	file:
+allyesconfig	tools/kconfig/conf.c	/^	allyesconfig,$/;"	e	enum:input_mode	file:
+am_init_monitor	src/monitor/monitor.c	/^void am_init_monitor() {$/;"	f
+append_expanded_string	tools/kconfig/build/lexer.lex.c	/^static void append_expanded_string(const char *str)$/;"	f	file:
+append_string	tools/kconfig/build/lexer.lex.c	/^static void append_string(const char *str, int size)$/;"	f	file:
+array	tools/qemu-diff/include/isa.h	/^    uint32_t array[77];$/;"	m	struct:isa_gdb_regs::__anon22
+assert_fail_msg	src/cpu/cpu-exec.c	/^void assert_fail_msg() {$/;"	f
+assign_op	tools/kconfig/parser.y	/^assign_op:$/;"	l
+assign_val	tools/kconfig/parser.y	/^assign_val:$/;"	l
+assignment_stmt	tools/kconfig/parser.y	/^assignment_stmt:  T_WORD assign_op assign_val T_EOL	{ variable_add($1, $3, $2); free($1); free($3); }$/;"	l
+atr	tools/kconfig/lxdialog/dialog.h	/^	chtype atr;	\/* Color attribute *\/$/;"	m	struct:dialog_color
+attr_clear	tools/kconfig/lxdialog/util.c	/^void attr_clear(WINDOW * win, int height, int width, chtype attr)$/;"	f
+audio_base	src/device/audio.c	/^static uint32_t *audio_base = NULL;$/;"	v	file:
+audio_io_handler	src/device/audio.c	/^static void audio_io_handler(uint32_t offset, int len, bool is_write) {$/;"	f	file:
+back_lines	tools/kconfig/lxdialog/textbox.c	/^static void back_lines(int n)$/;"	f	file:
+backtitle	tools/kconfig/lxdialog/dialog.h	/^	const char *backtitle;$/;"	m	struct:dialog_info
+badvaddr	tools/qemu-diff/include/isa.h	/^    uint32_t status, lo, hi, badvaddr, cause, pc;$/;"	m	struct:isa_gdb_regs::__anon21
+base	src/device/sdcard.c	/^static uint32_t *base = NULL;$/;"	v	file:
+begin_reached	tools/kconfig/lxdialog/textbox.c	/^static int begin_reached, end_reached, page_length;$/;"	v	file:
+bg	tools/kconfig/lxdialog/dialog.h	/^	int bg;		\/* background *\/$/;"	m	struct:dialog_color
+bin_end	src/am-bin.S	/^bin_end:$/;"	l
+bin_start	src/am-bin.S	/^bin_start:$/;"	l
+blk_addr	src/device/sdcard.c	/^static long blk_addr = 0;$/;"	v	file:
+blkcnt	src/device/sdcard.c	/^static uint32_t blkcnt = 0;$/;"	v	file:
+blocks	resource/sdcard/nemu.c	/^	unsigned int		blocks;		\/* remaining PIO blocks *\/$/;"	m	struct:nemu_host	file:
+boot_time	src/utils/timer.c	/^static uint64_t boot_time = 0;$/;"	v	file:
+border	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+buf	tools/gen-expr/gen-expr.c	/^static char buf[65536] = {};$/;"	v	file:
+buf	tools/kconfig/lxdialog/textbox.c	/^static char *buf;$/;"	v	file:
+buffer	tools/kconfig/build/lexer.lex.c	/^struct buffer {$/;"	s	file:
+build_conf	tools/kconfig/mconf.c	/^static void build_conf(struct menu *menu)$/;"	f	file:
+button_active	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color button_active;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_inactive	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color button_inactive;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_key_active	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color button_key_active;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_key_inactive	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color button_key_inactive;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_label_active	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color button_label_active;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_label_inactive	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color button_label_inactive;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+call_fixdep	scripts/config.mk	/^define call_fixdep$/;"	m
+callback	include/device/map.h	/^  io_callback_t callback;$/;"	m	struct:__anon4
+cause	tools/qemu-diff/include/isa.h	/^    uint32_t status, lo, hi, badvaddr, cause, pc;$/;"	m	struct:isa_gdb_regs::__anon21
+cdebug	tools/kconfig/build/parser.tab.c	/^int cdebug = PRINTD;$/;"	v
+check	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color check;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+check_bound	src/device/io/map.c	/^static void check_bound(IOMap *map, paddr_t addr) {$/;"	f	file:
+check_conf	tools/kconfig/conf.c	/^static void check_conf(struct menu *menu)$/;"	f	file:
+check_parentheses	src/monitor/sdb/expr.c	/^bool check_parentheses(int p,int q){$/;"	f
+check_reg_idx	src/isa/riscv32/local-include/reg.h	/^static inline int check_reg_idx(int idx) {$/;"	f
+check_reg_idx	src/isa/riscv64/local-include/reg.h	/^static inline int check_reg_idx(int idx) {$/;"	f
+check_selected	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color check_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+check_top	tools/kconfig/symbol.c	/^} *check_top;$/;"	v	typeref:struct:dep_stack	file:
+check_x	tools/kconfig/lxdialog/checklist.c	/^static int list_width, check_x, item_x;$/;"	v	file:
+checkregs	src/cpu/difftest/dut.c	/^static void checkregs(CPU_state *ref, vaddr_t pc) {$/;"	f	file:
+child_count	tools/kconfig/mconf.c	/^static int child_count;$/;"	v	file:
+choice	tools/kconfig/parser.y	/^choice: T_CHOICE word_opt T_EOL$/;"	l
+choice_end	tools/kconfig/parser.y	/^choice_end: end$/;"	l
+choice_entry	tools/kconfig/parser.y	/^choice_entry: choice choice_option_list$/;"	l
+choice_option	tools/kconfig/parser.y	/^choice_option: T_DEFAULT nonconst_symbol if_expr T_EOL$/;"	l
+choice_option	tools/kconfig/parser.y	/^choice_option: T_OPTIONAL T_EOL$/;"	l
+choice_option	tools/kconfig/parser.y	/^choice_option: T_PROMPT T_WORD_QUOTE if_expr T_EOL$/;"	l
+choice_option	tools/kconfig/parser.y	/^choice_option: logic_type prompt_stmt_opt T_EOL$/;"	l
+choice_option_list	tools/kconfig/parser.y	/^choice_option_list:$/;"	l
+choice_stmt	tools/kconfig/parser.y	/^choice_stmt: choice_entry stmt_list_in_choice choice_end$/;"	l
+clean-tools	scripts/native.mk	/^clean-tools = $(dir $(shell find .\/tools -maxdepth 2 -mindepth 2 -name "Makefile"))$/;"	m
+clock	resource/sdcard/nemu.c	/^	int			clock;		\/* Current clock speed *\/$/;"	m	struct:nemu_host	file:
+cmd	resource/sdcard/nemu.c	/^	struct mmc_command	*cmd;		\/* Current command *\/$/;"	m	struct:nemu_host	typeref:struct:nemu_host::mmc_command	file:
+cmd_c	src/monitor/sdb/sdb.c	/^static int cmd_c(char *args) {$/;"	f	file:
+cmd_help	src/monitor/sdb/sdb.c	/^static int cmd_help(char *args) {$/;"	f	file:
+cmd_info	src/monitor/sdb/sdb.c	/^static int cmd_info(char *args){$/;"	f	file:
+cmd_p	src/monitor/sdb/sdb.c	/^static int cmd_p(char *args){$/;"	f	file:
+cmd_q	src/monitor/sdb/sdb.c	/^static int cmd_q(char *args) {$/;"	f	file:
+cmd_si	src/monitor/sdb/sdb.c	/^static int cmd_si(char *args){$/;"	f	file:
+cmd_table	src/monitor/sdb/sdb.c	/^} cmd_table [] = {$/;"	v	typeref:struct:__anon19	file:
+cmd_x	src/monitor/sdb/sdb.c	/^static int cmd_x(char *args){$/;"	f	file:
+code_buf	tools/gen-expr/gen-expr.c	/^static char code_buf[65536 + 128] = {}; \/\/ a little larger than `buf`$/;"	v	file:
+code_format	tools/gen-expr/gen-expr.c	/^static char *code_format =$/;"	v	file:
+color_setup	tools/kconfig/lxdialog/util.c	/^static void color_setup(const char *theme)$/;"	f	file:
+comment	tools/kconfig/parser.y	/^comment: T_COMMENT T_WORD_QUOTE T_EOL$/;"	l
+comment_option_list	tools/kconfig/parser.y	/^comment_option_list:$/;"	l
+comment_stmt	tools/kconfig/parser.y	/^comment_stmt: comment comment_option_list$/;"	l
+compat_getline	tools/kconfig/confdata.c	/^static ssize_t compat_getline(char **lineptr, size_t *n, FILE *stream)$/;"	f	file:
+concat	include/macro.h	33;"	d
+concat3	include/macro.h	34;"	d
+concat4	include/macro.h	35;"	d
+concat5	include/macro.h	36;"	d
+concat_temp	include/macro.h	32;"	d
+conf	tools/kconfig/conf.c	/^static void conf(struct menu *menu)$/;"	f	file:
+conf	tools/kconfig/mconf.c	/^static void conf(struct menu *menu, struct menu *active_menu)$/;"	f	file:
+conf_askvalue	tools/kconfig/conf.c	/^static int conf_askvalue(struct symbol *sym, const char *def)$/;"	f	file:
+conf_changed_callback	tools/kconfig/confdata.c	/^static void (*conf_changed_callback)(void);$/;"	v	file:
+conf_choice	tools/kconfig/conf.c	/^static int conf_choice(struct menu *menu)$/;"	f	file:
+conf_choice	tools/kconfig/mconf.c	/^static void conf_choice(struct menu *menu)$/;"	f	file:
+conf_cnt	tools/kconfig/conf.c	/^static int conf_cnt;$/;"	v	file:
+conf_def_mode	tools/kconfig/lkc.h	/^enum conf_def_mode {$/;"	g
+conf_default_message_callback	tools/kconfig/confdata.c	/^static void conf_default_message_callback(const char *s)$/;"	f	file:
+conf_filename	tools/kconfig/confdata.c	/^static const char *conf_filename;$/;"	v	file:
+conf_get_autoconfig_name	tools/kconfig/confdata.c	/^static const char *conf_get_autoconfig_name(void)$/;"	f	file:
+conf_get_changed	tools/kconfig/confdata.c	/^bool conf_get_changed(void)$/;"	f
+conf_get_configname	tools/kconfig/confdata.c	/^const char *conf_get_configname(void)$/;"	f
+conf_lineno	tools/kconfig/confdata.c	/^static int conf_lineno, conf_warnings;$/;"	v	file:
+conf_load	tools/kconfig/mconf.c	/^static void conf_load(void)$/;"	f	file:
+conf_message	tools/kconfig/confdata.c	/^static void conf_message(const char *fmt, ...)$/;"	f	file:
+conf_message_callback	tools/kconfig/confdata.c	/^static void (*conf_message_callback)(const char *s) =$/;"	v	file:
+conf_message_callback	tools/kconfig/mconf.c	/^static void conf_message_callback(const char *s)$/;"	f	file:
+conf_parse	tools/kconfig/build/parser.tab.c	/^void conf_parse(const char *name)$/;"	f
+conf_printer	tools/kconfig/confdata.c	/^struct conf_printer {$/;"	s	file:
+conf_read	tools/kconfig/confdata.c	/^int conf_read(const char *name)$/;"	f
+conf_read_simple	tools/kconfig/confdata.c	/^int conf_read_simple(const char *name, int def)$/;"	f
+conf_rewrite_mod_or_yes	tools/kconfig/confdata.c	/^void conf_rewrite_mod_or_yes(enum conf_def_mode mode)$/;"	f
+conf_save	tools/kconfig/mconf.c	/^static void conf_save(void)$/;"	f	file:
+conf_set_all_new_symbols	tools/kconfig/confdata.c	/^bool conf_set_all_new_symbols(enum conf_def_mode mode)$/;"	f
+conf_set_changed_callback	tools/kconfig/confdata.c	/^void conf_set_changed_callback(void (*fn)(void))$/;"	f
+conf_set_message_callback	tools/kconfig/confdata.c	/^void conf_set_message_callback(void (*fn)(const char *s))$/;"	f
+conf_set_sym_val	tools/kconfig/confdata.c	/^static int conf_set_sym_val(struct symbol *sym, int def, int def_flags, char *p)$/;"	f	file:
+conf_string	tools/kconfig/conf.c	/^static int conf_string(struct menu *menu)$/;"	f	file:
+conf_string	tools/kconfig/mconf.c	/^static void conf_string(struct menu *menu)$/;"	f	file:
+conf_sym	tools/kconfig/conf.c	/^static int conf_sym(struct menu *menu)$/;"	f	file:
+conf_touch_dep	tools/kconfig/confdata.c	/^static int conf_touch_dep(const char *name)$/;"	f	file:
+conf_touch_deps	tools/kconfig/confdata.c	/^static int conf_touch_deps(void)$/;"	f	file:
+conf_usage	tools/kconfig/conf.c	/^static void conf_usage(const char *progname)$/;"	f	file:
+conf_warning	tools/kconfig/confdata.c	/^static void conf_warning(const char *fmt, ...)$/;"	f	file:
+conf_warnings	tools/kconfig/confdata.c	/^static int conf_lineno, conf_warnings;$/;"	v	file:
+conf_write	tools/kconfig/confdata.c	/^int conf_write(const char *name)$/;"	f
+conf_write_autoconf	tools/kconfig/confdata.c	/^int conf_write_autoconf(int overwrite)$/;"	f
+conf_write_defconfig	tools/kconfig/confdata.c	/^int conf_write_defconfig(const char *filename)$/;"	f
+conf_write_dep	tools/kconfig/confdata.c	/^static int conf_write_dep(const char *name)$/;"	f	file:
+conf_write_heading	tools/kconfig/confdata.c	/^conf_write_heading(FILE *fp, struct conf_printer *printer, void *printer_arg)$/;"	f	file:
+conf_write_symbol	tools/kconfig/confdata.c	/^static void conf_write_symbol(FILE *fp, struct symbol *sym,$/;"	f	file:
+config_entry_start	tools/kconfig/parser.y	/^config_entry_start: T_CONFIG nonconst_symbol T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_IMPLY nonconst_symbol if_expr T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_OPTION T_ALLNOCONFIG_Y T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_OPTION T_DEFCONFIG_LIST T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_OPTION T_MODULES T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_PROMPT T_WORD_QUOTE if_expr T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_RANGE symbol symbol if_expr T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: T_SELECT nonconst_symbol if_expr T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: default expr if_expr T_EOL$/;"	l
+config_option	tools/kconfig/parser.y	/^config_option: type prompt_stmt_opt T_EOL$/;"	l
+config_option_list	tools/kconfig/parser.y	/^config_option_list:$/;"	l
+config_stmt	tools/kconfig/parser.y	/^config_stmt: config_entry_start config_option_list$/;"	l
+conn	tools/qemu-diff/src/gdb-host.c	/^static struct gdb_conn *conn;$/;"	v	typeref:struct:gdb_conn	file:
+container_of	tools/kconfig/list.h	19;"	d
+cpu	src/cpu/cpu-exec.c	/^CPU_state cpu = {};$/;"	v
+cpu_exec	src/cpu/cpu-exec.c	/^void cpu_exec(uint64_t n) {$/;"	f
+create_mem	tools/kvm-diff/src/kvm.c	/^static void* create_mem(int slot, uintptr_t base, size_t mem_size) {$/;"	f	file:
+curr	tools/kconfig/expr.h	/^	struct symbol_value curr;$/;"	m	struct:symbol	typeref:struct:symbol::symbol_value
+current_buf	tools/kconfig/build/lexer.lex.c	/^static struct buffer *current_buf;$/;"	v	typeref:struct:buffer	file:
+current_entry	tools/kconfig/build/parser.tab.c	/^static struct menu *current_menu, *current_entry;$/;"	v	typeref:struct:	file:
+current_file	tools/kconfig/menu.c	/^struct file *current_file;$/;"	v	typeref:struct:file
+current_menu	tools/kconfig/build/parser.tab.c	/^static struct menu *current_menu, *current_entry;$/;"	v	typeref:struct:menu	file:
+current_menu	tools/kconfig/mconf.c	/^static struct menu *current_menu;$/;"	v	typeref:struct:menu	file:
+current_pos	tools/kconfig/build/lexer.lex.c	/^} current_pos;$/;"	v	typeref:struct:__anon25	file:
+darrow	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color darrow;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+data	resource/sdcard/nemu.c	/^	struct mmc_data		*data;		\/* Current data request *\/$/;"	m	struct:nemu_host	typeref:struct:nemu_host::mmc_data	file:
+data	tools/kconfig/expr.h	/^	void *data;$/;"	m	struct:menu
+data	tools/kconfig/lxdialog/dialog.h	/^	void *data;	\/* pointer to menu item - used by menubox+checklist *\/$/;"	m	struct:dialog_item
+data_complete	resource/sdcard/nemu.c	/^	bool			data_complete:1;\/* Data finished before cmd *\/$/;"	m	struct:nemu_host	file:
+decode_exec	src/isa/riscv32/inst.c	/^static int decode_exec(Decode *s) {$/;"	f	file:
+decode_exec	src/isa/riscv64/inst.c	/^static int decode_exec(Decode *s) {$/;"	f	file:
+decode_operand	src/isa/riscv32/inst.c	/^static void decode_operand(Decode *s, int *dest, word_t *src1, word_t *src2, word_t *imm, int type) {$/;"	f	file:
+decode_operand	src/isa/riscv64/inst.c	/^static void decode_operand(Decode *s, int *dest, word_t *src1, word_t *src2, word_t *imm, int type) {$/;"	f	file:
+def	tools/kconfig/expr.h	/^	struct symbol_value def[S_DEF_COUNT];$/;"	m	struct:symbol	typeref:struct:symbol::symbol_value
+def_default	tools/kconfig/lkc.h	/^	def_default,$/;"	e	enum:conf_def_mode
+def_m2y	tools/kconfig/lkc.h	/^	def_m2y,$/;"	e	enum:conf_def_mode
+def_mod	tools/kconfig/lkc.h	/^	def_mod,$/;"	e	enum:conf_def_mode
+def_no	tools/kconfig/lkc.h	/^	def_no,$/;"	e	enum:conf_def_mode
+def_random	tools/kconfig/lkc.h	/^	def_random$/;"	e	enum:conf_def_mode
+def_y2m	tools/kconfig/lkc.h	/^	def_y2m,$/;"	e	enum:conf_def_mode
+def_yes	tools/kconfig/lkc.h	/^	def_yes,$/;"	e	enum:conf_def_mode
+default	tools/kconfig/parser.y	/^default:$/;"	l
+defconfig	tools/kconfig/conf.c	/^	defconfig,$/;"	e	enum:input_mode	file:
+define_config	tools/fixdep/fixdep.c	/^static void define_config(const char *name, int len, unsigned int hash)$/;"	f	file:
+dep	tools/kconfig/expr.h	/^	struct expr *dep;$/;"	m	struct:menu	typeref:struct:menu::expr
+dep_stack	tools/kconfig/symbol.c	/^static struct dep_stack {$/;"	s	file:
+dep_stack_insert	tools/kconfig/symbol.c	/^static void dep_stack_insert(struct dep_stack *stack, struct symbol *sym)$/;"	f	file:
+dep_stack_remove	tools/kconfig/symbol.c	/^static void dep_stack_remove(void)$/;"	f	file:
+depends	tools/kconfig/parser.y	/^depends: T_DEPENDS T_ON expr T_EOL$/;"	l
+depfile_path	tools/kconfig/confdata.c	/^static char depfile_path[PATH_MAX];$/;"	v	file:
+depfile_prefix_len	tools/kconfig/confdata.c	/^static size_t depfile_prefix_len;$/;"	v	file:
+description	src/monitor/sdb/sdb.c	/^  const char *description;$/;"	m	struct:__anon19	file:
+dev_raise_intr	src/device/intr.c	/^void dev_raise_intr() {$/;"	f
+device_update	src/device/device.c	/^void device_update() {$/;"	f
+dialog	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color dialog;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+dialog_checklist	tools/kconfig/lxdialog/checklist.c	/^int dialog_checklist(const char *title, const char *prompt, int height,$/;"	f
+dialog_clear	tools/kconfig/lxdialog/util.c	/^void dialog_clear(void)$/;"	f
+dialog_color	tools/kconfig/lxdialog/dialog.h	/^struct dialog_color {$/;"	s
+dialog_info	tools/kconfig/lxdialog/dialog.h	/^struct dialog_info {$/;"	s
+dialog_input_result	tools/kconfig/lxdialog/inputbox.c	/^char dialog_input_result[MAX_LEN + 1];$/;"	v
+dialog_inputbox	tools/kconfig/lxdialog/inputbox.c	/^int dialog_inputbox(const char *title, const char *prompt, int height, int width,$/;"	f
+dialog_item	tools/kconfig/lxdialog/dialog.h	/^struct dialog_item {$/;"	s
+dialog_list	tools/kconfig/lxdialog/dialog.h	/^struct dialog_list {$/;"	s
+dialog_menu	tools/kconfig/lxdialog/menubox.c	/^int dialog_menu(const char *title, const char *prompt,$/;"	f
+dialog_textbox	tools/kconfig/lxdialog/textbox.c	/^int dialog_textbox(const char *title, char *tbuf, int initial_height,$/;"	f
+dialog_yesno	tools/kconfig/lxdialog/yesno.c	/^int dialog_yesno(const char *title, const char *prompt, int height, int width)$/;"	f
+diff_context_t	tools/spike-diff/difftest.cc	/^struct diff_context_t {$/;"	s	file:
+diff_get_regs	tools/spike-diff/difftest.cc	/^void sim_t::diff_get_regs(void* diff_context) {$/;"	f	class:sim_t
+diff_init	tools/spike-diff/difftest.cc	/^void sim_t::diff_init(int port) {$/;"	f	class:sim_t
+diff_memcpy	tools/spike-diff/difftest.cc	/^void sim_t::diff_memcpy(reg_t dest, void* src, size_t n) {$/;"	f	class:sim_t
+diff_set_regs	tools/spike-diff/difftest.cc	/^void sim_t::diff_set_regs(void* diff_context) {$/;"	f	class:sim_t
+diff_so_file	src/monitor/monitor.c	/^static char *diff_so_file = NULL;$/;"	v	file:
+diff_step	tools/spike-diff/difftest.cc	/^void sim_t::diff_step(uint64_t n) {$/;"	f	class:sim_t
+difftest_attach	include/cpu/difftest.h	/^static inline void difftest_attach() {}$/;"	f
+difftest_check_reg	include/cpu/difftest.h	/^static inline bool difftest_check_reg(const char *name, vaddr_t pc, word_t ref, word_t dut) {$/;"	f
+difftest_detach	include/cpu/difftest.h	/^static inline void difftest_detach() {}$/;"	f
+difftest_dm_config	tools/spike-diff/difftest.cc	/^static debug_module_config_t difftest_dm_config = {$/;"	v	file:
+difftest_exec	src/cpu/difftest/ref.c	/^void difftest_exec(uint64_t n) {$/;"	f
+difftest_exec	tools/kvm-diff/src/kvm.c	/^void difftest_exec(uint64_t n) {$/;"	f
+difftest_exec	tools/qemu-diff/src/diff-test.c	/^void difftest_exec(uint64_t n) {$/;"	f
+difftest_exec	tools/spike-diff/difftest.cc	/^void difftest_exec(uint64_t n) {$/;"	f
+difftest_hartids	tools/spike-diff/difftest.cc	/^static std::vector<int> difftest_hartids;$/;"	v	file:
+difftest_htif_args	tools/spike-diff/difftest.cc	/^static std::vector<std::string> difftest_htif_args;$/;"	v	file:
+difftest_init	src/cpu/difftest/ref.c	/^void difftest_init(int port) {$/;"	f
+difftest_init	tools/kvm-diff/src/kvm.c	/^void difftest_init(int port) {$/;"	f
+difftest_init	tools/qemu-diff/src/diff-test.c	/^void difftest_init(int port) {$/;"	f
+difftest_init	tools/spike-diff/difftest.cc	/^void difftest_init(int port) {$/;"	f
+difftest_memcpy	src/cpu/difftest/ref.c	/^void difftest_memcpy(paddr_t addr, void *buf, size_t n, bool direction) {$/;"	f
+difftest_memcpy	tools/kvm-diff/src/kvm.c	/^void difftest_memcpy(paddr_t addr, void *buf, size_t n, bool direction) {$/;"	f
+difftest_memcpy	tools/qemu-diff/src/diff-test.c	/^void difftest_memcpy(paddr_t addr, void *buf, size_t n, bool direction) {$/;"	f
+difftest_memcpy	tools/spike-diff/difftest.cc	/^void difftest_memcpy(paddr_t addr, void *buf, size_t n, bool direction) {$/;"	f
+difftest_plugin_devices	tools/spike-diff/difftest.cc	/^static std::vector<std::pair<reg_t, abstract_device_t*>> difftest_plugin_devices;$/;"	v	file:
+difftest_port	src/monitor/monitor.c	/^static int difftest_port = 1234;$/;"	v	file:
+difftest_raise_intr	src/cpu/difftest/ref.c	/^void difftest_raise_intr(word_t NO) {$/;"	f
+difftest_raise_intr	tools/kvm-diff/src/kvm.c	/^void difftest_raise_intr(word_t NO) {$/;"	f
+difftest_raise_intr	tools/qemu-diff/src/diff-test.c	/^void difftest_raise_intr(uint64_t NO) {$/;"	f
+difftest_raise_intr	tools/spike-diff/difftest.cc	/^void difftest_raise_intr(uint64_t NO) {$/;"	f
+difftest_regcpy	src/cpu/difftest/ref.c	/^void difftest_regcpy(void *dut, bool direction) {$/;"	f
+difftest_regcpy	tools/kvm-diff/src/kvm.c	/^void difftest_regcpy(void *r, bool direction) {$/;"	f
+difftest_regcpy	tools/qemu-diff/src/diff-test.c	/^void difftest_regcpy(void *dut, bool direction) {$/;"	f
+difftest_regcpy	tools/spike-diff/difftest.cc	/^void difftest_regcpy(void* dut, bool direction) {$/;"	f
+difftest_set_patch	include/cpu/difftest.h	/^static inline void difftest_set_patch(void (*fn)(void *arg), void *arg) {}$/;"	f
+difftest_skip_dut	include/cpu/difftest.h	/^static inline void difftest_skip_dut(int nr_ref, int nr_dut) {}$/;"	f
+difftest_skip_dut	src/cpu/difftest/dut.c	/^void difftest_skip_dut(int nr_ref, int nr_dut) {$/;"	f
+difftest_skip_ref	include/cpu/difftest.h	/^static inline void difftest_skip_ref() {}$/;"	f
+difftest_skip_ref	src/cpu/difftest/dut.c	/^void difftest_skip_ref() {$/;"	f
+difftest_step	include/cpu/difftest.h	/^static inline void difftest_step(vaddr_t pc, vaddr_t npc) {}$/;"	f
+difftest_step	src/cpu/difftest/dut.c	/^void difftest_step(vaddr_t pc, vaddr_t npc) {$/;"	f
+dir_dep	tools/kconfig/expr.h	/^	struct expr_value dir_dep;$/;"	m	struct:symbol	typeref:struct:symbol::expr_value
+disassemble	src/utils/disasm.cc	/^extern "C" void disassemble(char *str, int size, uint64_t pc, uint8_t *code, int nbyte) {$/;"	f
+dlg	tools/kconfig/lxdialog/util.c	/^struct dialog_info dlg;$/;"	v	typeref:struct:dialog_info
+dnpc	include/cpu/decode.h	/^  vaddr_t dnpc; \/\/ dynamic next pc$/;"	m	struct:Decode
+do_error_if	tools/kconfig/preprocess.c	/^static char *do_error_if(int argc, char *argv[])$/;"	f	file:
+do_filename	tools/kconfig/preprocess.c	/^static char *do_filename(int argc, char *argv[])$/;"	f	file:
+do_info	tools/kconfig/preprocess.c	/^static char *do_info(int argc, char *argv[])$/;"	f	file:
+do_lineno	tools/kconfig/preprocess.c	/^static char *do_lineno(int argc, char *argv[])$/;"	f	file:
+do_print_item	tools/kconfig/lxdialog/menubox.c	/^static void do_print_item(WINDOW * win, const char *item, int line_y,$/;"	f	file:
+do_scroll	tools/kconfig/lxdialog/menubox.c	/^static void do_scroll(WINDOW *win, int *scroll, int n)$/;"	f	file:
+do_shell	tools/kconfig/preprocess.c	/^static char *do_shell(int argc, char *argv[])$/;"	f	file:
+do_warning_if	tools/kconfig/preprocess.c	/^static char *do_warning_if(int argc, char *argv[])$/;"	f	file:
+draw_box	tools/kconfig/lxdialog/util.c	/^draw_box(WINDOW * win, int y, int x, int height, int width,$/;"	f
+draw_shadow	tools/kconfig/lxdialog/util.c	/^void draw_shadow(WINDOW * win, int y, int x, int height, int width)$/;"	f
+e1	tools/kconfig/expr.c	139;"	d	file:
+e1	tools/kconfig/expr.c	243;"	d	file:
+e1	tools/kconfig/expr.c	598;"	d	file:
+e1	tools/kconfig/expr.c	649;"	d	file:
+e2	tools/kconfig/expr.c	140;"	d	file:
+e2	tools/kconfig/expr.c	244;"	d	file:
+e2	tools/kconfig/expr.c	599;"	d	file:
+e2	tools/kconfig/expr.c	650;"	d	file:
+end	tools/kconfig/parser.y	/^end:	  T_ENDMENU T_EOL	{ $$ = "menu"; }$/;"	l
+end_dialog	tools/kconfig/lxdialog/util.c	/^void end_dialog(int x, int y)$/;"	f
+end_reached	tools/kconfig/lxdialog/textbox.c	/^static int begin_reached, end_reached, page_length;$/;"	v	file:
+engine_start	src/engine/interpreter/init.c	/^void engine_start() {$/;"	f
+entries	tools/kconfig/expr.h	/^	struct list_head entries;$/;"	m	struct:jump_key	typeref:struct:jump_key::list_head
+entries	tools/kconfig/mconf.c	/^	struct list_head entries;$/;"	m	struct:subtitle_part	typeref:struct:subtitle_part::list_head	file:
+entry	tools/kvm-diff/src/kvm.c	/^  uint32_t entry;$/;"	m	struct:vcpu	file:
+env	tools/kconfig/preprocess.c	/^struct env {$/;"	s	file:
+env_add	tools/kconfig/preprocess.c	/^static void env_add(const char *name, const char *value)$/;"	f	file:
+env_del	tools/kconfig/preprocess.c	/^static void env_del(struct env *e)$/;"	f	file:
+env_expand	tools/kconfig/preprocess.c	/^static char *env_expand(const char *name)$/;"	f	file:
+env_write_dep	tools/kconfig/preprocess.c	/^void env_write_dep(FILE *f, const char *autoconfig_name)$/;"	f
+eo	tools/kconfig/symbol.c	/^	off_t		so, eo;$/;"	m	struct:sym_match	file:
+eval	src/monitor/sdb/expr.c	/^int eval(int p,int  q) {$/;"	f
+eval_clause	tools/kconfig/preprocess.c	/^static char *eval_clause(const char *str, size_t len, int argc, char *argv[])$/;"	f	file:
+exec_once	src/cpu/cpu-exec.c	/^static void exec_once(Decode *s, vaddr_t pc) {$/;"	f	file:
+execute	src/cpu/cpu-exec.c	/^static void execute(uint64_t n) {$/;"	f	file:
+exp_count	tools/kconfig/preprocess.c	/^	int exp_count;$/;"	m	struct:variable	file:
+expand_dollar	tools/kconfig/preprocess.c	/^char *expand_dollar(const char **str)$/;"	f
+expand_dollar_with_args	tools/kconfig/preprocess.c	/^static char *expand_dollar_with_args(const char **str, int argc, char *argv[])$/;"	f	file:
+expand_one_token	tools/kconfig/preprocess.c	/^char *expand_one_token(const char **str)$/;"	f
+expand_string	tools/kconfig/preprocess.c	/^static char *expand_string(const char *in)$/;"	f	file:
+expand_string_with_args	tools/kconfig/preprocess.c	/^static char *expand_string_with_args(const char *in, int argc, char *argv[])$/;"	f	file:
+expand_token	tools/kconfig/build/lexer.lex.c	/^static char *expand_token(const char *in, size_t n)$/;"	f	file:
+expr	src/monitor/sdb/expr.c	/^word_t expr(char *e, bool *success) {$/;"	f
+expr	tools/kconfig/build/parser.tab.h	/^	struct expr *expr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::expr
+expr	tools/kconfig/expr.h	/^	struct expr *expr;         \/* the optional conditional part of the property *\/$/;"	m	struct:property	typeref:struct:property::expr
+expr	tools/kconfig/expr.h	/^	struct expr *expr;$/;"	m	struct:expr_value	typeref:struct:expr_value::expr
+expr	tools/kconfig/expr.h	/^	struct expr *expr;$/;"	m	union:expr_data	typeref:struct:expr_data::expr
+expr	tools/kconfig/expr.h	/^struct expr {$/;"	s
+expr	tools/kconfig/parser.y	/^expr:	  symbol				{ $$ = expr_alloc_symbol($1); }$/;"	l
+expr	tools/kconfig/symbol.c	/^	struct expr **expr;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::expr	file:
+expr_alloc_and	tools/kconfig/expr.c	/^struct expr *expr_alloc_and(struct expr *e1, struct expr *e2)$/;"	f
+expr_alloc_comp	tools/kconfig/expr.c	/^struct expr *expr_alloc_comp(enum expr_type type, struct symbol *s1, struct symbol *s2)$/;"	f
+expr_alloc_one	tools/kconfig/expr.c	/^struct expr *expr_alloc_one(enum expr_type type, struct expr *ce)$/;"	f
+expr_alloc_or	tools/kconfig/expr.c	/^struct expr *expr_alloc_or(struct expr *e1, struct expr *e2)$/;"	f
+expr_alloc_symbol	tools/kconfig/expr.c	/^struct expr *expr_alloc_symbol(struct symbol *sym)$/;"	f
+expr_alloc_two	tools/kconfig/expr.c	/^struct expr *expr_alloc_two(enum expr_type type, struct expr *e1, struct expr *e2)$/;"	f
+expr_calc_value	tools/kconfig/expr.c	/^tristate expr_calc_value(struct expr *e)$/;"	f
+expr_compare_type	tools/kconfig/expr.c	/^static int expr_compare_type(enum expr_type t1, enum expr_type t2)$/;"	f	file:
+expr_contains_symbol	tools/kconfig/expr.c	/^int expr_contains_symbol(struct expr *dep, struct symbol *sym)$/;"	f
+expr_copy	tools/kconfig/expr.c	/^struct expr *expr_copy(const struct expr *org)$/;"	f
+expr_data	tools/kconfig/expr.h	/^union expr_data {$/;"	u
+expr_depends_symbol	tools/kconfig/expr.c	/^bool expr_depends_symbol(struct expr *dep, struct symbol *sym)$/;"	f
+expr_eliminate_dups	tools/kconfig/expr.c	/^struct expr *expr_eliminate_dups(struct expr *e)$/;"	f
+expr_eliminate_dups1	tools/kconfig/expr.c	/^static void expr_eliminate_dups1(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+expr_eliminate_eq	tools/kconfig/expr.c	/^void expr_eliminate_eq(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_eliminate_yn	tools/kconfig/expr.c	/^static struct expr *expr_eliminate_yn(struct expr *e)$/;"	f	file:
+expr_eq	tools/kconfig/expr.c	/^int expr_eq(struct expr *e1, struct expr *e2)$/;"	f
+expr_fprint	tools/kconfig/expr.c	/^void expr_fprint(struct expr *e, FILE *out)$/;"	f
+expr_free	tools/kconfig/expr.c	/^void expr_free(struct expr *e)$/;"	f
+expr_gstr_print	tools/kconfig/expr.c	/^void expr_gstr_print(struct expr *e, struct gstr *gs)$/;"	f
+expr_gstr_print_revdep	tools/kconfig/expr.c	/^void expr_gstr_print_revdep(struct expr *e, struct gstr *gs,$/;"	f
+expr_is_no	tools/kconfig/expr.h	/^static inline int expr_is_no(struct expr *e)$/;"	f
+expr_is_yes	tools/kconfig/expr.h	/^static inline int expr_is_yes(struct expr *e)$/;"	f
+expr_join_and	tools/kconfig/expr.c	/^static struct expr *expr_join_and(struct expr *e1, struct expr *e2)$/;"	f	file:
+expr_join_or	tools/kconfig/expr.c	/^static struct expr *expr_join_or(struct expr *e1, struct expr *e2)$/;"	f	file:
+expr_list_for_each_sym	tools/kconfig/expr.h	51;"	d
+expr_parse_string	tools/kconfig/expr.c	/^static enum string_value_kind expr_parse_string(const char *str,$/;"	f	file:
+expr_print	tools/kconfig/expr.c	/^void expr_print(struct expr *e,$/;"	f
+expr_print_file_helper	tools/kconfig/expr.c	/^static void expr_print_file_helper(void *data, struct symbol *sym, const char *str)$/;"	f	file:
+expr_print_gstr_helper	tools/kconfig/expr.c	/^static void expr_print_gstr_helper(void *data, struct symbol *sym, const char *str)$/;"	f	file:
+expr_print_revdep	tools/kconfig/expr.c	/^static void expr_print_revdep(struct expr *e,$/;"	f	file:
+expr_trans_bool	tools/kconfig/expr.c	/^struct expr *expr_trans_bool(struct expr *e)$/;"	f
+expr_trans_compare	tools/kconfig/expr.c	/^struct expr *expr_trans_compare(struct expr *e, enum expr_type type, struct symbol *sym)$/;"	f
+expr_transform	tools/kconfig/expr.c	/^struct expr *expr_transform(struct expr *e)$/;"	f
+expr_type	tools/kconfig/expr.h	/^enum expr_type {$/;"	g
+expr_value	tools/kconfig/expr.h	/^struct expr_value {$/;"	s
+fd	tools/kvm-diff/src/kvm.c	/^  int fd;$/;"	m	struct:vcpu	file:
+fd	tools/kvm-diff/src/kvm.c	/^  int fd;$/;"	m	struct:vm	file:
+fetch_mmio_map	src/device/io/mmio.c	/^static IOMap* fetch_mmio_map(paddr_t addr) {$/;"	f	file:
+fg	tools/kconfig/lxdialog/dialog.h	/^	int fg;		\/* foreground *\/$/;"	m	struct:dialog_color
+file	tools/kconfig/build/lexer.lex.c	/^	struct file *file;$/;"	m	struct:__anon25	typeref:struct:__anon25::file	file:
+file	tools/kconfig/expr.h	/^	struct file *file;         \/* what file was this property defined *\/$/;"	m	struct:property	typeref:struct:property::file
+file	tools/kconfig/expr.h	/^	struct file *file;$/;"	m	struct:menu	typeref:struct:menu::file
+file	tools/kconfig/expr.h	/^struct file {$/;"	s
+file_list	tools/kconfig/menu.c	/^struct file *file_list;$/;"	v	typeref:struct:file
+file_lookup	tools/kconfig/util.c	/^struct file *file_lookup(const char *name)$/;"	f
+filename	tools/kconfig/mconf.c	/^static char filename[PATH_MAX+1];$/;"	v	file:
+find_mapid_by_addr	include/device/map.h	/^static inline int find_mapid_by_addr(IOMap *maps, int size, paddr_t addr) {$/;"	f
+first_alpha	tools/kconfig/lxdialog/util.c	/^int first_alpha(const char *string, const char *exempt)$/;"	f
+first_ts	tools/kconfig/build/lexer.lex.c	/^static int last_ts, first_ts;$/;"	v	file:
+fix_push_sreg	tools/kvm-diff/src/kvm.c	/^static void fix_push_sreg() {$/;"	f	file:
+flags	tools/kconfig/expr.h	/^	int flags;$/;"	m	struct:symbol
+flags	tools/kconfig/expr.h	/^	unsigned int flags;$/;"	m	struct:menu
+flavor	tools/kconfig/build/parser.tab.h	/^	enum variable_flavor flavor;$/;"	m	union:YYSTYPE	typeref:enum:YYSTYPE::variable_flavor
+flavor	tools/kconfig/preprocess.c	/^	enum variable_flavor flavor;$/;"	m	struct:variable	typeref:enum:variable::variable_flavor	file:
+flex_int16_t	tools/kconfig/build/lexer.lex.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	tools/kconfig/build/lexer.lex.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	tools/kconfig/build/lexer.lex.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	tools/kconfig/build/lexer.lex.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	tools/kconfig/build/lexer.lex.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	tools/kconfig/build/lexer.lex.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	tools/kconfig/build/lexer.lex.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	tools/kconfig/build/lexer.lex.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	tools/kconfig/build/lexer.lex.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	tools/kconfig/build/lexer.lex.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	tools/kconfig/build/lexer.lex.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	tools/kconfig/build/lexer.lex.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+for_all_choices	tools/kconfig/expr.h	209;"	d
+for_all_defaults	tools/kconfig/expr.h	208;"	d
+for_all_prompts	tools/kconfig/expr.h	210;"	d
+for_all_properties	tools/kconfig/expr.h	205;"	d
+for_all_symbols	tools/kconfig/expr.h	134;"	d
+fp	src/device/sdcard.c	/^static FILE *fp = NULL;$/;"	v	file:
+free_	src/monitor/sdb/watchpoint.c	/^static WP *head = NULL, *free_ = NULL;$/;"	v	file:
+func	tools/kconfig/preprocess.c	/^	char *(*func)(int argc, char *argv[]);$/;"	m	struct:function	file:
+function	tools/kconfig/preprocess.c	/^struct function {$/;"	s	file:
+function_expand	tools/kconfig/preprocess.c	/^static char *function_expand(const char *name, int argc, char *argv[])$/;"	f	file:
+function_table	tools/kconfig/preprocess.c	/^static const struct function function_table[] = {$/;"	v	typeref:struct:function	file:
+gDisassembler	src/utils/disasm.cc	/^static llvm::MCDisassembler *gDisassembler = nullptr;$/;"	v	file:
+gIP	src/utils/disasm.cc	/^static llvm::MCInstPrinter *gIP = nullptr;$/;"	v	file:
+gSTI	src/utils/disasm.cc	/^static llvm::MCSubtargetInfo *gSTI = nullptr;$/;"	v	file:
+g_nr_guest_inst	src/cpu/cpu-exec.c	/^uint64_t g_nr_guest_inst = 0;$/;"	v
+g_print_step	src/cpu/cpu-exec.c	/^static bool g_print_step = false;$/;"	v	file:
+g_timer	src/cpu/cpu-exec.c	/^static uint64_t g_timer = 0; \/\/ unit: us$/;"	v	file:
+gdb_begin	tools/qemu-diff/src/protocol.c	/^static struct gdb_conn* gdb_begin(int fd) {$/;"	f	file:
+gdb_begin_inet	tools/qemu-diff/src/protocol.c	/^struct gdb_conn* gdb_begin_inet(const char *addr, uint16_t port) {$/;"	f
+gdb_conn	tools/qemu-diff/src/protocol.c	/^struct gdb_conn {$/;"	s	file:
+gdb_connect_qemu	tools/qemu-diff/src/gdb-host.c	/^bool gdb_connect_qemu(int port) {$/;"	f
+gdb_decode_hex	tools/qemu-diff/src/protocol.c	/^uint16_t gdb_decode_hex(uint8_t msb, uint8_t lsb) {$/;"	f
+gdb_decode_hex_str	tools/qemu-diff/src/protocol.c	/^uint64_t gdb_decode_hex_str(uint8_t *bytes) {$/;"	f
+gdb_end	tools/qemu-diff/src/protocol.c	/^void gdb_end(struct gdb_conn *conn) {$/;"	f
+gdb_exit	tools/qemu-diff/src/gdb-host.c	/^void gdb_exit() {$/;"	f
+gdb_getregs	tools/qemu-diff/src/gdb-host.c	/^bool gdb_getregs(union isa_gdb_regs *r) {$/;"	f
+gdb_memcpy_to_qemu	tools/qemu-diff/src/gdb-host.c	/^bool gdb_memcpy_to_qemu(uint32_t dest, void *src, int len) {$/;"	f
+gdb_memcpy_to_qemu_small	tools/qemu-diff/src/gdb-host.c	/^static bool gdb_memcpy_to_qemu_small(uint32_t dest, void *src, int len) {$/;"	f	file:
+gdb_recv	tools/qemu-diff/src/protocol.c	/^uint8_t* gdb_recv(struct gdb_conn *conn, size_t *size) {$/;"	f
+gdb_send	tools/qemu-diff/src/protocol.c	/^void gdb_send(struct gdb_conn *conn, const uint8_t *command, size_t size) {$/;"	f
+gdb_setregs	tools/qemu-diff/src/gdb-host.c	/^bool gdb_setregs(union isa_gdb_regs *r) {$/;"	f
+gdb_si	tools/qemu-diff/src/gdb-host.c	/^bool gdb_si() {$/;"	f
+gdb_start_noack	tools/qemu-diff/src/protocol.c	/^const char* gdb_start_noack(struct gdb_conn *conn) {$/;"	f
+gen_rand_expr	tools/gen-expr/gen-expr.c	/^static void gen_rand_expr() {$/;"	f	file:
+get_def_str	tools/kconfig/menu.c	/^static void get_def_str(struct gstr *r, struct menu *menu)$/;"	f	file:
+get_dep_str	tools/kconfig/menu.c	/^static void get_dep_str(struct gstr *r, struct expr *expr, const char *prefix)$/;"	f	file:
+get_line	tools/kconfig/lxdialog/textbox.c	/^static char *get_line(void)$/;"	f	file:
+get_prompt_str	tools/kconfig/menu.c	/^static void get_prompt_str(struct gstr *r, struct property *prop,$/;"	f	file:
+get_relations_str	tools/kconfig/menu.c	/^struct gstr get_relations_str(struct symbol **sym_arr, struct list_head *head)$/;"	f
+get_symbol_props_str	tools/kconfig/menu.c	/^static void get_symbol_props_str(struct gstr *r, struct symbol *sym,$/;"	f	file:
+get_symbol_str	tools/kconfig/menu.c	/^static void get_symbol_str(struct gstr *r, struct symbol *sym,$/;"	f	file:
+get_time	src/utils/timer.c	/^uint64_t get_time() {$/;"	f
+get_time_internal	src/utils/timer.c	/^static uint64_t get_time_internal() {$/;"	f	file:
+gpr	src/isa/riscv32/include/isa-def.h	/^  word_t gpr[32];$/;"	m	struct:__anon13
+gpr	src/isa/riscv32/local-include/reg.h	26;"	d
+gpr	src/isa/riscv64/include/isa-def.h	/^  word_t gpr[32];$/;"	m	struct:__anon9
+gpr	src/isa/riscv64/local-include/reg.h	26;"	d
+gpr	tools/qemu-diff/include/isa.h	/^    uint32_t gpr[32];$/;"	m	struct:isa_gdb_regs::__anon21
+gpr	tools/spike-diff/difftest.cc	/^  word_t gpr[32];$/;"	m	struct:diff_context_t	file:
+gstr	tools/kconfig/lkc.h	/^struct gstr {$/;"	s
+guest_to_host	src/memory/paddr.c	/^uint8_t* guest_to_host(paddr_t paddr) { return pmem + paddr - CONFIG_MBASE; }$/;"	f
+halt_pc	include/utils.h	/^  vaddr_t halt_pc;$/;"	m	struct:__anon7
+halt_ret	include/utils.h	/^  uint32_t halt_ret;$/;"	m	struct:__anon7
+handle_exit	tools/kconfig/mconf.c	/^static int handle_exit(void)$/;"	f	file:
+handler	src/device/alarm.c	/^static alarm_handler_t handler[MAX_HANDLER] = {};$/;"	v	file:
+handler	src/monitor/sdb/sdb.c	/^  int (*handler) (char *);$/;"	m	struct:__anon19	file:
+has_error_code	tools/kvm-diff/src/kvm.c	/^  int has_error_code;$/;"	m	struct:vcpu	file:
+hash	tools/fixdep/fixdep.c	/^	unsigned int	hash;$/;"	m	struct:item	file:
+hashtab	tools/fixdep/fixdep.c	/^static struct item *hashtab[HASHSZ];$/;"	v	typeref:struct:item	file:
+head	src/monitor/sdb/watchpoint.c	/^static WP *head = NULL, *free_ = NULL;$/;"	v	file:
+head	tools/kconfig/mconf.c	/^	struct list_head *head;$/;"	m	struct:search_data	typeref:struct:search_data::list_head	file:
+header_print_comment	tools/kconfig/confdata.c	/^header_print_comment(FILE *fp, const char *value, void *arg)$/;"	f	file:
+header_print_symbol	tools/kconfig/confdata.c	/^header_print_symbol(FILE *fp, struct symbol *sym, const char *value, void *arg)$/;"	f	file:
+header_printer_cb	tools/kconfig/confdata.c	/^static struct conf_printer header_printer_cb =$/;"	v	typeref:struct:conf_printer	file:
+help	tools/kconfig/expr.h	/^	char *help;$/;"	m	struct:menu
+help	tools/kconfig/parser.y	/^help: help_start T_HELPTEXT$/;"	l
+help_start	tools/kconfig/parser.y	/^help_start: T_HELP T_EOL$/;"	l
+helpnewconfig	tools/kconfig/conf.c	/^	helpnewconfig,$/;"	e	enum:input_mode	file:
+hex_encode	tools/qemu-diff/src/protocol.c	/^uint8_t hex_encode(uint8_t digit) {$/;"	f
+hex_nibble	tools/qemu-diff/src/protocol.c	/^hex_nibble(uint8_t hex) {$/;"	f	file:
+hi	tools/qemu-diff/include/isa.h	/^    uint32_t status, lo, hi, badvaddr, cause, pc;$/;"	m	struct:isa_gdb_regs::__anon21
+high	include/device/map.h	/^  paddr_t high;$/;"	m	struct:__anon4
+hl	tools/kconfig/lxdialog/dialog.h	/^	int hl;		\/* highlight this item *\/$/;"	m	struct:dialog_color
+host_read	include/memory/host.h	/^static inline word_t host_read(void *addr, int len) {$/;"	f
+host_to_guest	src/memory/paddr.c	/^paddr_t host_to_guest(uint8_t *haddr) { return haddr - pmem + CONFIG_MBASE; }$/;"	f
+host_write	include/memory/host.h	/^static inline void host_write(void *addr, int len, word_t data) {$/;"	f
+hscroll	tools/kconfig/lxdialog/textbox.c	/^static int hscroll;$/;"	v	file:
+i8042_data_io_handler	src/device/keyboard.c	/^static void i8042_data_io_handler(uint32_t offset, int len, bool is_write) {$/;"	f	file:
+i8042_data_port_base	src/device/keyboard.c	/^static uint32_t *i8042_data_port_base = NULL;$/;"	v	file:
+idx	src/device/alarm.c	/^static int idx = 0;$/;"	v	file:
+if_end	tools/kconfig/parser.y	/^if_end: end$/;"	l
+if_entry	tools/kconfig/parser.y	/^if_entry: T_IF expr T_EOL$/;"	l
+if_expr	tools/kconfig/parser.y	/^if_expr:  \/* empty *\/			{ $$ = NULL; }$/;"	l
+if_stmt	tools/kconfig/parser.y	/^if_stmt: if_entry stmt_list if_end$/;"	l
+if_stmt_in_choice	tools/kconfig/parser.y	/^if_stmt_in_choice: if_entry stmt_list_in_choice if_end$/;"	l
+img	src/isa/riscv32/init.c	/^static const uint32_t img [] = {$/;"	v	file:
+img	src/isa/riscv64/init.c	/^static const uint32_t img [] = {$/;"	v	file:
+img_file	src/monitor/monitor.c	/^static char *img_file = NULL;$/;"	v	file:
+immI	src/isa/riscv32/inst.c	32;"	d	file:
+immI	src/isa/riscv64/inst.c	32;"	d	file:
+immS	src/isa/riscv32/inst.c	34;"	d	file:
+immS	src/isa/riscv64/inst.c	34;"	d	file:
+immU	src/isa/riscv32/inst.c	33;"	d	file:
+immU	src/isa/riscv64/inst.c	33;"	d	file:
+implied	tools/kconfig/expr.h	/^	struct expr_value implied;$/;"	m	struct:symbol	typeref:struct:symbol::expr_value
+in	tools/qemu-diff/src/protocol.c	/^  FILE *in;$/;"	m	struct:gdb_conn	file:
+in_pmem	include/memory/paddr.h	/^static inline bool in_pmem(paddr_t addr) {$/;"	f
+inc_dependencies	tools/spike-diff/Makefile	/^inc_dependencies = fesvr riscv disasm customext fdt softfloat spike_main spike_dasm build$/;"	m
+indent	tools/kconfig/conf.c	/^static int indent = 1;$/;"	v	file:
+indent	tools/kconfig/mconf.c	/^static int indent;$/;"	v	file:
+index	tools/kconfig/expr.h	/^	int index;$/;"	m	struct:jump_key
+init_alarm	src/device/alarm.c	/^void init_alarm() {$/;"	f
+init_audio	src/device/audio.c	/^void init_audio() {$/;"	f
+init_device	src/device/device.c	/^void init_device() {$/;"	f
+init_dialog	tools/kconfig/lxdialog/util.c	/^int init_dialog(const char *backtitle)$/;"	f
+init_dialog_colors	tools/kconfig/lxdialog/util.c	/^static void init_dialog_colors(void)$/;"	f	file:
+init_difftest	src/cpu/difftest/dut.c	/^void init_difftest(char *ref_so_file, long img_size, int port) { }$/;"	f
+init_difftest	src/cpu/difftest/dut.c	/^void init_difftest(char *ref_so_file, long img_size, int port) {$/;"	f
+init_disasm	src/utils/disasm.cc	/^extern "C" void init_disasm(const char *triple) {$/;"	f
+init_disk	src/device/disk.c	/^void init_disk() {$/;"	f
+init_i8042	src/device/keyboard.c	/^void init_i8042() {$/;"	f
+init_isa	src/isa/riscv32/init.c	/^void init_isa() {$/;"	f
+init_isa	src/isa/riscv64/init.c	/^void init_isa() {$/;"	f
+init_isa	tools/qemu-diff/src/isa.c	/^void init_isa() {$/;"	f
+init_keymap	src/device/keyboard.c	/^static void init_keymap() {$/;"	f	file:
+init_log	src/utils/log.c	/^void init_log(const char *log_file) {$/;"	f
+init_map	src/device/io/map.c	/^void init_map() {$/;"	f
+init_mem	src/memory/paddr.c	/^void init_mem() {$/;"	f
+init_monitor	src/monitor/monitor.c	/^void init_monitor(int argc, char *argv[]) {$/;"	f
+init_one_color	tools/kconfig/lxdialog/util.c	/^static void init_one_color(struct dialog_color *color)$/;"	f	file:
+init_rand	src/utils/rand.c	/^void init_rand() {$/;"	f
+init_regex	src/monitor/sdb/expr.c	/^void init_regex() {$/;"	f
+init_screen	src/device/vga.c	/^static void init_screen() {$/;"	f	file:
+init_screen	src/device/vga.c	/^static void init_screen() {}$/;"	f	file:
+init_sdb	src/monitor/sdb/sdb.c	/^void init_sdb() {$/;"	f
+init_sdcard	src/device/sdcard.c	/^void init_sdcard() {$/;"	f
+init_serial	src/device/serial.c	/^void init_serial() {$/;"	f
+init_timer	src/device/timer.c	/^void init_timer() {$/;"	f
+init_vga	src/device/vga.c	/^void init_vga() {$/;"	f
+init_wp_pool	src/monitor/sdb/watchpoint.c	/^void init_wp_pool() {$/;"	f
+input	tools/kconfig/parser.y	/^input: mainmenu_stmt stmt_list | stmt_list;$/;"	l
+input_mode	tools/kconfig/conf.c	/^enum input_mode {$/;"	g	file:
+input_mode	tools/kconfig/conf.c	/^static enum input_mode input_mode = oldaskconfig;$/;"	v	typeref:enum:input_mode	file:
+inputbox	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color inputbox;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+inputbox_border	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color inputbox_border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+inputbox_instructions_hex	tools/kconfig/mconf.c	/^inputbox_instructions_hex[] =$/;"	v	file:
+inputbox_instructions_int	tools/kconfig/mconf.c	/^inputbox_instructions_int[] =$/;"	v	file:
+inputbox_instructions_string	tools/kconfig/mconf.c	/^inputbox_instructions_string[] =$/;"	v	file:
+inst	src/isa/riscv32/include/isa-def.h	/^  } inst;$/;"	m	struct:__anon14	typeref:union:__anon14::__anon15
+inst	src/isa/riscv64/include/isa-def.h	/^  } inst;$/;"	m	struct:__anon10	typeref:union:__anon10::__anon11
+inst_fetch	include/cpu/ifetch.h	/^static inline uint32_t inst_fetch(vaddr_t *pc, int len) {$/;"	f
+int_wp_state	tools/kvm-diff/src/kvm.c	/^  int int_wp_state;$/;"	m	struct:vcpu	file:
+invalid_inst	src/engine/interpreter/hostcall.c	/^void invalid_inst(vaddr_t thispc) {$/;"	f
+invoke_callback	src/device/io/map.c	/^static void invoke_callback(io_callback_t c, paddr_t offset, int len, bool is_write) {$/;"	f	file:
+io_callback_t	include/device/map.h	/^typedef void(*io_callback_t)(uint32_t, int, bool);$/;"	t
+io_read	include/macro.h	101;"	d
+io_space	src/device/io/map.c	/^static uint8_t *io_space = NULL;$/;"	v	file:
+io_write	include/macro.h	106;"	d
+ioaddr	resource/sdcard/nemu.c	/^	void __iomem		*ioaddr;$/;"	m	struct:nemu_host	file:
+ioaddr_t	include/common.h	/^typedef uint16_t ioaddr_t;$/;"	t
+is_batch_mode	src/monitor/sdb/sdb.c	/^static int is_batch_mode = false;$/;"	v	file:
+is_defined_config	tools/fixdep/fixdep.c	/^static int is_defined_config(const char *name, int len, unsigned int hash)$/;"	f	file:
+is_dir	tools/kconfig/confdata.c	/^static bool is_dir(const char *path)$/;"	f	file:
+is_end_of_str	tools/kconfig/preprocess.c	/^static bool is_end_of_str(char c)$/;"	f	file:
+is_end_of_token	tools/kconfig/preprocess.c	/^static bool is_end_of_token(char c)$/;"	f	file:
+is_exit_status_bad	src/utils/state.c	/^int is_exit_status_bad() {$/;"	f
+is_ignored_file	tools/fixdep/fixdep.c	/^static int is_ignored_file(const char *s, int len)$/;"	f	file:
+is_present	tools/kconfig/confdata.c	/^static bool is_present(const char *path)$/;"	f	file:
+is_same	tools/kconfig/confdata.c	/^static bool is_same(const char *file1, const char *file2)$/;"	f	file:
+is_skip_ref	src/cpu/difftest/dut.c	/^static bool is_skip_ref = false;$/;"	v	file:
+isa	include/cpu/decode.h	/^  ISADecodeInfo isa;$/;"	m	struct:Decode
+isa_difftest_attach	src/isa/riscv32/difftest/dut.c	/^void isa_difftest_attach() {$/;"	f
+isa_difftest_attach	src/isa/riscv64/difftest/dut.c	/^void isa_difftest_attach() {$/;"	f
+isa_difftest_checkregs	src/isa/riscv32/difftest/dut.c	/^bool isa_difftest_checkregs(CPU_state *ref_r, vaddr_t pc) {$/;"	f
+isa_difftest_checkregs	src/isa/riscv64/difftest/dut.c	/^bool isa_difftest_checkregs(CPU_state *ref_r, vaddr_t pc) {$/;"	f
+isa_exec_once	src/isa/riscv32/inst.c	/^int isa_exec_once(Decode *s) {$/;"	f
+isa_exec_once	src/isa/riscv64/inst.c	/^int isa_exec_once(Decode *s) {$/;"	f
+isa_gdb_regs	tools/qemu-diff/include/isa.h	/^union isa_gdb_regs {$/;"	u
+isa_logo	src/isa/riscv32/logo.c	/^unsigned char isa_logo[] = {$/;"	v
+isa_logo	src/isa/riscv64/logo.c	/^unsigned char isa_logo[] = {$/;"	v
+isa_mmu_check	src/isa/riscv32/include/isa-def.h	37;"	d
+isa_mmu_check	src/isa/riscv64/include/isa-def.h	33;"	d
+isa_mmu_translate	src/isa/riscv32/system/mmu.c	/^paddr_t isa_mmu_translate(vaddr_t vaddr, int len, int type) {$/;"	f
+isa_mmu_translate	src/isa/riscv64/system/mmu.c	/^paddr_t isa_mmu_translate(vaddr_t vaddr, int len, int type) {$/;"	f
+isa_query_intr	src/isa/riscv32/system/intr.c	/^word_t isa_query_intr() {$/;"	f
+isa_query_intr	src/isa/riscv64/system/intr.c	/^word_t isa_query_intr() {$/;"	f
+isa_raise_intr	src/isa/riscv32/system/intr.c	/^word_t isa_raise_intr(word_t NO, vaddr_t epc) {$/;"	f
+isa_raise_intr	src/isa/riscv64/system/intr.c	/^word_t isa_raise_intr(word_t NO, vaddr_t epc) {$/;"	f
+isa_reg_display	src/isa/riscv32/reg.c	/^void isa_reg_display() {$/;"	f
+isa_reg_display	src/isa/riscv64/reg.c	/^void isa_reg_display() {$/;"	f
+isa_reg_str2val	src/isa/riscv32/reg.c	/^word_t isa_reg_str2val(const char *s, bool *success) {$/;"	f
+isa_reg_str2val	src/isa/riscv64/reg.c	/^word_t isa_reg_str2val(const char *s, bool *success) {$/;"	f
+isdef	include/macro.h	65;"	d
+item	tools/fixdep/fixdep.c	/^struct item {$/;"	s	file:
+item	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color item;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+item_activate_selected	tools/kconfig/lxdialog/util.c	/^int item_activate_selected(void)$/;"	f
+item_add_str	tools/kconfig/lxdialog/util.c	/^void item_add_str(const char *fmt, ...)$/;"	f
+item_count	tools/kconfig/lxdialog/util.c	/^int item_count(void)$/;"	f
+item_cur	tools/kconfig/lxdialog/util.c	/^struct dialog_list *item_cur;$/;"	v	typeref:struct:dialog_list
+item_data	tools/kconfig/lxdialog/util.c	/^void *item_data(void)$/;"	f
+item_foreach	tools/kconfig/lxdialog/dialog.h	176;"	d
+item_head	tools/kconfig/lxdialog/util.c	/^struct dialog_list *item_head;$/;"	v	typeref:struct:dialog_list
+item_is_selected	tools/kconfig/lxdialog/util.c	/^int item_is_selected(void)$/;"	f
+item_is_tag	tools/kconfig/lxdialog/util.c	/^int item_is_tag(char tag)$/;"	f
+item_make	tools/kconfig/lxdialog/util.c	/^void item_make(const char *fmt, ...)$/;"	f
+item_n	tools/kconfig/lxdialog/util.c	/^int item_n(void)$/;"	f
+item_nil	tools/kconfig/lxdialog/util.c	/^struct dialog_list item_nil;$/;"	v	typeref:struct:dialog_list
+item_reset	tools/kconfig/lxdialog/util.c	/^void item_reset(void)$/;"	f
+item_selected	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color item_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+item_set	tools/kconfig/lxdialog/util.c	/^void item_set(int n)$/;"	f
+item_set_data	tools/kconfig/lxdialog/util.c	/^void item_set_data(void *ptr)$/;"	f
+item_set_selected	tools/kconfig/lxdialog/util.c	/^void item_set_selected(int val)$/;"	f
+item_set_tag	tools/kconfig/lxdialog/util.c	/^void item_set_tag(char tag)$/;"	f
+item_str	tools/kconfig/lxdialog/util.c	/^const char *item_str(void)$/;"	f
+item_tag	tools/kconfig/lxdialog/util.c	/^char item_tag(void)$/;"	f
+item_x	tools/kconfig/lxdialog/checklist.c	/^static int list_width, check_x, item_x;$/;"	v	file:
+item_x	tools/kconfig/lxdialog/menubox.c	/^static int menu_width, item_x;$/;"	v	file:
+jump_key	tools/kconfig/expr.h	/^struct jump_key {$/;"	s
+k_signed	tools/kconfig/expr.c	/^	k_signed,$/;"	e	enum:string_value_kind	file:
+k_string	tools/kconfig/expr.c	/^	k_string,$/;"	e	enum:string_value_kind	file:
+k_unsigned	tools/kconfig/expr.c	/^	k_unsigned,$/;"	e	enum:string_value_kind	file:
+kconfig_print_comment	tools/kconfig/confdata.c	/^kconfig_print_comment(FILE *fp, const char *value, void *arg)$/;"	f	file:
+kconfig_print_symbol	tools/kconfig/confdata.c	/^kconfig_print_symbol(FILE *fp, struct symbol *sym, const char *value, void *arg)$/;"	f	file:
+kconfig_printer_cb	tools/kconfig/confdata.c	/^static struct conf_printer kconfig_printer_cb =$/;"	v	typeref:struct:conf_printer	file:
+key_dequeue	src/device/keyboard.c	/^static uint32_t key_dequeue() {$/;"	f	file:
+key_enqueue	src/device/keyboard.c	/^static void key_enqueue(uint32_t am_scancode) {$/;"	f	file:
+key_f	src/device/keyboard.c	/^static int key_f = 0, key_r = 0;$/;"	v	file:
+key_queue	src/device/keyboard.c	/^static int key_queue[KEY_QUEUE_LEN] = {};$/;"	v	file:
+key_r	src/device/keyboard.c	/^static int key_f = 0, key_r = 0;$/;"	v	file:
+keymap	src/device/keyboard.c	/^static uint32_t keymap[256] = {};$/;"	v	file:
+keys	tools/kconfig/mconf.c	/^	int *keys;$/;"	m	struct:search_data	file:
+kvm_exec	tools/kvm-diff/src/kvm.c	/^static void kvm_exec(uint64_t n) {$/;"	f	file:
+kvm_getsregs	tools/kvm-diff/src/kvm.c	/^static void kvm_getsregs(struct kvm_sregs *r) {$/;"	f	file:
+kvm_run	tools/kvm-diff/src/kvm.c	/^  struct kvm_run *kvm_run;$/;"	m	struct:vcpu	typeref:struct:vcpu::kvm_run	file:
+kvm_set_step_mode	tools/kvm-diff/src/kvm.c	/^static void kvm_set_step_mode(bool watch, uint32_t watch_addr) {$/;"	f	file:
+kvm_setregs	tools/kvm-diff/src/kvm.c	/^static void kvm_setregs(const struct kvm_regs *r) {$/;"	f	file:
+kvm_setsregs	tools/kvm-diff/src/kvm.c	/^static void kvm_setsregs(const struct kvm_sregs *r) {$/;"	f	file:
+last_entry_ptr	tools/kconfig/menu.c	/^static struct menu **last_entry_ptr;$/;"	v	typeref:struct:menu	file:
+last_ts	tools/kconfig/build/lexer.lex.c	/^static int last_ts, first_ts;$/;"	v	file:
+left	tools/kconfig/expr.h	/^	union expr_data left, right;$/;"	m	struct:expr	typeref:union:expr::expr_data
+len	tools/fixdep/fixdep.c	/^	unsigned int	len;$/;"	m	struct:item	file:
+len	tools/kconfig/lkc.h	/^	size_t len;$/;"	m	struct:gstr
+lib_dependencies	tools/spike-diff/Makefile	/^lib_dependencies = libspike_main.a libriscv.a libdisasm.a libsoftfloat.a libfesvr.a libfdt.a$/;"	m
+likely	include/macro.h	96;"	d
+line	tools/kconfig/conf.c	/^static char line[PATH_MAX];$/;"	v	file:
+lineno	tools/kconfig/build/lexer.lex.c	/^	int lineno;$/;"	m	struct:__anon25	file:
+lineno	tools/kconfig/expr.h	/^	int lineno;                \/* what lineno was this property defined *\/$/;"	m	struct:property
+lineno	tools/kconfig/expr.h	/^	int lineno;$/;"	m	struct:file
+lineno	tools/kconfig/expr.h	/^	int lineno;$/;"	m	struct:menu
+list	tools/kconfig/expr.h	/^	struct menu *list;$/;"	m	struct:menu	typeref:struct:menu::menu
+list_add_tail	tools/kconfig/list.h	/^static inline void list_add_tail(struct list_head *_new, struct list_head *head)$/;"	f
+list_del	tools/kconfig/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	tools/kconfig/list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	tools/kconfig/list.h	40;"	d
+list_for_each_entry	tools/kconfig/list.h	49;"	d
+list_for_each_entry_safe	tools/kconfig/list.h	61;"	d
+list_head	tools/kconfig/list.h	/^struct list_head {$/;"	s
+list_width	tools/kconfig/lxdialog/checklist.c	/^static int list_width, check_x, item_x;$/;"	v	file:
+listnewconfig	tools/kconfig/conf.c	/^	listnewconfig,$/;"	e	enum:input_mode	file:
+lo	tools/qemu-diff/include/isa.h	/^    uint32_t status, lo, hi, badvaddr, cause, pc;$/;"	m	struct:isa_gdb_regs::__anon21
+load_config_help	tools/kconfig/mconf.c	/^load_config_help[] =$/;"	v	file:
+load_config_text	tools/kconfig/mconf.c	/^load_config_text[] =$/;"	v	file:
+load_img	src/monitor/monitor.c	/^static long load_img() {$/;"	f	file:
+lock	resource/sdcard/nemu.c	/^	spinlock_t		lock;$/;"	m	struct:nemu_host	file:
+log_enable	src/utils/log.c	/^bool log_enable() {$/;"	f
+log_file	src/monitor/monitor.c	/^static char *log_file = NULL;$/;"	v	file:
+log_fp	src/utils/log.c	/^FILE *log_fp = NULL;$/;"	v
+log_write	include/utils.h	59;"	d
+logic_type	tools/kconfig/parser.y	/^logic_type:$/;"	l
+long_opts	tools/kconfig/conf.c	/^static struct option long_opts[] = {$/;"	v	typeref:struct:option	file:
+low	include/device/map.h	/^  paddr_t low;$/;"	m	struct:__anon4
+macro	include/cpu/decode.h	34;"	d
+macro	include/cpu/decode.h	55;"	d
+macro	include/cpu/decode.h	66;"	d
+macro	include/cpu/decode.h	81;"	d
+macro16	include/cpu/decode.h	50;"	d
+macro2	include/cpu/decode.h	47;"	d
+macro32	include/cpu/decode.h	51;"	d
+macro4	include/cpu/decode.h	48;"	d
+macro64	include/cpu/decode.h	52;"	d
+macro8	include/cpu/decode.h	49;"	d
+main	src/nemu-main.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tools/fixdep/fixdep.c	/^int main(int argc, char *argv[])$/;"	f
+main	tools/gen-expr/gen-expr.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	tools/kconfig/conf.c	/^int main(int ac, char **av)$/;"	f
+main	tools/kconfig/mconf.c	/^int main(int ac, char **av)$/;"	f
+mainmenu_stmt	tools/kconfig/parser.y	/^mainmenu_stmt: T_MAINMENU T_WORD_QUOTE T_EOL$/;"	l
+make_parent_dir	tools/kconfig/confdata.c	/^static int make_parent_dir(const char *path)$/;"	f	file:
+make_token	src/monitor/sdb/expr.c	/^static bool make_token(char *e) {$/;"	f	file:
+map_inside	include/device/map.h	/^static inline bool map_inside(IOMap *map, paddr_t addr) {$/;"	f
+map_read	src/device/io/map.c	/^word_t map_read(paddr_t addr, int len, IOMap *map) {$/;"	f
+map_write	src/device/io/map.c	/^void map_write(paddr_t addr, int len, word_t data, IOMap *map) {$/;"	f
+maps	src/device/io/mmio.c	/^static IOMap maps[NR_MAP] = {};$/;"	v	file:
+maps	src/device/io/port-io.c	/^static IOMap maps[NR_MAP] = {};$/;"	v	file:
+max_args	tools/kconfig/preprocess.c	/^	unsigned int max_args;$/;"	m	struct:function	file:
+max_clk	resource/sdcard/nemu.c	/^	unsigned int		max_clk;	\/* Max possible freq *\/$/;"	m	struct:nemu_host	file:
+max_width	tools/kconfig/lkc.h	/^	int max_width;$/;"	m	struct:gstr
+mbr	tools/kvm-diff/src/kvm.c	/^static const uint8_t mbr[] = {$/;"	v	file:
+mbr	tools/qemu-diff/src/isa.c	/^static uint8_t mbr[] = {$/;"	v	file:
+mconf_readme	tools/kconfig/mconf.c	/^static const char mconf_readme[] =$/;"	v	file:
+mem	tools/kvm-diff/src/kvm.c	/^  uint8_t *mem;$/;"	m	struct:vm	file:
+menu	tools/kconfig/build/parser.tab.h	/^	struct menu *menu;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::menu
+menu	tools/kconfig/expr.h	/^	struct menu *menu;         \/* the menu the property are associated with$/;"	m	struct:property	typeref:struct:property::menu
+menu	tools/kconfig/expr.h	/^struct menu {$/;"	s
+menu	tools/kconfig/parser.y	/^menu: T_MENU T_WORD_QUOTE T_EOL$/;"	l
+menu_add_dep	tools/kconfig/menu.c	/^void menu_add_dep(struct expr *dep)$/;"	f
+menu_add_entry	tools/kconfig/menu.c	/^void menu_add_entry(struct symbol *sym)$/;"	f
+menu_add_expr	tools/kconfig/menu.c	/^void menu_add_expr(enum prop_type type, struct expr *expr, struct expr *dep)$/;"	f
+menu_add_menu	tools/kconfig/menu.c	/^struct menu *menu_add_menu(void)$/;"	f
+menu_add_option_allnoconfig_y	tools/kconfig/menu.c	/^void menu_add_option_allnoconfig_y(void)$/;"	f
+menu_add_option_defconfig_list	tools/kconfig/menu.c	/^void menu_add_option_defconfig_list(void)$/;"	f
+menu_add_option_modules	tools/kconfig/menu.c	/^void menu_add_option_modules(void)$/;"	f
+menu_add_prompt	tools/kconfig/menu.c	/^struct property *menu_add_prompt(enum prop_type type, char *prompt,$/;"	f
+menu_add_prop	tools/kconfig/menu.c	/^static struct property *menu_add_prop(enum prop_type type, struct expr *expr,$/;"	f	file:
+menu_add_symbol	tools/kconfig/menu.c	/^void menu_add_symbol(enum prop_type type, struct symbol *sym, struct expr *dep)$/;"	f
+menu_add_visibility	tools/kconfig/menu.c	/^void menu_add_visibility(struct expr *expr)$/;"	f
+menu_end	tools/kconfig/parser.y	/^menu_end: end$/;"	l
+menu_end_menu	tools/kconfig/menu.c	/^void menu_end_menu(void)$/;"	f
+menu_entry	tools/kconfig/parser.y	/^menu_entry: menu menu_option_list$/;"	l
+menu_finalize	tools/kconfig/menu.c	/^void menu_finalize(struct menu *parent)$/;"	f
+menu_get_ext_help	tools/kconfig/menu.c	/^void menu_get_ext_help(struct menu *menu, struct gstr *help)$/;"	f
+menu_get_help	tools/kconfig/menu.c	/^const char *menu_get_help(struct menu *menu)$/;"	f
+menu_get_parent_menu	tools/kconfig/menu.c	/^struct menu *menu_get_parent_menu(struct menu *menu)$/;"	f
+menu_get_prompt	tools/kconfig/menu.c	/^const char *menu_get_prompt(struct menu *menu)$/;"	f
+menu_get_root_menu	tools/kconfig/menu.c	/^struct menu *menu_get_root_menu(struct menu *menu)$/;"	f
+menu_has_help	tools/kconfig/menu.c	/^bool menu_has_help(struct menu *menu)$/;"	f
+menu_has_prompt	tools/kconfig/menu.c	/^bool menu_has_prompt(struct menu *menu)$/;"	f
+menu_instructions	tools/kconfig/mconf.c	/^menu_instructions[] =$/;"	v	file:
+menu_is_empty	tools/kconfig/menu.c	/^bool menu_is_empty(struct menu *menu)$/;"	f
+menu_is_visible	tools/kconfig/menu.c	/^bool menu_is_visible(struct menu *menu)$/;"	f
+menu_option_list	tools/kconfig/parser.y	/^menu_option_list:$/;"	l
+menu_set_type	tools/kconfig/menu.c	/^void menu_set_type(int type)$/;"	f
+menu_stmt	tools/kconfig/parser.y	/^menu_stmt: menu_entry stmt_list menu_end$/;"	l
+menu_validate_number	tools/kconfig/menu.c	/^static int menu_validate_number(struct symbol *sym, struct symbol *sym2)$/;"	f	file:
+menu_warn	tools/kconfig/menu.c	/^void menu_warn(struct menu *menu, const char *fmt, ...)$/;"	f
+menu_width	tools/kconfig/lxdialog/menubox.c	/^static int menu_width, item_x;$/;"	v	file:
+menubox	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color menubox;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+menubox_border	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color menubox_border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+menuconfig_entry_start	tools/kconfig/parser.y	/^menuconfig_entry_start: T_MENUCONFIG nonconst_symbol T_EOL$/;"	l
+menuconfig_stmt	tools/kconfig/parser.y	/^menuconfig_stmt: menuconfig_entry_start config_option_list$/;"	l
+min_args	tools/kconfig/preprocess.c	/^	unsigned int min_args;$/;"	m	struct:function	file:
+mmc	resource/sdcard/nemu.c	/^	struct mmc_host		*mmc;$/;"	m	struct:nemu_host	typeref:struct:nemu_host::mmc_host	file:
+mmc_driver_type_mask	src/device/mmc.h	437;"	d
+mmio	tools/kvm-diff/src/kvm.c	/^  uint8_t *mmio;$/;"	m	struct:vm	file:
+mmio_read	src/device/io/mmio.c	/^word_t mmio_read(paddr_t addr, int len) {$/;"	f
+mmio_write	src/device/io/mmio.c	/^void mmio_write(paddr_t addr, int len, word_t data) {$/;"	f
+mod	tools/kconfig/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+mod2yesconfig	tools/kconfig/conf.c	/^	mod2yesconfig,$/;"	e	enum:input_mode	file:
+modules_sym	tools/kconfig/symbol.c	/^struct symbol *modules_sym;$/;"	v	typeref:struct:symbol
+modules_val	tools/kconfig/symbol.c	/^static tristate modules_val;$/;"	v	file:
+mrq	resource/sdcard/nemu.c	/^	struct mmc_request	*mrq;		\/* Current request *\/$/;"	m	struct:nemu_host	typeref:struct:nemu_host::mmc_request	file:
+mutex	resource/sdcard/nemu.c	/^	struct mutex		mutex;$/;"	m	struct:nemu_host	typeref:struct:nemu_host::mutex	file:
+name	include/device/map.h	/^  const char *name;$/;"	m	struct:__anon4
+name	src/monitor/sdb/sdb.c	/^  const char *name;$/;"	m	struct:__anon19	file:
+name	tools/fixdep/fixdep.c	/^	char		name[];$/;"	m	struct:item	file:
+name	tools/kconfig/expr.h	/^	char *name;$/;"	m	struct:symbol
+name	tools/kconfig/expr.h	/^	const char *name;$/;"	m	struct:file
+name	tools/kconfig/preprocess.c	/^	char *name;$/;"	m	struct:env	file:
+name	tools/kconfig/preprocess.c	/^	char *name;$/;"	m	struct:variable	file:
+name	tools/kconfig/preprocess.c	/^	const char *name;$/;"	m	struct:function	file:
+nemu_add_host	resource/sdcard/nemu.c	/^static int nemu_add_host(struct nemu_host *host)$/;"	f	file:
+nemu_driver	resource/sdcard/nemu.c	/^module_platform_driver(nemu_driver);$/;"	v
+nemu_driver	resource/sdcard/nemu.c	/^static struct platform_driver nemu_driver = {$/;"	v	typeref:struct:platform_driver	file:
+nemu_finish_command	resource/sdcard/nemu.c	/^static void nemu_finish_command(struct nemu_host *host)$/;"	f	file:
+nemu_finish_data	resource/sdcard/nemu.c	/^static void nemu_finish_data(struct nemu_host *host)$/;"	f	file:
+nemu_finish_request	resource/sdcard/nemu.c	/^static void nemu_finish_request(struct nemu_host *host)$/;"	f	file:
+nemu_host	resource/sdcard/nemu.c	/^struct nemu_host {$/;"	s	file:
+nemu_match	resource/sdcard/nemu.c	/^static const struct of_device_id nemu_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+nemu_ops	resource/sdcard/nemu.c	/^static const struct mmc_host_ops nemu_ops = {$/;"	v	typeref:struct:mmc_host_ops	file:
+nemu_prepare_data	resource/sdcard/nemu.c	/^void nemu_prepare_data(struct nemu_host *host, struct mmc_command *cmd)$/;"	f	file:
+nemu_probe	resource/sdcard/nemu.c	/^static int nemu_probe(struct platform_device *pdev)$/;"	f	file:
+nemu_remove	resource/sdcard/nemu.c	/^static int nemu_remove(struct platform_device *pdev)$/;"	f	file:
+nemu_request	resource/sdcard/nemu.c	/^static void nemu_request(struct mmc_host *mmc, struct mmc_request *mrq)$/;"	f	file:
+nemu_reset	resource/sdcard/nemu.c	/^static void nemu_reset(struct mmc_host *mmc)$/;"	f	file:
+nemu_send_command	resource/sdcard/nemu.c	/^bool nemu_send_command(struct nemu_host *host, struct mmc_command *cmd)$/;"	f	file:
+nemu_set_ios	resource/sdcard/nemu.c	/^static void nemu_set_ios(struct mmc_host *mmc, struct mmc_ios *ios)$/;"	f	file:
+nemu_state	src/utils/state.c	/^NEMUState nemu_state = { .state = NEMU_STOP };$/;"	v
+nemu_transfer_block_pio	resource/sdcard/nemu.c	/^static void nemu_transfer_block_pio(struct nemu_host *host, bool is_read)$/;"	f	file:
+nemu_transfer_complete	resource/sdcard/nemu.c	/^static void nemu_transfer_complete(struct nemu_host *host)$/;"	f	file:
+nemu_transfer_pio	resource/sdcard/nemu.c	/^static void nemu_transfer_pio(struct nemu_host *host)$/;"	f	file:
+new_space	src/device/io/map.c	/^uint8_t* new_space(int size) {$/;"	f
+new_string	tools/kconfig/build/lexer.lex.c	/^static void new_string(void)$/;"	f	file:
+next	src/monitor/sdb/watchpoint.c	/^  struct watchpoint *next;$/;"	m	struct:watchpoint	typeref:struct:watchpoint::watchpoint	file:
+next	tools/fixdep/fixdep.c	/^	struct item	*next;$/;"	m	struct:item	typeref:struct:item::item	file:
+next	tools/kconfig/expr.h	/^	struct file *next;$/;"	m	struct:file	typeref:struct:file::file
+next	tools/kconfig/expr.h	/^	struct menu *next;$/;"	m	struct:menu	typeref:struct:menu::menu
+next	tools/kconfig/expr.h	/^	struct property *next;     \/* next property - null if last *\/$/;"	m	struct:property	typeref:struct:property::property
+next	tools/kconfig/expr.h	/^	struct symbol *next;$/;"	m	struct:symbol	typeref:struct:symbol::symbol
+next	tools/kconfig/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_list *next;$/;"	m	struct:dialog_list	typeref:struct:dialog_list::dialog_list
+next	tools/kconfig/lxdialog/dialog.h	/^	struct subtitle_list *next;$/;"	m	struct:subtitle_list	typeref:struct:subtitle_list::subtitle_list
+next	tools/kconfig/symbol.c	/^	struct dep_stack *prev, *next;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::	file:
+no	tools/kconfig/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+node	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_item node;$/;"	m	struct:dialog_list	typeref:struct:dialog_list::dialog_item
+node	tools/kconfig/preprocess.c	/^	struct list_head node;$/;"	m	struct:env	typeref:struct:env::list_head	file:
+node	tools/kconfig/preprocess.c	/^	struct list_head node;$/;"	m	struct:variable	typeref:struct:variable::list_head	file:
+nohelp_text	tools/kconfig/menu.c	/^static const char nohelp_text[] = "There is no help available for this option.";$/;"	v	file:
+nonconst_symbol	tools/kconfig/parser.y	/^nonconst_symbol: T_WORD { $$ = sym_lookup($1, 0); free($1); };$/;"	l
+nr_map	src/device/io/mmio.c	/^static int nr_map = 0;$/;"	v	file:
+nr_map	src/device/io/port-io.c	/^static int nr_map = 0;$/;"	v	file:
+nr_reg	src/device/audio.c	/^  nr_reg$/;"	e	enum:__anon17	file:
+nr_token	src/monitor/sdb/expr.c	/^static int nr_token __attribute__((used))  = 0;$/;"	v	file:
+obj	tools/kconfig/Makefile	/^obj := build$/;"	m
+offset	tools/kconfig/expr.h	/^	size_t offset;$/;"	m	struct:jump_key
+offsetof	tools/kconfig/list.h	10;"	d
+offsetof	tools/kconfig/list.h	9;"	d
+oldaskconfig	tools/kconfig/conf.c	/^	oldaskconfig,$/;"	e	enum:input_mode	file:
+oldconfig	tools/kconfig/conf.c	/^	oldconfig,$/;"	e	enum:input_mode	file:
+olddefconfig	tools/kconfig/conf.c	/^	olddefconfig,$/;"	e	enum:input_mode	file:
+on_key_esc	tools/kconfig/lxdialog/util.c	/^int on_key_esc(WINDOW *win)$/;"	f
+on_key_resize	tools/kconfig/lxdialog/util.c	/^int on_key_resize(void)$/;"	f
+out	tools/qemu-diff/src/protocol.c	/^  FILE *out;$/;"	m	struct:gdb_conn	file:
+out_of_bound	src/memory/paddr.c	/^static void out_of_bound(paddr_t addr) {$/;"	f	file:
+p	tools/spike-diff/difftest.cc	/^static processor_t *p = NULL;$/;"	v	file:
+p_space	src/device/io/map.c	/^static uint8_t *p_space = NULL;$/;"	v	file:
+paddr_read	src/memory/paddr.c	/^word_t paddr_read(paddr_t addr, int len) {$/;"	f
+paddr_t	include/common.h	/^typedef MUXDEF(PMEM64, uint64_t, uint32_t) paddr_t;$/;"	t
+paddr_t	tools/qemu-diff/include/common.h	/^typedef uint32_t paddr_t;$/;"	t
+paddr_write	src/memory/paddr.c	/^void paddr_write(paddr_t addr, int len, word_t data) {$/;"	f
+page	tools/kconfig/lxdialog/textbox.c	/^static char *page;$/;"	v	file:
+page_length	tools/kconfig/lxdialog/textbox.c	/^static int begin_reached, end_reached, page_length;$/;"	v	file:
+panic	include/debug.h	39;"	d
+parent	tools/kconfig/build/lexer.lex.c	/^	struct buffer *parent;$/;"	m	struct:buffer	typeref:struct:buffer::buffer	file:
+parent	tools/kconfig/expr.h	/^	struct file *parent;$/;"	m	struct:file	typeref:struct:file::file
+parent	tools/kconfig/expr.h	/^	struct menu *parent;$/;"	m	struct:menu	typeref:struct:menu::menu
+parse_args	src/monitor/monitor.c	/^static int parse_args(int argc, char *argv[]) {$/;"	f	file:
+parse_config_file	tools/fixdep/fixdep.c	/^static void parse_config_file(const char *p)$/;"	f	file:
+parse_dep_file	tools/fixdep/fixdep.c	/^static void parse_dep_file(char *m, const char *target)$/;"	f	file:
+patching	tools/kvm-diff/src/kvm.c	/^static int patching() {$/;"	f	file:
+patching_after	tools/kvm-diff/src/kvm.c	/^static void patching_after(uint64_t last_pc) {$/;"	f	file:
+pattern_decode	include/cpu/decode.h	/^static inline void pattern_decode(const char *str, int len,$/;"	f
+pattern_decode_hex	include/cpu/decode.h	/^static inline void pattern_decode_hex(const char *str, int len,$/;"	f
+pc	include/cpu/decode.h	/^  vaddr_t pc;$/;"	m	struct:Decode
+pc	src/isa/riscv32/include/isa-def.h	/^  vaddr_t pc;$/;"	m	struct:__anon13
+pc	src/isa/riscv64/include/isa-def.h	/^  vaddr_t pc;$/;"	m	struct:__anon9
+pc	tools/qemu-diff/include/isa.h	/^    uint32_t status, lo, hi, badvaddr, cause, pc;$/;"	m	struct:isa_gdb_regs::__anon21
+pc	tools/spike-diff/difftest.cc	/^  word_t pc;$/;"	m	struct:diff_context_t	file:
+pdev	resource/sdcard/nemu.c	/^	struct platform_device	*pdev;$/;"	m	struct:nemu_host	typeref:struct:nemu_host::platform_device	file:
+phys_addr	resource/sdcard/nemu.c	/^	u32			phys_addr;$/;"	m	struct:nemu_host	file:
+pio_read	src/device/io/port-io.c	/^uint32_t pio_read(ioaddr_t addr, int len) {$/;"	f
+pio_write	src/device/io/port-io.c	/^void pio_write(ioaddr_t addr, int len, uint32_t data) {$/;"	f
+pmem	src/memory/paddr.c	/^static uint8_t *pmem = NULL;$/;"	v	file:
+pmem_read	src/memory/paddr.c	/^static word_t pmem_read(paddr_t addr, int len) {$/;"	f	file:
+pmem_write	src/memory/paddr.c	/^static void pmem_write(paddr_t addr, int len, word_t data) {$/;"	f	file:
+position_indicator	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color position_indicator;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+pperror	tools/kconfig/preprocess.c	/^static void __attribute__((noreturn)) pperror(const char *format, ...)$/;"	f	file:
+prepare_rw	src/device/sdcard.c	/^static void prepare_rw(int is_write) {$/;"	f	file:
+prev	tools/kconfig/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+prev	tools/kconfig/symbol.c	/^	struct dep_stack *prev, *next;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::dep_stack	file:
+prev_prev_token	tools/kconfig/build/lexer.lex.c	/^static int prev_prev_token = T_EOL;$/;"	v	file:
+prev_token	tools/kconfig/build/lexer.lex.c	/^static int prev_token = T_EOL;$/;"	v	file:
+print_arrows	tools/kconfig/lxdialog/checklist.c	/^static void print_arrows(WINDOW * win, int choice, int item_no, int scroll,$/;"	f	file:
+print_arrows	tools/kconfig/lxdialog/menubox.c	/^static void print_arrows(WINDOW * win, int item_no, int scroll, int y, int x,$/;"	f	file:
+print_autowrap	tools/kconfig/lxdialog/util.c	/^void print_autowrap(WINDOW * win, const char *prompt, int width, int y, int x)$/;"	f
+print_button	tools/kconfig/lxdialog/util.c	/^void print_button(WINDOW * win, const char *label, int y, int x, int selected)$/;"	f
+print_buttons	tools/kconfig/lxdialog/checklist.c	/^static void print_buttons(WINDOW * dialog, int height, int width, int selected)$/;"	f	file:
+print_buttons	tools/kconfig/lxdialog/inputbox.c	/^static void print_buttons(WINDOW * dialog, int height, int width, int selected)$/;"	f	file:
+print_buttons	tools/kconfig/lxdialog/menubox.c	/^static void print_buttons(WINDOW * win, int height, int width, int selected)$/;"	f	file:
+print_buttons	tools/kconfig/lxdialog/yesno.c	/^static void print_buttons(WINDOW * dialog, int height, int width, int selected)$/;"	f	file:
+print_comment	tools/kconfig/confdata.c	/^	void (*print_comment)(FILE *, const char *, void *);$/;"	m	struct:conf_printer	file:
+print_dep	tools/fixdep/fixdep.c	/^static void print_dep(const char *m, int slen, const char *dir)$/;"	f	file:
+print_help	tools/kconfig/conf.c	/^static void print_help(struct menu *menu)$/;"	f	file:
+print_item	tools/kconfig/lxdialog/checklist.c	/^static void print_item(WINDOW * win, int choice, int selected)$/;"	f	file:
+print_item	tools/kconfig/lxdialog/menubox.c	89;"	d	file:
+print_line	tools/kconfig/lxdialog/textbox.c	/^static void print_line(WINDOW * win, int row, int width)$/;"	f	file:
+print_page	tools/kconfig/lxdialog/textbox.c	/^static void print_page(WINDOW *win, int height, int width, update_text_fn$/;"	f	file:
+print_position	tools/kconfig/lxdialog/textbox.c	/^static void print_position(WINDOW * win)$/;"	f	file:
+print_quoted_string	tools/kconfig/build/parser.tab.c	/^static void print_quoted_string(FILE *out, const char *str)$/;"	f	file:
+print_symbol	tools/kconfig/build/parser.tab.c	/^static void print_symbol(FILE *out, struct menu *menu)$/;"	f	file:
+print_symbol	tools/kconfig/confdata.c	/^	void (*print_symbol)(FILE *, struct symbol *, const char *, void *);$/;"	m	struct:conf_printer	file:
+print_title	tools/kconfig/lxdialog/util.c	/^void print_title(WINDOW *dialog, const char *title, int width)$/;"	f
+printd	tools/kconfig/build/parser.tab.c	82;"	d	file:
+prompt	tools/kconfig/expr.h	/^	struct property *prompt;$/;"	m	struct:menu	typeref:struct:menu::property
+prompt_stmt_opt	tools/kconfig/parser.y	/^prompt_stmt_opt:$/;"	l
+prop	tools/kconfig/expr.h	/^	struct property *prop;$/;"	m	struct:symbol	typeref:struct:symbol::property
+prop	tools/kconfig/symbol.c	/^	struct property *prop;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::property	file:
+prop_get_symbol	tools/kconfig/symbol.c	/^struct symbol *prop_get_symbol(struct property *prop)$/;"	f
+prop_get_type_name	tools/kconfig/symbol.c	/^const char *prop_get_type_name(enum prop_type type)$/;"	f
+prop_type	tools/kconfig/expr.h	/^enum prop_type {$/;"	g
+prop_warn	tools/kconfig/menu.c	/^static void prop_warn(struct property *prop, const char *fmt, ...)$/;"	f	file:
+property	tools/kconfig/expr.h	/^struct property {$/;"	s
+radiolist_instructions	tools/kconfig/mconf.c	/^radiolist_instructions[] =$/;"	v	file:
+randconfig	tools/kconfig/conf.c	/^	randconfig,$/;"	e	enum:input_mode	file:
+randomize_choice_values	tools/kconfig/confdata.c	/^static bool randomize_choice_values(struct symbol *csym)$/;"	f	file:
+re	src/monitor/sdb/expr.c	/^static regex_t re[NR_REGEX] = {};$/;"	v	file:
+read_ext_csd	src/device/sdcard.c	/^static bool read_ext_csd = false;$/;"	v	file:
+read_file	tools/fixdep/fixdep.c	/^static void *read_file(const char *filename)$/;"	f	file:
+recv_packet	tools/qemu-diff/src/protocol.c	/^static uint8_t* recv_packet(FILE *in, size_t *ret_size, bool* ret_sum_ok) {$/;"	f	file:
+ref_difftest_exec	src/cpu/difftest/dut.c	/^void (*ref_difftest_exec)(uint64_t n) = NULL;$/;"	v
+ref_difftest_memcpy	src/cpu/difftest/dut.c	/^void (*ref_difftest_memcpy)(paddr_t addr, void *buf, size_t n, bool direction) = NULL;$/;"	v
+ref_difftest_raise_intr	src/cpu/difftest/dut.c	/^void (*ref_difftest_raise_intr)(uint64_t NO) = NULL;$/;"	v
+ref_difftest_regcpy	src/cpu/difftest/dut.c	/^void (*ref_difftest_regcpy)(void *dut, bool direction) = NULL;$/;"	v
+refresh_text_box	tools/kconfig/lxdialog/textbox.c	/^static void refresh_text_box(WINDOW *dialog, WINDOW *box, int boxh, int boxw,$/;"	f	file:
+reg_channels	src/device/audio.c	/^  reg_channels,$/;"	e	enum:__anon17	file:
+reg_count	src/device/audio.c	/^  reg_count,$/;"	e	enum:__anon17	file:
+reg_freq	src/device/audio.c	/^  reg_freq,$/;"	e	enum:__anon17	file:
+reg_init	src/device/audio.c	/^  reg_init,$/;"	e	enum:__anon17	file:
+reg_name	src/isa/riscv32/local-include/reg.h	/^static inline const char* reg_name(int idx, int width) {$/;"	f
+reg_name	src/isa/riscv64/local-include/reg.h	/^static inline const char* reg_name(int idx, int width) {$/;"	f
+reg_samples	src/device/audio.c	/^  reg_samples,$/;"	e	enum:__anon17	file:
+reg_sbuf_size	src/device/audio.c	/^  reg_sbuf_size,$/;"	e	enum:__anon17	file:
+regex	src/monitor/sdb/expr.c	/^  const char *regex;$/;"	m	struct:rule	file:
+regs	src/isa/riscv32/reg.c	/^const char *regs[] = {$/;"	v
+regs	src/isa/riscv64/reg.c	/^const char *regs[] = {$/;"	v
+remove_quote	Makefile	/^remove_quote = $(patsubst "%",%,$(1))$/;"	m
+renderer	src/device/vga.c	/^static SDL_Renderer *renderer = NULL;$/;"	v	file:
+report_mmio_overlap	src/device/io/mmio.c	/^static void report_mmio_overlap(const char *name1, paddr_t l1, paddr_t r1,$/;"	f	file:
+reset_subtitle	tools/kconfig/mconf.c	/^static void reset_subtitle(void)$/;"	f	file:
+restart	src/isa/riscv32/init.c	/^static void restart() {$/;"	f	file:
+restart	src/isa/riscv64/init.c	/^static void restart() {$/;"	f	file:
+rev_dep	tools/kconfig/expr.h	/^	struct expr_value rev_dep;$/;"	m	struct:symbol	typeref:struct:symbol::expr_value
+rewrite_m	tools/kconfig/menu.c	/^static struct expr *rewrite_m(struct expr *e)$/;"	f	file:
+right	tools/kconfig/expr.h	/^	union expr_data left, right;$/;"	m	struct:expr	typeref:union:expr::
+riscv32_CPU_state	src/isa/riscv32/include/isa-def.h	/^} riscv32_CPU_state;$/;"	t	typeref:struct:__anon13
+riscv32_ISADecodeInfo	src/isa/riscv32/include/isa-def.h	/^} riscv32_ISADecodeInfo;$/;"	t	typeref:struct:__anon14
+riscv64_CPU_state	src/isa/riscv64/include/isa-def.h	/^} riscv64_CPU_state;$/;"	t	typeref:struct:__anon9
+riscv64_ISADecodeInfo	src/isa/riscv64/include/isa-def.h	/^} riscv64_ISADecodeInfo;$/;"	t	typeref:struct:__anon10
+rl_gets	src/monitor/sdb/sdb.c	/^static char* rl_gets() {$/;"	f	file:
+rootEntry	tools/kconfig/conf.c	/^static struct menu *rootEntry;$/;"	v	typeref:struct:menu	file:
+rootmenu	tools/kconfig/menu.c	/^struct menu rootmenu;$/;"	v	typeref:struct:menu
+rtc_io_handler	src/device/timer.c	/^static void rtc_io_handler(uint32_t offset, int len, bool is_write) {$/;"	f	file:
+rtc_port_base	src/device/timer.c	/^static uint32_t *rtc_port_base = NULL;$/;"	v	file:
+rule	src/monitor/sdb/expr.c	/^static struct rule {$/;"	s	file:
+rules	src/monitor/sdb/expr.c	/^} rules[] = {$/;"	v	typeref:struct:rule	file:
+run_protected_mode	tools/kvm-diff/src/kvm.c	/^static void run_protected_mode() {$/;"	f	file:
+s	tools/kconfig/expr.c	/^	signed long long s;$/;"	m	union:string_value	file:
+s	tools/kconfig/lkc.h	/^	char  *s;$/;"	m	struct:gstr
+s	tools/spike-diff/difftest.cc	/^static sim_t* s = NULL;$/;"	v	file:
+save_and_exit	tools/kconfig/mconf.c	/^static int save_and_exit;$/;"	v	file:
+save_config_help	tools/kconfig/mconf.c	/^save_config_help[] =$/;"	v	file:
+save_config_text	tools/kconfig/mconf.c	/^save_config_text[] =$/;"	v	file:
+saved_x	tools/kconfig/lxdialog/util.c	/^int saved_x, saved_y;$/;"	v
+saved_y	tools/kconfig/lxdialog/util.c	/^int saved_x, saved_y;$/;"	v
+savedefconfig	tools/kconfig/conf.c	/^	savedefconfig,$/;"	e	enum:input_mode	file:
+sbuf	src/device/audio.c	/^static uint8_t *sbuf = NULL;$/;"	v	file:
+screen	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color screen;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+screen_height	src/device/vga.c	/^static uint32_t screen_height() {$/;"	f	file:
+screen_size	src/device/vga.c	/^static uint32_t screen_size() {$/;"	f	file:
+screen_width	src/device/vga.c	/^static uint32_t screen_width() {$/;"	f	file:
+sdb_mainloop	src/monitor/sdb/sdb.c	/^void sdb_mainloop() {$/;"	f
+sdb_set_batch_mode	src/monitor/sdb/sdb.c	/^void sdb_set_batch_mode() {$/;"	f
+sdcard_handle_cmd	src/device/sdcard.c	/^static void sdcard_handle_cmd(int cmd) {$/;"	f	file:
+sdcard_io_handler	src/device/sdcard.c	/^static void sdcard_io_handler(uint32_t offset, int len, bool is_write) {$/;"	f	file:
+sdl_clear_event_queue	src/device/device.c	/^void sdl_clear_event_queue() {$/;"	f
+search_conf	tools/kconfig/mconf.c	/^static void search_conf(void)$/;"	f	file:
+search_data	tools/kconfig/mconf.c	/^struct search_data {$/;"	s	file:
+search_help	tools/kconfig/mconf.c	/^search_help[] =$/;"	v	file:
+searchbox	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color searchbox;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+searchbox_border	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color searchbox_border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+searchbox_title	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color searchbox_title;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+selected	tools/kconfig/lxdialog/dialog.h	/^	int selected;	\/* Set to 1 by dialog_*() function if selected. *\/$/;"	m	struct:dialog_item
+send_key	src/device/keyboard.c	/^void send_key(uint8_t scancode, bool is_keydown) {$/;"	f
+send_packet	tools/qemu-diff/src/protocol.c	/^static void send_packet(FILE *out, const uint8_t *command, size_t size) {$/;"	f	file:
+serial_base	src/device/serial.c	/^static uint8_t *serial_base = NULL;$/;"	v	file:
+serial_io_handler	src/device/serial.c	/^static void serial_io_handler(uint32_t offset, int len, bool is_write) {$/;"	f	file:
+serial_putc	src/device/serial.c	/^static void serial_putc(char ch) {$/;"	f	file:
+set_all_choice_values	tools/kconfig/confdata.c	/^void set_all_choice_values(struct symbol *csym)$/;"	f
+set_blackbg_theme	tools/kconfig/lxdialog/util.c	/^static void set_blackbg_theme(void)$/;"	f	file:
+set_bluetitle_theme	tools/kconfig/lxdialog/util.c	/^static void set_bluetitle_theme(void)$/;"	f	file:
+set_classic_theme	tools/kconfig/lxdialog/util.c	/^static void set_classic_theme(void)$/;"	f	file:
+set_config_filename	tools/kconfig/mconf.c	/^static void set_config_filename(const char *config_filename)$/;"	f	file:
+set_dialog_backtitle	tools/kconfig/lxdialog/util.c	/^void set_dialog_backtitle(const char *backtitle)$/;"	f
+set_dialog_subtitles	tools/kconfig/lxdialog/util.c	/^void set_dialog_subtitles(struct subtitle_list *subtitles)$/;"	f
+set_mono_theme	tools/kconfig/lxdialog/util.c	/^static void set_mono_theme(void)$/;"	f	file:
+set_nemu_state	src/engine/interpreter/hostcall.c	/^void set_nemu_state(int state, vaddr_t pc, int halt_ret) {$/;"	f
+set_subtitle	tools/kconfig/mconf.c	/^static void set_subtitle(void)$/;"	f	file:
+set_theme	tools/kconfig/lxdialog/util.c	/^static int set_theme(const char *theme)$/;"	f	file:
+setmod_text	tools/kconfig/mconf.c	/^setmod_text[] =$/;"	v	file:
+setup_protected_mode	tools/kvm-diff/src/kvm.c	/^static void setup_protected_mode(struct kvm_sregs *sregs) {$/;"	f	file:
+sg_miter	resource/sdcard/nemu.c	/^	struct sg_mapping_iter	sg_miter;	\/* SG state for PIO *\/$/;"	m	struct:nemu_host	typeref:struct:nemu_host::sg_mapping_iter	file:
+shadow	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color shadow;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+short	tools/kconfig/build/parser.tab.c	235;"	d	file:
+show_all_options	tools/kconfig/mconf.c	/^static int show_all_options;$/;"	v	file:
+show_help	tools/kconfig/mconf.c	/^static void show_help(struct menu *menu)$/;"	f	file:
+show_helptext	tools/kconfig/mconf.c	/^static void show_helptext(const char *title, const char *text)$/;"	f	file:
+show_textbox	tools/kconfig/mconf.c	/^static void show_textbox(const char *title, const char *text, int r, int c)$/;"	f	file:
+show_textbox_ext	tools/kconfig/mconf.c	/^static int show_textbox_ext(const char *title, char *text, int r, int c, int$/;"	f	file:
+sig_handler	tools/kconfig/mconf.c	/^static void sig_handler(int signo)$/;"	f	file:
+silent	scripts/config.mk	/^silent := -s$/;"	m
+silent	tools/kconfig/mconf.c	/^static int silent;$/;"	v	file:
+single_menu_mode	tools/kconfig/mconf.c	/^static int single_menu_mode;$/;"	v	file:
+skip_dut_nr_inst	src/cpu/difftest/dut.c	/^static int skip_dut_nr_inst = 0;$/;"	v	file:
+snpc	include/cpu/decode.h	/^  vaddr_t snpc; \/\/ static next pc$/;"	m	struct:Decode
+so	tools/kconfig/symbol.c	/^	off_t		so, eo;$/;"	m	struct:sym_match	file:
+source_stmt	tools/kconfig/parser.y	/^source_stmt: T_SOURCE T_WORD_QUOTE T_EOL$/;"	l
+space	include/device/map.h	/^  void *space;$/;"	m	struct:__anon4
+src1R	src/isa/riscv32/inst.c	30;"	d	file:
+src1R	src/isa/riscv64/inst.c	30;"	d	file:
+src2R	src/isa/riscv32/inst.c	31;"	d	file:
+src2R	src/isa/riscv64/inst.c	31;"	d	file:
+state	include/utils.h	/^  int state;$/;"	m	struct:__anon7
+state	tools/kconfig/build/lexer.lex.c	/^	YY_BUFFER_STATE state;$/;"	m	struct:buffer	file:
+state	tools/spike-diff/difftest.cc	/^static state_t *state = NULL;$/;"	v	file:
+statistic	src/cpu/cpu-exec.c	/^static void statistic() {$/;"	f	file:
+status	tools/qemu-diff/include/isa.h	/^    uint32_t status, lo, hi, badvaddr, cause, pc;$/;"	m	struct:isa_gdb_regs::__anon21
+stmt_list	tools/kconfig/parser.y	/^stmt_list:$/;"	l
+stmt_list_in_choice	tools/kconfig/parser.y	/^stmt_list_in_choice:$/;"	l
+str	include/macro.h	23;"	d
+str	src/monitor/sdb/expr.c	/^  char str[32];$/;"	m	struct:token	file:
+str	tools/kconfig/lxdialog/dialog.h	/^	char str[MAXITEMSTR];	\/* prompt displayed *\/$/;"	m	struct:dialog_item
+str_append	tools/kconfig/util.c	/^void str_append(struct gstr *gs, const char *s)$/;"	f
+str_ends_with	tools/fixdep/fixdep.c	/^static int str_ends_with(const char *s, int slen, const char *sub)$/;"	f	file:
+str_free	tools/kconfig/util.c	/^void str_free(struct gstr *gs)$/;"	f
+str_get	tools/kconfig/util.c	/^const char *str_get(struct gstr *gs)$/;"	f
+str_new	tools/kconfig/util.c	/^struct gstr str_new(void)$/;"	f
+str_printf	tools/kconfig/util.c	/^void str_printf(struct gstr *gs, const char *fmt, ...)$/;"	f
+str_temp	include/macro.h	22;"	d
+strhash	tools/fixdep/fixdep.c	/^static unsigned int strhash(const char *str, unsigned int sz)$/;"	f	file:
+strhash	tools/kconfig/symbol.c	/^static unsigned strhash(const char *s)$/;"	f	file:
+string	tools/kconfig/build/parser.tab.h	/^	char *string;$/;"	m	union:YYSTYPE
+string_value	tools/kconfig/expr.c	/^union string_value {$/;"	u	file:
+string_value_kind	tools/kconfig/expr.c	/^enum string_value_kind {$/;"	g	file:
+strip	tools/kconfig/conf.c	/^static void strip(char *str)$/;"	f	file:
+subtitle_list	tools/kconfig/lxdialog/dialog.h	/^struct subtitle_list {$/;"	s
+subtitle_part	tools/kconfig/mconf.c	/^struct subtitle_part {$/;"	s	file:
+subtitles	tools/kconfig/lxdialog/dialog.h	/^	struct subtitle_list *subtitles;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::subtitle_list
+subtitles	tools/kconfig/mconf.c	/^static struct subtitle_list *subtitles;$/;"	v	typeref:struct:subtitle_list	file:
+sword_t	include/common.h	/^typedef MUXDEF(CONFIG_ISA64, int64_t, int32_t)  sword_t;$/;"	t
+sym	tools/kconfig/expr.h	/^	struct symbol *sym;$/;"	m	struct:menu	typeref:struct:menu::symbol
+sym	tools/kconfig/expr.h	/^	struct symbol *sym;$/;"	m	union:expr_data	typeref:struct:expr_data::symbol
+sym	tools/kconfig/symbol.c	/^	struct symbol	*sym;$/;"	m	struct:sym_match	typeref:struct:sym_match::symbol	file:
+sym	tools/kconfig/symbol.c	/^	struct symbol *sym;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::symbol	file:
+sym_add_change_count	tools/kconfig/confdata.c	/^void sym_add_change_count(int count)$/;"	f
+sym_calc_choice	tools/kconfig/symbol.c	/^static struct symbol *sym_calc_choice(struct symbol *sym)$/;"	f	file:
+sym_calc_value	tools/kconfig/symbol.c	/^void sym_calc_value(struct symbol *sym)$/;"	f
+sym_calc_visibility	tools/kconfig/symbol.c	/^static void sym_calc_visibility(struct symbol *sym)$/;"	f	file:
+sym_change_count	tools/kconfig/confdata.c	/^static int sym_change_count;$/;"	v	file:
+sym_check_choice_deps	tools/kconfig/symbol.c	/^static struct symbol *sym_check_choice_deps(struct symbol *choice)$/;"	f	file:
+sym_check_deps	tools/kconfig/symbol.c	/^struct symbol *sym_check_deps(struct symbol *sym)$/;"	f
+sym_check_expr_deps	tools/kconfig/symbol.c	/^static struct symbol *sym_check_expr_deps(struct expr *e)$/;"	f	file:
+sym_check_print_recursive	tools/kconfig/symbol.c	/^static void sym_check_print_recursive(struct symbol *last_sym)$/;"	f	file:
+sym_check_prop	tools/kconfig/menu.c	/^static void sym_check_prop(struct symbol *sym)$/;"	f	file:
+sym_check_sym_deps	tools/kconfig/symbol.c	/^static struct symbol *sym_check_sym_deps(struct symbol *sym)$/;"	f	file:
+sym_choice_default	tools/kconfig/symbol.c	/^struct symbol *sym_choice_default(struct symbol *sym)$/;"	f
+sym_clear_all_valid	tools/kconfig/symbol.c	/^void sym_clear_all_valid(void)$/;"	f
+sym_defconfig_list	tools/kconfig/symbol.c	/^struct symbol *sym_defconfig_list;$/;"	v	typeref:struct:symbol
+sym_escape_string_value	tools/kconfig/symbol.c	/^const char *sym_escape_string_value(const char *in)$/;"	f
+sym_find	tools/kconfig/symbol.c	/^struct symbol *sym_find(const char *name)$/;"	f
+sym_get_choice_prop	tools/kconfig/symbol.c	/^struct property *sym_get_choice_prop(struct symbol *sym)$/;"	f
+sym_get_choice_value	tools/kconfig/lkc.h	/^static inline struct symbol *sym_get_choice_value(struct symbol *sym)$/;"	f
+sym_get_default_prop	tools/kconfig/symbol.c	/^static struct property *sym_get_default_prop(struct symbol *sym)$/;"	f	file:
+sym_get_range_prop	tools/kconfig/symbol.c	/^struct property *sym_get_range_prop(struct symbol *sym)$/;"	f
+sym_get_range_val	tools/kconfig/symbol.c	/^static long long sym_get_range_val(struct symbol *sym, int base)$/;"	f	file:
+sym_get_string_default	tools/kconfig/symbol.c	/^const char *sym_get_string_default(struct symbol *sym)$/;"	f
+sym_get_string_value	tools/kconfig/symbol.c	/^const char *sym_get_string_value(struct symbol *sym)$/;"	f
+sym_get_tristate_value	tools/kconfig/lkc.h	/^static inline tristate sym_get_tristate_value(struct symbol *sym)$/;"	f
+sym_get_type	tools/kconfig/symbol.c	/^enum symbol_type sym_get_type(struct symbol *sym)$/;"	f
+sym_has_value	tools/kconfig/lkc.h	/^static inline bool sym_has_value(struct symbol *sym)$/;"	f
+sym_is_changeable	tools/kconfig/symbol.c	/^bool sym_is_changeable(struct symbol *sym)$/;"	f
+sym_is_choice	tools/kconfig/lkc.h	/^static inline bool sym_is_choice(struct symbol *sym)$/;"	f
+sym_is_choice_value	tools/kconfig/lkc.h	/^static inline bool sym_is_choice_value(struct symbol *sym)$/;"	f
+sym_is_optional	tools/kconfig/lkc.h	/^static inline bool sym_is_optional(struct symbol *sym)$/;"	f
+sym_lookup	tools/kconfig/symbol.c	/^struct symbol *sym_lookup(const char *name, int flags)$/;"	f
+sym_match	tools/kconfig/symbol.c	/^struct sym_match {$/;"	s	file:
+sym_re_search	tools/kconfig/symbol.c	/^struct symbol **sym_re_search(const char *pattern)$/;"	f
+sym_rel_comp	tools/kconfig/symbol.c	/^static int sym_rel_comp(const void *sym1, const void *sym2)$/;"	f	file:
+sym_set_all_changed	tools/kconfig/symbol.c	/^static void sym_set_all_changed(void)$/;"	f	file:
+sym_set_change_count	tools/kconfig/confdata.c	/^void sym_set_change_count(int count)$/;"	f
+sym_set_changed	tools/kconfig/symbol.c	/^static void sym_set_changed(struct symbol *sym)$/;"	f	file:
+sym_set_choice_value	tools/kconfig/lkc.h	/^static inline bool sym_set_choice_value(struct symbol *ch, struct symbol *chval)$/;"	f
+sym_set_string_value	tools/kconfig/symbol.c	/^bool sym_set_string_value(struct symbol *sym, const char *newval)$/;"	f
+sym_set_tristate_value	tools/kconfig/symbol.c	/^bool sym_set_tristate_value(struct symbol *sym, tristate val)$/;"	f
+sym_string_valid	tools/kconfig/symbol.c	/^bool sym_string_valid(struct symbol *sym, const char *str)$/;"	f
+sym_string_within_range	tools/kconfig/symbol.c	/^bool sym_string_within_range(struct symbol *sym, const char *str)$/;"	f
+sym_toggle_tristate_value	tools/kconfig/symbol.c	/^tristate sym_toggle_tristate_value(struct symbol *sym)$/;"	f
+sym_tristate_within_range	tools/kconfig/symbol.c	/^bool sym_tristate_within_range(struct symbol *sym, tristate val)$/;"	f
+sym_type_name	tools/kconfig/symbol.c	/^const char *sym_type_name(enum symbol_type type)$/;"	f
+sym_validate_range	tools/kconfig/symbol.c	/^static void sym_validate_range(struct symbol *sym)$/;"	f	file:
+sym_warn_unmet_dep	tools/kconfig/symbol.c	/^static void sym_warn_unmet_dep(struct symbol *sym)$/;"	f	file:
+symbol	tools/kconfig/build/parser.tab.h	/^	struct symbol *symbol;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::symbol
+symbol	tools/kconfig/expr.h	/^struct symbol {$/;"	s
+symbol	tools/kconfig/parser.y	/^symbol:	  nonconst_symbol$/;"	l
+symbol_empty	tools/kconfig/symbol.c	/^static struct symbol symbol_empty = {$/;"	v	typeref:struct:symbol	file:
+symbol_hash	tools/kconfig/build/parser.tab.c	/^struct symbol *symbol_hash[SYMBOL_HASHSIZE];$/;"	v	typeref:struct:symbol
+symbol_mod	tools/kconfig/symbol.c	/^struct symbol symbol_mod = {$/;"	v	typeref:struct:symbol
+symbol_no	tools/kconfig/symbol.c	/^struct symbol symbol_no = {$/;"	v	typeref:struct:symbol
+symbol_type	tools/kconfig/expr.h	/^enum symbol_type {$/;"	g
+symbol_value	tools/kconfig/expr.h	/^struct symbol_value {$/;"	s
+symbol_yes	tools/kconfig/symbol.c	/^struct symbol symbol_yes = {$/;"	v	typeref:struct:symbol
+sync_kconfig	tools/kconfig/conf.c	/^static int sync_kconfig;$/;"	v	file:
+syncconfig	tools/kconfig/conf.c	/^	syncconfig,$/;"	e	enum:input_mode	file:
+sys_fd	tools/kvm-diff/src/kvm.c	/^  int sys_fd;$/;"	m	struct:vm	file:
+tag	tools/kconfig/lxdialog/dialog.h	/^	char tag;$/;"	m	struct:dialog_item
+tag	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color tag;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+tag_key	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color tag_key;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+tag_key_selected	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color tag_key_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+tag_selected	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color tag_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+target	tools/kconfig/expr.h	/^	struct menu *target;$/;"	m	struct:jump_key	typeref:struct:jump_key::menu
+targets	tools/kconfig/mconf.c	/^	struct menu **targets;$/;"	m	struct:search_data	typeref:struct:search_data::menu	file:
+text	tools/kconfig/build/lexer.lex.c	/^static char *text;$/;"	v	file:
+text	tools/kconfig/expr.h	/^	const char *text;          \/* the prompt value - P_PROMPT, P_MENU, P_COMMENT *\/$/;"	m	struct:property
+text	tools/kconfig/lxdialog/dialog.h	/^	const char *text;$/;"	m	struct:subtitle_list
+text	tools/kconfig/mconf.c	/^	const char *text;$/;"	m	struct:subtitle_part	file:
+text_asize	tools/kconfig/build/lexer.lex.c	/^static int text_size, text_asize;$/;"	v	file:
+text_size	tools/kconfig/build/lexer.lex.c	/^static int text_size, text_asize;$/;"	v	file:
+texture	src/device/vga.c	/^static SDL_Texture *texture = NULL;$/;"	v	file:
+timer_intr	src/device/timer.c	/^static void timer_intr() {$/;"	f	file:
+title	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color title;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+token	src/monitor/sdb/expr.c	/^typedef struct token {$/;"	s	file:
+token_type	src/monitor/sdb/expr.c	/^  int token_type;$/;"	m	struct:rule	file:
+tokens	src/monitor/sdb/expr.c	/^static Token tokens[32] __attribute__((used)) = {};$/;"	v	file:
+trace_and_difftest	src/cpu/cpu-exec.c	/^static void trace_and_difftest(Decode *_this, vaddr_t dnpc) {$/;"	f	file:
+trans_count	tools/kconfig/expr.c	/^static int trans_count;$/;"	v	file:
+tri	tools/kconfig/expr.h	/^	tristate tri;$/;"	m	struct:expr_value
+tri	tools/kconfig/expr.h	/^	tristate tri;$/;"	m	struct:symbol_value
+tristate	tools/kconfig/expr.h	/^typedef enum tristate {$/;"	g
+tristate	tools/kconfig/expr.h	/^} tristate;$/;"	t	typeref:enum:tristate
+tty_stdio	tools/kconfig/conf.c	/^static int tty_stdio;$/;"	v	file:
+type	src/monitor/sdb/expr.c	/^  int type;$/;"	m	struct:token	file:
+type	tools/kconfig/build/parser.tab.h	/^	enum symbol_type type;$/;"	m	union:YYSTYPE	typeref:enum:YYSTYPE::symbol_type
+type	tools/kconfig/expr.h	/^	enum expr_type type;$/;"	m	struct:expr	typeref:enum:expr::expr_type
+type	tools/kconfig/expr.h	/^	enum prop_type type;       \/* type of property *\/$/;"	m	struct:property	typeref:enum:property::prop_type
+type	tools/kconfig/expr.h	/^	enum symbol_type type;$/;"	m	struct:symbol	typeref:enum:symbol::symbol_type
+type	tools/kconfig/parser.y	/^type:$/;"	l
+u	tools/kconfig/expr.c	/^	unsigned long long u;$/;"	m	union:string_value	file:
+uarrow	tools/kconfig/lxdialog/dialog.h	/^	struct dialog_color uarrow;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+unlikely	include/macro.h	97;"	d
+unput	tools/kconfig/build/lexer.lex.c	201;"	d	file:
+update_screen	src/device/vga.c	/^static inline void update_screen() {$/;"	f	file:
+update_text	tools/kconfig/mconf.c	/^static void update_text(char *buf, size_t start, size_t end, void *_data)$/;"	f	file:
+update_text_fn	tools/kconfig/lxdialog/dialog.h	/^typedef void (*update_text_fn)(char *buf, size_t start, size_t end, void$/;"	t
+usage	tools/fixdep/fixdep.c	/^static void usage(void)$/;"	f	file:
+use_config	tools/fixdep/fixdep.c	/^static void use_config(const char *m, int slen)$/;"	f	file:
+use_sbc	resource/sdcard/nemu.c	/^	bool			use_sbc:1;	\/* Send CMD23 *\/$/;"	m	struct:nemu_host	file:
+va2pa	tools/kvm-diff/src/kvm.c	/^static uint64_t va2pa(uint64_t va) {$/;"	f	file:
+vaddr_ifetch	src/memory/vaddr.c	/^word_t vaddr_ifetch(vaddr_t addr, int len) {$/;"	f
+vaddr_read	src/memory/vaddr.c	/^word_t vaddr_read(vaddr_t addr, int len) {$/;"	f
+vaddr_t	include/common.h	/^typedef word_t vaddr_t;$/;"	t
+vaddr_write	src/memory/vaddr.c	/^void vaddr_write(vaddr_t addr, int len, word_t data) {$/;"	f
+val	src/isa/riscv32/include/isa-def.h	/^    uint32_t val;$/;"	m	union:__anon14::__anon15
+val	src/isa/riscv64/include/isa-def.h	/^    uint32_t val;$/;"	m	union:__anon10::__anon11
+val	tools/kconfig/expr.h	/^	void *val;$/;"	m	struct:symbol_value
+value	tools/kconfig/preprocess.c	/^	char *value;$/;"	m	struct:env	file:
+value	tools/kconfig/preprocess.c	/^	char *value;$/;"	m	struct:variable	file:
+variable	tools/kconfig/preprocess.c	/^struct variable {$/;"	s	file:
+variable_add	tools/kconfig/preprocess.c	/^void variable_add(const char *name, const char *value,$/;"	f
+variable_all_del	tools/kconfig/preprocess.c	/^void variable_all_del(void)$/;"	f
+variable_del	tools/kconfig/preprocess.c	/^static void variable_del(struct variable *v)$/;"	f	file:
+variable_expand	tools/kconfig/preprocess.c	/^static char *variable_expand(const char *name, int argc, char *argv[])$/;"	f	file:
+variable_flavor	tools/kconfig/lkc_proto.h	/^enum variable_flavor {$/;"	g
+variable_lookup	tools/kconfig/preprocess.c	/^static struct variable *variable_lookup(const char *name)$/;"	f	file:
+vcpu	tools/kvm-diff/src/kvm.c	/^static struct vcpu vcpu;$/;"	v	typeref:struct:vcpu	file:
+vcpu	tools/kvm-diff/src/kvm.c	/^struct vcpu {$/;"	s	file:
+vcpu_init	tools/kvm-diff/src/kvm.c	/^static void vcpu_init() {$/;"	f	file:
+vga_update_screen	src/device/vga.c	/^void vga_update_screen() {$/;"	f
+vgactl_port_base	src/device/vga.c	/^static uint32_t *vgactl_port_base = NULL;$/;"	v	file:
+visibility	tools/kconfig/expr.h	/^	struct expr *visibility;$/;"	m	struct:menu	typeref:struct:menu::expr
+visible	tools/kconfig/expr.h	/^	struct expr_value visible;$/;"	m	struct:property	typeref:struct:property::expr_value
+visible	tools/kconfig/expr.h	/^	tristate visible;$/;"	m	struct:symbol
+visible	tools/kconfig/parser.y	/^visible: T_VISIBLE if_expr T_EOL$/;"	l
+vm	tools/kvm-diff/src/kvm.c	/^static struct vm vm;$/;"	v	typeref:struct:vm	file:
+vm	tools/kvm-diff/src/kvm.c	/^struct vm {$/;"	s	file:
+vm_init	tools/kvm-diff/src/kvm.c	/^static void vm_init(size_t mem_size) {$/;"	f	file:
+vmem	src/device/vga.c	/^static void *vmem = NULL;$/;"	v	file:
+warn_ignored_character	tools/kconfig/build/lexer.lex.c	/^static void warn_ignored_character(char chr)$/;"	f	file:
+watchpoint	src/monitor/sdb/watchpoint.c	/^typedef struct watchpoint {$/;"	s	file:
+wbkgdset	tools/kconfig/lxdialog/dialog.h	31;"	d
+wbkgdset	tools/kconfig/lxdialog/dialog.h	32;"	d
+welcome	src/monitor/monitor.c	/^static void welcome() {$/;"	f	file:
+word_opt	tools/kconfig/parser.y	/^word_opt: \/* empty *\/			{ $$ = NULL; }$/;"	l
+word_t	include/common.h	/^typedef MUXDEF(CONFIG_ISA64, uint64_t, uint32_t) word_t;$/;"	t
+wp_pool	src/monitor/sdb/watchpoint.c	/^static WP wp_pool[NR_WP] = {};$/;"	v	file:
+write_cmd	src/device/sdcard.c	/^static bool write_cmd = 0;$/;"	v	file:
+xcalloc	tools/kconfig/util.c	/^void *xcalloc(size_t nmemb, size_t size)$/;"	f
+xfgets	tools/kconfig/conf.c	/^static void xfgets(char *str, int size, FILE *in)$/;"	f	file:
+xfwrite	tools/kconfig/lkc.h	/^static inline void xfwrite(const void *str, size_t len, size_t count, FILE *out)$/;"	f
+xmalloc	tools/kconfig/util.c	/^void *xmalloc(size_t size)$/;"	f
+xprintf	tools/fixdep/fixdep.c	/^static void xprintf(const char *format, ...)$/;"	f	file:
+xputchar	tools/fixdep/fixdep.c	/^static void xputchar(int c)$/;"	f	file:
+xrealloc	tools/kconfig/util.c	/^void *xrealloc(void *p, size_t size)$/;"	f
+xstrdup	tools/kconfig/util.c	/^char *xstrdup(const char *s)$/;"	f
+xstrndup	tools/kconfig/util.c	/^char *xstrndup(const char *s, size_t n)$/;"	f
+yes	tools/kconfig/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+yes2modconfig	tools/kconfig/conf.c	/^	yes2modconfig,$/;"	e	enum:input_mode	file:
+yy_accept	tools/kconfig/build/lexer.lex.c	/^static const flex_int16_t yy_accept[231] =$/;"	v	file:
+yy_at_bol	tools/kconfig/build/lexer.lex.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_bs_column	tools/kconfig/build/lexer.lex.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	tools/kconfig/build/lexer.lex.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	tools/kconfig/build/lexer.lex.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	tools/kconfig/build/lexer.lex.c	/^	int yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	tools/kconfig/build/lexer.lex.c	/^static YY_BUFFER_STATE * yy_buffer_stack = NULL; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	tools/kconfig/build/lexer.lex.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	tools/kconfig/build/lexer.lex.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	tools/kconfig/build/lexer.lex.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	tools/kconfig/build/lexer.lex.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	tools/kconfig/build/lexer.lex.c	/^static char *yy_c_buf_p = NULL;$/;"	v	file:
+yy_ch_buf	tools/kconfig/build/lexer.lex.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_create_buffer	tools/kconfig/build/lexer.lex.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_delete_buffer	tools/kconfig/build/lexer.lex.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	tools/kconfig/build/lexer.lex.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	tools/kconfig/build/lexer.lex.c	/^static const YY_CHAR yy_ec[256] =$/;"	v	file:
+yy_fatal_error	tools/kconfig/build/lexer.lex.c	/^static void yynoreturn yy_fatal_error (const char* msg )$/;"	f	file:
+yy_fill_buffer	tools/kconfig/build/lexer.lex.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	tools/kconfig/build/lexer.lex.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	tools/kconfig/build/lexer.lex.c	/^static int yy_flex_strlen (const char * s )$/;"	f	file:
+yy_flex_strncpy	tools/kconfig/build/lexer.lex.c	/^static void yy_flex_strncpy (char* s1, const char * s2, int n )$/;"	f	file:
+yy_flush_buffer	tools/kconfig/build/lexer.lex.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	tools/kconfig/build/lexer.lex.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	tools/kconfig/build/lexer.lex.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	tools/kconfig/build/lexer.lex.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	tools/kconfig/build/lexer.lex.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	tools/kconfig/build/lexer.lex.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	tools/kconfig/build/lexer.lex.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	tools/kconfig/build/lexer.lex.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	tools/kconfig/build/lexer.lex.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	tools/kconfig/build/lexer.lex.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_load_buffer_state	tools/kconfig/build/lexer.lex.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_n_chars	tools/kconfig/build/lexer.lex.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	tools/kconfig/build/lexer.lex.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	tools/kconfig/build/lexer.lex.c	323;"	d	file:
+yy_nxt	tools/kconfig/build/lexer.lex.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	tools/kconfig/build/lexer.lex.c	/^static const flex_int16_t yy_nxt[][42] =$/;"	v	file:
+yy_reduce_print	tools/kconfig/build/parser.tab.c	/^yy_reduce_print (yy_state_t *yyssp, YYSTYPE *yyvsp,$/;"	f	file:
+yy_rule_can_match_eol	tools/kconfig/build/lexer.lex.c	/^static const flex_int32_t yy_rule_can_match_eol[67] =$/;"	v	file:
+yy_scan_buffer	tools/kconfig/build/lexer.lex.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	tools/kconfig/build/lexer.lex.c	/^YY_BUFFER_STATE yy_scan_bytes  (const char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	tools/kconfig/build/lexer.lex.c	/^YY_BUFFER_STATE yy_scan_string (const char * yystr )$/;"	f
+yy_set_bol	tools/kconfig/build/lexer.lex.c	333;"	d	file:
+yy_set_interactive	tools/kconfig/build/lexer.lex.c	324;"	d	file:
+yy_size_t	tools/kconfig/build/lexer.lex.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	tools/kconfig/build/parser.tab.c	/^yy_stack_print (yy_state_t *yybottom, yy_state_t *yytop)$/;"	f	file:
+yy_start	tools/kconfig/build/lexer.lex.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_fast_t	tools/kconfig/build/parser.tab.c	/^typedef int yy_state_fast_t;$/;"	t	file:
+yy_state_t	tools/kconfig/build/parser.tab.c	/^typedef yytype_uint8 yy_state_t;$/;"	t	file:
+yy_state_type	tools/kconfig/build/lexer.lex.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	tools/kconfig/build/lexer.lex.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	tools/kconfig/build/parser.tab.c	/^yy_symbol_print (FILE *yyo,$/;"	f	file:
+yy_symbol_value_print	tools/kconfig/build/parser.tab.c	/^yy_symbol_value_print (FILE *yyo,$/;"	f	file:
+yy_trans_info	tools/kconfig/build/lexer.lex.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	tools/kconfig/build/lexer.lex.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	tools/kconfig/build/lexer.lex.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	tools/kconfig/build/lexer.lex.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	tools/kconfig/build/parser.tab.c	/^union yyalloc$/;"	u	file:
+yychar	tools/kconfig/build/parser.tab.c	/^int yychar;$/;"	v
+yycheck	tools/kconfig/build/parser.tab.c	/^static const yytype_int16 yycheck[] =$/;"	v	file:
+yyclearin	tools/kconfig/build/parser.tab.c	867;"	d	file:
+yyconst	tools/kconfig/build/lexer.lex.c	98;"	d	file:
+yydebug	tools/kconfig/build/parser.tab.c	/^int yydebug;$/;"	v
+yydefact	tools/kconfig/build/parser.tab.c	/^static const yytype_int8 yydefact[] =$/;"	v	file:
+yydefgoto	tools/kconfig/build/parser.tab.c	/^static const yytype_uint8 yydefgoto[] =$/;"	v	file:
+yydestruct	tools/kconfig/build/parser.tab.c	/^yydestruct (const char *yymsg,$/;"	f	file:
+yyensure_buffer_stack	tools/kconfig/build/lexer.lex.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	tools/kconfig/build/parser.tab.c	866;"	d	file:
+yyerror	tools/kconfig/build/parser.tab.c	/^static void yyerror(const char *err)$/;"	f	file:
+yyfree	tools/kconfig/build/lexer.lex.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	tools/kconfig/build/lexer.lex.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	tools/kconfig/build/lexer.lex.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	tools/kconfig/build/lexer.lex.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	tools/kconfig/build/lexer.lex.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	tools/kconfig/build/lexer.lex.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	tools/kconfig/build/lexer.lex.c	/^char *yyget_text  (void)$/;"	f
+yyin	tools/kconfig/build/lexer.lex.c	/^FILE *yyin = NULL, *yyout = NULL;$/;"	v
+yyinput	tools/kconfig/build/lexer.lex.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	tools/kconfig/build/lexer.lex.c	/^int yyleng;$/;"	v
+yyless	tools/kconfig/build/lexer.lex.c	189;"	d	file:
+yyless	tools/kconfig/build/lexer.lex.c	4008;"	d	file:
+yyless	tools/kconfig/build/lexer.lex.c	4009;"	d	file:
+yylex	tools/kconfig/build/lexer.lex.c	/^int yylex(void)$/;"	f
+yylex_destroy	tools/kconfig/build/lexer.lex.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	tools/kconfig/build/lexer.lex.c	/^int yylineno = 1;$/;"	v
+yylval	tools/kconfig/build/parser.tab.c	/^YYSTYPE yylval;$/;"	v
+yymore	tools/kconfig/build/lexer.lex.c	2429;"	d	file:
+yynerrs	tools/kconfig/build/parser.tab.c	/^int yynerrs;$/;"	v
+yynoreturn	tools/kconfig/build/lexer.lex.c	101;"	d	file:
+yynoreturn	tools/kconfig/build/lexer.lex.c	103;"	d	file:
+yyout	tools/kconfig/build/lexer.lex.c	/^FILE *yyin = NULL, *yyout = NULL;$/;"	v
+yypact	tools/kconfig/build/parser.tab.c	/^static const yytype_int16 yypact[] =$/;"	v	file:
+yypact_value_is_default	tools/kconfig/build/parser.tab.c	676;"	d	file:
+yyparse	tools/kconfig/build/parser.tab.c	/^yyparse (void)$/;"	f
+yypgoto	tools/kconfig/build/parser.tab.c	/^static const yytype_int16 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	tools/kconfig/build/lexer.lex.c	/^void yypop_buffer_state (void)$/;"	f
+yypush_buffer_state	tools/kconfig/build/lexer.lex.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	tools/kconfig/build/parser.tab.c	/^static const yytype_int8 yyr1[] =$/;"	v	file:
+yyr2	tools/kconfig/build/parser.tab.c	/^static const yytype_int8 yyr2[] =$/;"	v	file:
+yyrealloc	tools/kconfig/build/lexer.lex.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	tools/kconfig/build/lexer.lex.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrline	tools/kconfig/build/parser.tab.c	/^static const yytype_int16 yyrline[] =$/;"	v	file:
+yyset_debug	tools/kconfig/build/lexer.lex.c	/^void yyset_debug (int  _bdebug )$/;"	f
+yyset_in	tools/kconfig/build/lexer.lex.c	/^void yyset_in (FILE *  _in_str )$/;"	f
+yyset_lineno	tools/kconfig/build/lexer.lex.c	/^void yyset_lineno (int  _line_number )$/;"	f
+yyset_out	tools/kconfig/build/lexer.lex.c	/^void yyset_out (FILE *  _out_str )$/;"	f
+yyss_alloc	tools/kconfig/build/parser.tab.c	/^  yy_state_t yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	tools/kconfig/build/parser.tab.c	/^static const yytype_int8 yystos[] =$/;"	v	file:
+yysymbol_kind_t	tools/kconfig/build/parser.tab.c	/^enum yysymbol_kind_t$/;"	g	file:
+yysymbol_kind_t	tools/kconfig/build/parser.tab.c	/^typedef enum yysymbol_kind_t yysymbol_kind_t;$/;"	t	typeref:enum:yysymbol_kind_t	file:
+yysymbol_name	tools/kconfig/build/parser.tab.c	/^yysymbol_name (yysymbol_kind_t yysymbol)$/;"	f	file:
+yytable	tools/kconfig/build/parser.tab.c	/^static const yytype_int16 yytable[] =$/;"	v	file:
+yytable_value_is_error	tools/kconfig/build/parser.tab.c	681;"	d	file:
+yyterminate	tools/kconfig/build/lexer.lex.c	2643;"	d	file:
+yytext	tools/kconfig/build/lexer.lex.c	/^char *yytext;$/;"	v
+yytext_ptr	tools/kconfig/build/lexer.lex.c	359;"	d	file:
+yytext_ptr	tools/kconfig/build/lexer.lex.c	361;"	d	file:
+yytname	tools/kconfig/build/parser.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytoken_kind_t	tools/kconfig/build/parser.tab.h	/^  typedef enum yytokentype yytoken_kind_t;$/;"	t	typeref:enum:yytokentype
+yytokentype	tools/kconfig/build/parser.tab.h	/^  enum yytokentype$/;"	g
+yytranslate	tools/kconfig/build/parser.tab.c	/^static const yytype_int8 yytranslate[] =$/;"	v	file:
+yytype_int16	tools/kconfig/build/parser.tab.c	/^typedef __INT_LEAST16_TYPE__ yytype_int16;$/;"	t	file:
+yytype_int16	tools/kconfig/build/parser.tab.c	/^typedef int_least16_t yytype_int16;$/;"	t	file:
+yytype_int16	tools/kconfig/build/parser.tab.c	/^typedef short yytype_int16;$/;"	t	file:
+yytype_int8	tools/kconfig/build/parser.tab.c	/^typedef __INT_LEAST8_TYPE__ yytype_int8;$/;"	t	file:
+yytype_int8	tools/kconfig/build/parser.tab.c	/^typedef int_least8_t yytype_int8;$/;"	t	file:
+yytype_int8	tools/kconfig/build/parser.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	tools/kconfig/build/parser.tab.c	/^typedef __UINT_LEAST16_TYPE__ yytype_uint16;$/;"	t	file:
+yytype_uint16	tools/kconfig/build/parser.tab.c	/^typedef int yytype_uint16;$/;"	t	file:
+yytype_uint16	tools/kconfig/build/parser.tab.c	/^typedef uint_least16_t yytype_uint16;$/;"	t	file:
+yytype_uint16	tools/kconfig/build/parser.tab.c	/^typedef unsigned short yytype_uint16;$/;"	t	file:
+yytype_uint8	tools/kconfig/build/parser.tab.c	/^typedef __UINT_LEAST8_TYPE__ yytype_uint8;$/;"	t	file:
+yytype_uint8	tools/kconfig/build/parser.tab.c	/^typedef short yytype_uint8;$/;"	t	file:
+yytype_uint8	tools/kconfig/build/parser.tab.c	/^typedef uint_least8_t yytype_uint8;$/;"	t	file:
+yytype_uint8	tools/kconfig/build/parser.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	tools/kconfig/build/lexer.lex.c	/^    static void yyunput (int c, char * yy_bp )$/;"	f	file:
+yyvs_alloc	tools/kconfig/build/parser.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywrap	tools/kconfig/build/lexer.lex.c	346;"	d	file:
+zconf_curname	tools/kconfig/build/lexer.lex.c	/^const char *zconf_curname(void)$/;"	f
+zconf_endfile	tools/kconfig/build/lexer.lex.c	/^static void zconf_endfile(void)$/;"	f	file:
+zconf_endhelp	tools/kconfig/build/lexer.lex.c	/^static void zconf_endhelp(void)$/;"	f	file:
+zconf_endtoken	tools/kconfig/build/parser.tab.c	/^static bool zconf_endtoken(const char *tokenname,$/;"	f	file:
+zconf_error	tools/kconfig/build/parser.tab.c	/^static void zconf_error(const char *err, ...)$/;"	f	file:
+zconf_fopen	tools/kconfig/build/lexer.lex.c	/^FILE *zconf_fopen(const char *name)$/;"	f
+zconf_initscan	tools/kconfig/build/lexer.lex.c	/^void zconf_initscan(const char *name)$/;"	f
+zconf_lineno	tools/kconfig/build/lexer.lex.c	/^int zconf_lineno(void)$/;"	f
+zconf_nextfile	tools/kconfig/build/lexer.lex.c	/^void zconf_nextfile(const char *name)$/;"	f
+zconf_starthelp	tools/kconfig/build/lexer.lex.c	/^void zconf_starthelp(void)$/;"	f
+zconfdump	tools/kconfig/build/parser.tab.c	/^void zconfdump(FILE *out)$/;"	f
+zconfprint	tools/kconfig/build/parser.tab.c	/^static void zconfprint(const char *err, ...)$/;"	f	file:
