@@ -46,8 +46,9 @@ static struct rule {
   {"/", '/'},
   {"<", TK_LT},
   {">", TK_GT},
-  {"<=", TK_LE},
-  {">=", TK_GE},
+  //? first judge as < and > will interrupt the LE and GE
+  {"<\\=", TK_LE},
+  {">\\=", TK_GE},
   {"==", TK_EQ},
   {"!=", TK_NQ},
   {"&&", TK_AND},
@@ -55,6 +56,7 @@ static struct rule {
   {"\\(", '('},
   {"\\)", ')'},
 	{"[0-9]+", TK_NUM },
+  //?
   {"0[xX][0-9a-fA-F]+", TK_HEX },
   {"\\$\\w+", TK_REG },
 };
@@ -64,19 +66,19 @@ static struct rule {
 //
 
 #define NR_REGEX ARRLEN(rules)
+#define TOKEN_BELONG(type,types) token_belong(type,types,ARRLEN(types))
 
-static int unary_token[]={TK_NEG,TK_POS,TK_DEREF};
+//static int unary_token[]={TK_NEG,TK_POS,TK_DEREF};
 static int non_token[]={')',TK_NUM,TK_HEX,TK_REG};
 
-bool token_belong(int type,int types[])
+bool token_belong(int type,int types[],int size)
 {
-  int size=ARRLEN(types);
   for(int i=0;i<=size;++i)
     {if (type==types[i]) return true;}
   return false;
 }
 
-static regex_tre[NR_REGEX] = {};
+static regex_t re[NR_REGEX] = {};
 
 /* Rules are used for many times.
  * Therefore we compile them only once before any usage.
@@ -141,7 +143,7 @@ static bool make_token(char *e) {
           case '*':
           case '+':
           case '-':
-            if(nr_token==0 || !token_belong(tokens[nr_token-1].type,non_token))
+            if(nr_token==0 || !TOKEN_BELONG(tokens[nr_token-1].type,non_token))
             {
               switch (rules[i].token_type)
               {
@@ -201,14 +203,21 @@ int find_major(int p,int q){
         return -1;
       }
       par--;
-    } else if (par > 0) {
+    } else if (par > 0 || TOKEN_BELONG(tokens[i].type,non_token)) {
       continue;
     } else {
       int tmp_type = 0;
+      // trick: without break, the code will exec the follow case contents.
+
       switch (tokens[i].type) {
-      case '*': case '/': tmp_type = 1; break;
-      case '+': case '-': tmp_type = 2; break;
-      default: assert(0);
+      case TK_OR: tmp_type++;
+      case TK_AND: tmp_type++;
+      case TK_EQ: case TK_NQ: tmp_type++;
+      case TK_LT: case TK_GT: case TK_GE: case TK_LE: tmp_type++;
+      case '+': case '-': tmp_type++;
+      case '*': case '/': tmp_type++;
+      case TK_NEG: case TK_DEREF: case TK_POS: tmp_type++; break;
+      default: return -1;
       }
       if (tmp_type >= op_type) {
         op_type = tmp_type;
@@ -221,13 +230,72 @@ int find_major(int p,int q){
 
 }
 
+word_t eval_operand(int i,bool *flag){
+  // single operand
+  switch(tokens[i].type)
+  {
+    case TK_NUM:  return strtol(tokens[i].str,NULL,10);
+    case TK_HEX:  return strtol(tokens[i].str,NULL,16);
+    case TK_REG:  return isa_reg_str2val(tokens[i].str,flag);
+    default: 
+      *flag=false;
+      return 0;
+  }
+}
+
+extern word_t vaddr_read(vaddr_t addr,int len);
+
+
+word_t eval1(int op,word_t val,bool *flag)
+{
+  switch (op)
+  {
+  case TK_NEG:
+    return -val;
+  case TK_POS:
+    return val;
+  case TK_DEREF:
+    return vaddr_read(val,8);
+  default:
+    *flag=false;
+    return 0;
+  }
+}
+
+word_t eval2(int op,word_t val1,word_t val2,bool *flag)
+{
+  switch (op)
+  {
+    case '+': return val1 + val2;
+    case '-': return val1 - val2;
+    case '*': return val1 * val2;
+    // div0 error
+    case '/':
+    if (val2==0)
+    {
+    *flag = false;
+    return 0;
+    }	
+    return val1 / val2;
+    case TK_AND: return val1 && val2;
+    case TK_OR: return val1 || val2;
+    case TK_EQ: return val1 == val2;
+    case TK_NQ: return val1 != val2;
+    case TK_GT: return val1 > val2;
+    case TK_LT: return val1 < val2;
+    case TK_GE: return val1 >= val2;
+    case TK_LE: return val1 <= val2;
+    default: 
+    *flag = false;
+    return 0;
+  }
+}
+
 
 word_t eval(int p,int q,bool *flag) {
 	*flag=true;
   if (p > q) {
     /* Bad expression */
-		//printf("p=%d\n",p);
-    //printf("q=%d\n",q);
 		*flag = false;
 		return 0;
   }
@@ -242,8 +310,10 @@ word_t eval(int p,int q,bool *flag) {
 			return 0;
 		}
 		// return number of the str
-		word_t ret =strtol(tokens[p].str,NULL,10);
-		return ret;
+    // 1.0 version:
+		//word_t ret =strtol(tokens[p].str,NULL,10);
+    // new eval:
+		return eval_operand(p,flag);
   }
   else if (check_parentheses(p, q)) {
     /* The expression is surrounded by a matched pair of parentheses.
@@ -253,10 +323,31 @@ word_t eval(int p,int q,bool *flag) {
   }
   else {
     int op = find_major(p,q);
-    word_t  val1 = eval(p, op - 1, flag);
-		if(!*flag) return 0;
-    word_t val2 = eval(op + 1, q, flag);
-		if(!*flag) return 0;
+    bool flag1,flag2;
+    word_t  val1 = eval(p, op - 1, &flag1);
+    // old ver
+		//if(!*flag) return 0;
+    word_t val2 = eval(op + 1, q, &flag2);
+		//if(!*flag) return 0;
+
+    //in new ver, if left flag -> true, maybe minus
+    if(!flag2)
+    {
+      *flag=false;
+      return 0;
+    }
+
+    if(flag1)
+    {
+      word_t ret = eval2(tokens[op].type,val1,val2,flag);
+      return ret;
+    }
+    else
+    {
+      word_t ret = eval1(tokens[op].type,val2,flag);
+      return ret;
+    }
+
     //printf("op=%d\n",op);
     //char tmp_t='+';
     //printf ("tmp=%d\n",tmp_t);

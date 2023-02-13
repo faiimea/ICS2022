@@ -62,6 +62,10 @@ static int cmd_x(char *args);
 
 static int cmd_p(char *args);
 
+static int cmd_d(char *args);
+
+static int cmd_w(char *args);
+
 
 extern word_t vaddr_read(vaddr_t addr,int len);
 extern word_t paddr_read(paddr_t addr, int len);
@@ -79,9 +83,11 @@ static struct {
   { "c", "Continue the execution of the program", cmd_c },
   { "q", "Exit NEMU", cmd_q },
 	{	"si", "Execute one step - 'si N'", cmd_si},
-	{ "info", "Print the state of program - 'info r&w'", cmd_info},
+	{ "info", "Print the state of program (r->reg,w->watchpoint) - 'info r&w'", cmd_info},
 	{ "x", "Scan the memory - 'x N EXPR'", cmd_x},
-	{ "p", "caculete the value of expression - p  EXPR ", cmd_p},
+	{ "p", "Caculete the value of expression - p  EXPR ", cmd_p},
+  { "w", "Set a watchpoint, when the val of EXPR changes, the program will stop -w EXPR ", cmd_w},
+  { "d", "Delete the watchpoint with ID 'N' - d N ", cmd_d},
 	/* TODO: Add more commands */
 
 };
@@ -90,9 +96,13 @@ static struct {
 
 static int cmd_help(char *args) {
   /* extract the first argument */
+  puts("WELCOME TO NEMU @FAII !!\n");
+  puts("Find more in faii's book \n");
   char *arg = strtok(NULL, " ");
   int i;
-
+  // JUST A TEST - Cause SEGV
+  //int *a=NULL;
+  //*a+=1;
   if (arg == NULL) {
     /* no argument given */
     for (i = 0; i < NR_CMD; i ++) {
@@ -126,7 +136,7 @@ static int cmd_si(char *args){
 	return 0;
 }
 
-
+extern void show_wp();
 
 static int cmd_info(char *args){
 
@@ -144,7 +154,8 @@ static int cmd_info(char *args){
 		else if(strcmp(arg,"w")==0)
 		{
 			//info_w();
-			printf("todo info_w\n");
+			printf("Print Watchpoints\n");
+      show_wp();
 			return 0;
 		}
 		else
@@ -161,7 +172,7 @@ static int cmd_info(char *args){
 // paddr_t=uint32 or uint64 (depends on PMEM)
 // paddr_t -> physical address
 // vaddr_read ( vaddr_t addr, int len)
-
+// which len represents the word len(8,16,32,64..)
 
 static int cmd_x(char *args){
   char *arg1 = strtok(NULL, " ");
@@ -194,13 +205,35 @@ static int cmd_x(char *args){
 static int cmd_p(char *args){
   bool flag;
   word_t res = expr (args, &flag);
-  if(!flag) puts("error");
+  if(!flag) puts("Error in expr\n");
   // word_t?
   else printf("%d\n",res);
+  
   return 0;
 }	
 
+extern void set_wp(char* ori_str,word_t val);
+extern void remove_wp(int id);
 
+static int cmd_d(char *args){
+  char *ID_str=strtok(NULL," ");
+  if(!ID_str)
+  {
+    puts("Incorrect order!");
+    return 0;
+  }
+  int ID_num=strtol(ID_str,NULL,10);
+  remove_wp(ID_num);
+  return 0;
+}
+
+static int cmd_w(char *args){
+  bool flag;
+  word_t res=expr (args, &flag);
+  if(!flag) puts("Error in expr\n");
+  set_wp(args,res);
+  return 0;
+}
 
 void sdb_set_batch_mode() {
   is_batch_mode = true;
@@ -236,6 +269,7 @@ void sdb_mainloop() {
     for (i = 0; i < NR_CMD; i ++) {
       if (strcmp(cmd, cmd_table[i].name) == 0) {
         if (cmd_table[i].handler(args) < 0) { 
+          //Exit the program
 					nemu_state.state=NEMU_QUIT;
 					return;
 			 	}
