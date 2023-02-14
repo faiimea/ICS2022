@@ -107,10 +107,13 @@ void show_wp(){
 }
 
 void wp_difftest(){
+  // Doing
+  //puts("Difftest here");
   WP *tmp_wp=head;
   while(tmp_wp){
     bool flag;
     word_t new_val=expr(tmp_wp->ori_expr,&flag);
+    printf("%u\n",new_val);
     if(tmp_wp->ori_val!=new_val)
     {
       printf("Watchpoint %d has been triggered\n"

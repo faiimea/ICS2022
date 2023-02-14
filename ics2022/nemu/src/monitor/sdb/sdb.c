@@ -86,7 +86,7 @@ static struct {
 	{ "info", "Print the state of program (r->reg,w->watchpoint) - 'info r&w'", cmd_info},
 	{ "x", "Scan the memory - 'x N EXPR'", cmd_x},
 	{ "p", "Caculete the value of expression - p  EXPR ", cmd_p},
-  { "w", "Set a watchpoint, when the val of EXPR changes, the program will stop -w EXPR ", cmd_w},
+  { "w", "Set a watchpoint, when the val of EXPR changes, the program will stop -w EXPR \n Allow watchpoint in Menuconfig ", cmd_w},
   { "d", "Delete the watchpoint with ID 'N' - d N ", cmd_d},
 	/* TODO: Add more commands */
 
@@ -229,6 +229,8 @@ static int cmd_d(char *args){
 
 static int cmd_w(char *args){
   bool flag;
+  //Just a test 
+  puts(args);
   word_t res=expr (args, &flag);
   if(!flag) puts("Error in expr\n");
   set_wp(args,res);

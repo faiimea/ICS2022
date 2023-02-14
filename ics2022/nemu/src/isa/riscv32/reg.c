@@ -34,5 +34,21 @@ void isa_reg_display() {
 
 
 word_t isa_reg_str2val(const char *s, bool *success) {
-  return 0;
+  	int len;
+	len = sizeof(regs)/sizeof(regs[0])-1;
+	//Avoid $ interrupt
+	s+=1;
+	//puts(s);
+	for (int i=0;i<len;++i)
+	{
+		//puts(regs[i]);
+		if(!strcmp(s,regs[i]))
+		{
+			puts("Have found this reg");
+			return cpu.gpr[i];
+		}
+	}
+	*success=false;
+	puts("Warning:Have not found this reg!");
+	return 0;
 }

@@ -44,11 +44,12 @@ static struct rule {
   {"-", '-'},
   {"\\*", '*'},
   {"/", '/'},
+  {"<=", TK_LE},
+  {">=", TK_GE},
   {"<", TK_LT},
   {">", TK_GT},
   //? first judge as < and > will interrupt the LE and GE
-  {"<\\=", TK_LE},
-  {">\\=", TK_GE},
+  // '<='should be detectde earlier than '<'
   {"==", TK_EQ},
   {"!=", TK_NQ},
   {"&&", TK_AND},
@@ -236,7 +237,11 @@ word_t eval_operand(int i,bool *flag){
   {
     case TK_NUM:  return strtol(tokens[i].str,NULL,10);
     case TK_HEX:  return strtol(tokens[i].str,NULL,16);
-    case TK_REG:  return isa_reg_str2val(tokens[i].str,flag);
+    case TK_REG:  
+    //puts(tokens[i].str);
+    //?
+    printf("%-15x\n",(isa_reg_str2val(tokens[i].str,flag)));
+    return isa_reg_str2val(tokens[i].str,flag);
     default: 
       *flag=false;
       return 0;
@@ -304,12 +309,6 @@ word_t eval(int p,int q,bool *flag) {
      * For now this token should be a number.
      * Return the value of the number.
      */
-		if(tokens[p].type != TK_NUM)
-		{
-			*flag = false;
-			return 0;
-		}
-		// return number of the str
     // 1.0 version:
 		//word_t ret =strtol(tokens[p].str,NULL,10);
     // new eval:

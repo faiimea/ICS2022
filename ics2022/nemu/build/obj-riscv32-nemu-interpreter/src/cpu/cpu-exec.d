@@ -6,6 +6,7 @@ deps_/home/faii/Desktop/pa/ics2022/nemu/build/obj-riscv32-nemu-interpreter/src/c
     $(wildcard include/config/itrace/cond.h) \
     $(wildcard include/config/itrace.h) \
     $(wildcard include/config/difftest.h) \
+    $(wildcard include/config/watchpoint.h) \
     $(wildcard include/config/isa/x86.h) \
     $(wildcard include/config/device.h) \
     $(wildcard include/config/target/am.h) \
