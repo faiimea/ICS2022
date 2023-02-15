@@ -56,7 +56,9 @@ static int decode_exec(Decode *s) {
   decode_operand(s, &dest, &src1, &src2, &imm, concat(TYPE_, type)); \
   __VA_ARGS__ ; \
 }
-
+  // Opcode is operation code  (0x90)
+  // What we write usually is mnemonic (NOP)
+  
   INSTPAT_START();
   INSTPAT("??????? ????? ????? ??? ????? 01101 11", lui    , U, R(dest) = imm);
   INSTPAT("??????? ????? ????? 010 ????? 00000 11", lw     , I, R(dest) = Mr(src1 + imm, 4));
@@ -72,6 +74,8 @@ static int decode_exec(Decode *s) {
 }
 
 int isa_exec_once(Decode *s) {
+  //FINALLY Get the instr from paddr
+  //len: help to update the s->snpc
   s->isa.inst.val = inst_fetch(&s->snpc, 4);
   return decode_exec(s);
 }

@@ -113,11 +113,11 @@ void wp_difftest(){
   while(tmp_wp){
     bool flag;
     word_t new_val=expr(tmp_wp->ori_expr,&flag);
-    printf("%u\n",new_val);
+    //printf("new_val=%u\n",new_val);
     if(tmp_wp->ori_val!=new_val)
     {
       printf("Watchpoint %d has been triggered\n"
-      "Ori_val is %u \n""New_val is %u \n"
+      
       ,tmp_wp->NO,tmp_wp->ori_val,new_val);
       tmp_wp->ori_val=new_val;
     }

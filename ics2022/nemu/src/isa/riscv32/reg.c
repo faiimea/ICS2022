@@ -39,12 +39,17 @@ word_t isa_reg_str2val(const char *s, bool *success) {
 	//Avoid $ interrupt
 	s+=1;
 	//puts(s);
+	if(!strcmp(s,"pc"))
+	{
+		//puts("Have touched pc");
+		return cpu.pc;
+	}
 	for (int i=0;i<len;++i)
 	{
 		//puts(regs[i]);
 		if(!strcmp(s,regs[i]))
 		{
-			puts("Have found this reg");
+			//puts("Have found this reg");
 			return cpu.gpr[i];
 		}
 	}
