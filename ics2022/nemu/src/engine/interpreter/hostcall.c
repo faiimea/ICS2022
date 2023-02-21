@@ -26,6 +26,7 @@ void set_nemu_state(int state, vaddr_t pc, int halt_ret) {
 }
 
 __attribute__((noinline))
+// When decoder detects invalid instruction:
 void invalid_inst(vaddr_t thispc) {
   uint32_t temp[2];
   vaddr_t pc = thispc;

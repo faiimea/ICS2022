@@ -118,7 +118,7 @@ void wp_difftest(){
     {
       printf("Watchpoint %d has been triggered\n"
       
-      ,tmp_wp->NO,tmp_wp->ori_val,new_val);
+      ,tmp_wp->NO);
       tmp_wp->ori_val=new_val;
     }
     tmp_wp=tmp_wp->next;
